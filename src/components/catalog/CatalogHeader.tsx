@@ -1,5 +1,6 @@
 import { Package } from "lucide-react";
 import logoIbratin from "@/assets/logo-ibratin.webp";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 interface CatalogHeaderProps {
   totalProducts: number;
@@ -41,6 +42,7 @@ export function CatalogHeader({ totalProducts, activeTable, onTableChange }: Cat
               Tabela G10
             </button>
           </div>
+          <ThemeToggle />
           <span className="text-sm text-muted-foreground hidden sm:block">
             <Package className="w-4 h-4 inline mr-1" />{totalProducts} produtos
           </span>
