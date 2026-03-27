@@ -1,6 +1,7 @@
-import { Search } from "lucide-react";
+import { Search, Heart } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
 
 interface CatalogFiltersProps {
   search: string;
@@ -11,10 +12,14 @@ interface CatalogFiltersProps {
   unit: string;
   onUnitChange: (v: string) => void;
   units: string[];
+  showFavorites: boolean;
+  onToggleFavorites: () => void;
+  favoritesCount: number;
 }
 
 export function CatalogFilters({
-  search, onSearchChange, category, onCategoryChange, categories, unit, onUnitChange, units
+  search, onSearchChange, category, onCategoryChange, categories, unit, onUnitChange, units,
+  showFavorites, onToggleFavorites, favoritesCount
 }: CatalogFiltersProps) {
   return (
     <div className="bg-card rounded-xl border p-4 mb-6 space-y-3">
@@ -27,7 +32,7 @@ export function CatalogFilters({
           className="pl-10 bg-muted border-0"
         />
       </div>
-      <div className="flex gap-3 flex-wrap">
+      <div className="flex gap-3 flex-wrap items-center">
         <Select value={category} onValueChange={onCategoryChange}>
           <SelectTrigger className="w-[240px] bg-muted border-0">
             <SelectValue placeholder="Categoria" />
@@ -48,6 +53,19 @@ export function CatalogFilters({
             ))}
           </SelectContent>
         </Select>
+        <Button
+          size="sm"
+          variant={showFavorites ? "default" : "outline"}
+          onClick={onToggleFavorites}
+        >
+          <Heart className={`w-4 h-4 mr-1 ${showFavorites ? "fill-current" : ""}`} />
+          Favoritos
+          {favoritesCount > 0 && (
+            <span className="ml-1 text-xs bg-destructive text-destructive-foreground rounded-full px-1.5">
+              {favoritesCount}
+            </span>
+          )}
+        </Button>
       </div>
     </div>
   );
