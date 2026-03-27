@@ -32438,5 +32438,4045 @@
     "price": 260.0,
     "category": "Outros",
     "table": "019"
+  },
+  {
+    "code": "1088",
+    "description": "BALDE RED 18,0 LTS ENGENHARIA",
+    "unit": "UN",
+    "price": 12.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5200.002A0A.0",
+    "description": "TINTA ECONOMICA P/GESSO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 38.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5200.002A0A.4",
+    "description": "TINTA ECONOMICA P/GESSO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 169.9,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5203.002A0A.4",
+    "description": "TINTA ECONOMICA CONTRUCAO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 149.99,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5219.002A0A.3",
+    "description": "MASSA CORRIDA - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 28.34,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "5227.002A0A.4",
+    "description": "SELADOR ACRILICO/GESSO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 130.99,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "5238.002A0A.3",
+    "description": "REVLIS - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 26.99,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "5381.0000AB.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GL 4,9 KGS",
+    "unit": "GL",
+    "price": 185.0,
+    "category": "Casa Lusso",
+    "table": "G10"
+  },
+  {
+    "code": "5381.0000AB.4",
+    "description": "C.LUSSO CIMENTO QUEIMADO - BL 24,5 KGS",
+    "unit": "BL",
+    "price": 945.0,
+    "category": "Casa Lusso",
+    "table": "G10"
+  },
+  {
+    "code": "5395.000087.2",
+    "description": "PRIMER - GP 2,5 LTS",
+    "unit": "GP",
+    "price": 60.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5404.00000C.0",
+    "description": "BASE P.CRYL MICRO C - GL 4.6 KGS",
+    "unit": "GL",
+    "price": 77.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5404.00000C.4",
+    "description": "BASE P.CRYL MICRO C - BL 23,0 KGS",
+    "unit": "BL",
+    "price": 315.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5404.0000AB.0",
+    "description": "BASE P.CRYL MICRO A/B - GL 4.6 KGS",
+    "unit": "GL",
+    "price": 80.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5404.0000AB.4",
+    "description": "BASE P.CRYL MICRO A/B - BL 23,0 KGS",
+    "unit": "BL",
+    "price": 315.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5404.003A0A.0",
+    "description": "PERMACRYL MICRO - GL 5,0 KGS",
+    "unit": "GL",
+    "price": 44.73,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5404.003A0A.4",
+    "description": "PERMACRYL MICRO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 315.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5407.002A0A.4",
+    "description": "TINTA ACR SEMI BRILHO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 350.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5413.002A0A.0",
+    "description": "SANITIZA+ - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 114.18,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5413.002A0A.4",
+    "description": "SANITIZA+ - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 505.64,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5418.002A0A.0",
+    "description": "FUNDO PREPAR BASE AGUA - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 45.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "5418.002A0A.4",
+    "description": "FUNDO PREPAR BASE AGUA - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 180.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "5432.00000A.0",
+    "description": "BASE TINTA PREMIUM A - GL 3,2 LTS",
+    "unit": "GL",
+    "price": 78.75,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5432.00000A.4",
+    "description": "BASE TINTA PREMIUM A - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 334.4,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5432.00000B.0",
+    "description": "BASE TINTA PREMIUM B - GL 3,2 LTS",
+    "unit": "GL",
+    "price": 78.75,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5432.00000B.4",
+    "description": "BASE TINTA PREMIUM B - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 334.4,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5432.002A0A.0",
+    "description": "TINTA ACRILICA PREMIUM - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 78.75,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5432.002A0A.4",
+    "description": "TINTA ACRILICA PREMIUM - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 334.4,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5435.002A0A.4",
+    "description": "TINTA PREMIUM DECORA PLUS - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 375.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5454.000A0A.6",
+    "description": "REPINTA MICRO PIT STOP - BR 15,0 LTS",
+    "unit": "BR",
+    "price": 22.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5456.002A0A.4",
+    "description": "TINTA LIMPEZA TOTAL - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 399.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5462.000A0A.4",
+    "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 349.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5466.002A0A.0",
+    "description": "BLANCO FLEX - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 34.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5466.002A0A.4",
+    "description": "BLANCO FLEX - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 138.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5511.003A0A.4",
+    "description": "CRISTALLINI GROSSO - BL 28,0 KGS",
+    "unit": "BL",
+    "price": 180.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5525.003A0A.4",
+    "description": "TEXTURA PROJETADA - BL 28,0 KGS",
+    "unit": "BL",
+    "price": 159.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5527.00000A.4",
+    "description": "BASE SELADOR TEXTURA A - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 136.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5527.00000B.4",
+    "description": "BASE SELADOR TEXTURA B - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 160.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5527.00000C.4",
+    "description": "BASE SELADOR TEXTURA C - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 150.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5540.003A0A.4",
+    "description": "CRISTALLINI PREMIUM - BL 28,0 KGS",
+    "unit": "BL",
+    "price": 180.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5542.003A0A.4",
+    "description": "CRISTALLINI FINO - BL 28,0 KGS",
+    "unit": "BL",
+    "price": 253.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5640.002A0A.0",
+    "description": "TINTA RUSTICA - G.P. 3,6 LTS",
+    "unit": "GL",
+    "price": 13.75,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5640.002A0A.G",
+    "description": "TINTA RUSTICA - LL 18,0 LTS",
+    "unit": "LL",
+    "price": 66.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "5641.003A0A.6",
+    "description": "TEXTURA BIOTEX - BR 23,0 KGS",
+    "unit": "BR",
+    "price": 30.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5642.000138.6",
+    "description": "TEXTURA BIOTEX RISCADA - BR 25,0 KGS",
+    "unit": "BR",
+    "price": 30.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5642.003A0A.6",
+    "description": "TEXTURA BIOTEX RISCADO - BR 23,0 KGS",
+    "unit": "BR",
+    "price": 30.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5654.002A0A.4",
+    "description": "PIT.PERMAFIX EXT. - BL 28.0 KGS",
+    "unit": "BL",
+    "price": 158.12,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5656.000138.6",
+    "description": "CRISTALLINI BIOTEX - BR 25,0 KGS",
+    "unit": "BR",
+    "price": 30.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "5705.0000AB.4",
+    "description": "BASE SELADOR FLEXIVEL - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 280.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "5705.002A0A.4",
+    "description": "SELADOR FLEXIVEL - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 280.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "5710.003A0A.0",
+    "description": "IBRATIN VEDANTE - G.P. 3,5 KGS",
+    "unit": "GP",
+    "price": 102.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5710.003A0A.4",
+    "description": "IBRATIN VEDANTE - B.L. 20 KG",
+    "unit": "BL",
+    "price": 410.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5713.002A0A.0",
+    "description": "IBRATIN IBRAFRISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 80.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5713.002A0A.4",
+    "description": "IBRATIN IBRAFRISO - BL. 18,0 LTS",
+    "unit": "BL",
+    "price": 366.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5739.002A0A.4",
+    "description": "MASSA FLEXIVEL - BL 28,0 KGS",
+    "unit": "BL",
+    "price": 240.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "7850.F",
+    "description": "PIG AZUL ORGANICO - FR 70 GRAMAS",
+    "unit": "FR",
+    "price": 8.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7851.F",
+    "description": "PIG VERDE ORGANICO - FR 80 GRAMAS",
+    "unit": "FR",
+    "price": 11.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7852.F",
+    "description": "PIG AMARELO LIMAO ORG. - FR 67 GRAMAS",
+    "unit": "FR",
+    "price": 9.6,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7854.F",
+    "description": "PIG VERMELHO ORGANICO - FR 65 GRAMAS",
+    "unit": "FR",
+    "price": 9.6,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7855.F",
+    "description": "PIG PRETO - FR 70 GRAMAS",
+    "unit": "FR",
+    "price": 8.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7893.F",
+    "description": "PIG VERMELHO OXIDO - FR 100 GRAMAS",
+    "unit": "FR",
+    "price": 8.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7894.F",
+    "description": "PIG VERDE OXIDO - FR 100 GRAMAS",
+    "unit": "FR",
+    "price": 10.2,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7904.000004.1",
+    "description": "CERA LIQUIDA  - FR 420 ML",
+    "unit": "UN",
+    "price": 13.52,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "7907.000001",
+    "description": "CARTELA DE CORES",
+    "unit": "UN",
+    "price": 31.01,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0001",
+    "description": "ROLO PLASTICO",
+    "unit": "UN",
+    "price": 54.97,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0002",
+    "description": "ROLO CAMURCA",
+    "unit": "UN",
+    "price": 72.24,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0003",
+    "description": "ROLO TORCIDO",
+    "unit": "UN",
+    "price": 72.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0015",
+    "description": "1301 50 ROLO LA RESP ZERO ECON 23CM C/ S",
+    "unit": "UN",
+    "price": 23.94,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0020",
+    "description": "402 23R ROLO TEXTURA RUSTICA 23CM",
+    "unit": "UN",
+    "price": 52.7,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0028",
+    "description": "501 23 ROLO ESPUMA POLIESTER 23 CM",
+    "unit": "UN",
+    "price": 29.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0038",
+    "description": "77310 ROLO ANTIRESPINGO ECON.10MMX 23CM",
+    "unit": "UN",
+    "price": 14.93,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0039",
+    "description": "1155 ROLO TEXTURA RUSTICA (CABELO ANJO)",
+    "unit": "UN",
+    "price": 62.53,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0040",
+    "description": "32719 ROLO REND.MICROFIBRA 19MMX23CM",
+    "unit": "UN",
+    "price": 24.53,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0041",
+    "description": "4065A ROLO POLIESTER AMARELA 5 CM",
+    "unit": "UN",
+    "price": 5.93,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0042",
+    "description": "4069A ROLO POLIESTER AMARELA  9 CM",
+    "unit": "UN",
+    "price": 7.27,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0043",
+    "description": "2014 ROLO BRASILEIRINHO 9MMX23CM",
+    "unit": "UN",
+    "price": 29.33,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0044",
+    "description": "321/15 ROLO ANTIGOTA 10MMX15CM",
+    "unit": "UN",
+    "price": 29.95,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0045",
+    "description": "321/10 ROLO ANTIGOTA 10MMX23CM",
+    "unit": "UN",
+    "price": 35.07,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0046",
+    "description": "322/22 ROLO DE PELE EXTRA 25MMX23CM",
+    "unit": "UN",
+    "price": 84.45,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0047",
+    "description": "406/15A ROLO POLIESTER AMARELA 15CM",
+    "unit": "UN",
+    "price": 11.61,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0048",
+    "description": "406/23A ROLO POLIESTER AMARELA 23CM",
+    "unit": "UN",
+    "price": 24.44,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0049",
+    "description": "110/55 ROLO TEXTURA EXTRA RUSTICA",
+    "unit": "UN",
+    "price": 27.87,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0050",
+    "description": "77315 ROLO ANTIRESPINGO ECON.10MMX15CM",
+    "unit": "UN",
+    "price": 14.88,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0051",
+    "description": "228 9 ROLO LA MISTA 12 MM X 9 CM",
+    "unit": "UN",
+    "price": 14.17,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0052",
+    "description": "110 9 MINI ROLO TEXTURA FINA 90MM",
+    "unit": "UN",
+    "price": 11.88,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0053",
+    "description": "326 5 ROLO EPOXI INDUSTRIAL 5 MM X 23 CM",
+    "unit": "UN",
+    "price": 23.37,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0054",
+    "description": "339 15A ROLO RESIMAX 5 MM X 15 CM",
+    "unit": "UN",
+    "price": 27.18,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0055",
+    "description": "2023 ROLO POLIPOP 23 CM",
+    "unit": "UN",
+    "price": 9.97,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0056",
+    "description": "1423 ROLO RESPINGO ZERO 23 CM S/SUPORTE",
+    "unit": "UN",
+    "price": 12.67,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0057",
+    "description": "1209 ROLO DE LA CARNEIRO 09 CM C/SUPORTE",
+    "unit": "UN",
+    "price": 8.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0058",
+    "description": "1215 ROLO DE LA CARNEIRO 15 CM C/SUPORTE",
+    "unit": "UN",
+    "price": 10.04,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0059",
+    "description": "1223 ROLO DE LA CARNEIRO 23 CM S/SUPORTE",
+    "unit": "UN",
+    "price": 16.87,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0060",
+    "description": "1623 ROLO MICROFIBRA SUPER PREMIUM 23CM",
+    "unit": "UN",
+    "price": 18.62,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0061",
+    "description": "1515 ROLO DE LA 15 CM - MASTER POXI",
+    "unit": "UN",
+    "price": 8.31,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0062",
+    "description": "1511/23 ROLO DE LA MASTER POXI 23 CM S/S",
+    "unit": "UN",
+    "price": 17.03,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0063",
+    "description": "1823 ROLO TEXTURA GROSSA 23 CM S/SUPORTE",
+    "unit": "UN",
+    "price": 42.53,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0064",
+    "description": "1009 ROLO ESPUMA POLIESTER 09 CM C/SUPOR",
+    "unit": "UN",
+    "price": 5.63,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0065",
+    "description": "1015 ROLO ESPUMA POLIESTER 15 CM C/SUPOR",
+    "unit": "UN",
+    "price": 7.68,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0066",
+    "description": "327/9 ROLO DE PINTURA RENDEPLUS LA SINT 9CM",
+    "unit": "UN",
+    "price": 15.94,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0067",
+    "description": "6123 ROLO PARA MASSA VERSATIL 23CM",
+    "unit": "UN",
+    "price": 50.53,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8002.0068",
+    "description": "1250 ROLO DE LA SUPER 23CM S/SUPORTE",
+    "unit": "UN",
+    "price": 42.62,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0001",
+    "description": "PINCEL 30MM",
+    "unit": "UN",
+    "price": 9.68,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0002",
+    "description": "PINCEL 50MM",
+    "unit": "UN",
+    "price": 14.05,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0003",
+    "description": "PINCEL COM HASTE METALICA",
+    "unit": "UN",
+    "price": 92.03,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0004",
+    "description": "PINCEL SEM CABO 70MM",
+    "unit": "UN",
+    "price": 28.77,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0005",
+    "description": "PINCEL SEM CABO 100MM",
+    "unit": "UN",
+    "price": 34.52,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0015",
+    "description": "3100 1,5 PINCEL CERDA BRANCA 1,5",
+    "unit": "UN",
+    "price": 7.37,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0016",
+    "description": "3100 2 PINCEL CERDA BRANCA 2",
+    "unit": "UN",
+    "price": 10.65,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0017",
+    "description": "3100 2,5 PINCEL CERDA BRANCA 2,5",
+    "unit": "UN",
+    "price": 14.07,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0018",
+    "description": "3961 TRINCHA MEDIA CERDAS BRANCAS 1/2",
+    "unit": "UN",
+    "price": 3.58,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0019",
+    "description": "3962 TRINCHA MEDIA CERDAS BRANCAS 3/4",
+    "unit": "UN",
+    "price": 4.06,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0020",
+    "description": "3965 TRINCHA MEDIA CERDAS BRANCAS 2",
+    "unit": "UN",
+    "price": 9.81,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0021",
+    "description": "3963 TRINCHA MEDIA CERDAS BRANCAS 396 1\"",
+    "unit": "UN",
+    "price": 6.23,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0022",
+    "description": "3964 TRINCHA M.CERDAS BRANCAS 396-1 1/2\"",
+    "unit": "UN",
+    "price": 7.75,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0023",
+    "description": "3966 TRINCHA M.CERDAS BRANCAS 396-2 1/2\"",
+    "unit": "UN",
+    "price": 12.6,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0024",
+    "description": "TX 020 TRINCHA PROFISSIONAL 2\" RETA",
+    "unit": "UN",
+    "price": 45.62,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0025",
+    "description": "EXP TA15 TRINCHA PROFISSIONAL ULTRA 1.5\"",
+    "unit": "UN",
+    "price": 30.13,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0026",
+    "description": "EXP TA25 TRINCHA PROFISSIONAL ULTRA 2.5\"",
+    "unit": "UN",
+    "price": 53.56,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0027",
+    "description": "EXP TA30 TRINCHA PROFISS ULTRA 3\" RETA",
+    "unit": "UN",
+    "price": 60.66,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0028",
+    "description": "0811 TRINCHA VERSATIL 1/2\" CD PTA CB AM",
+    "unit": "UN",
+    "price": 2.51,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0029",
+    "description": "0812 TRINCHA VERSATIL 3/4\" CD PTA CB AM",
+    "unit": "UN",
+    "price": 3.02,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0030",
+    "description": "0813 TRINCHA VERSATIL 1\" CD PRETA CB AM",
+    "unit": "UN",
+    "price": 3.71,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0031",
+    "description": "0814 TRINCHA VERSATIL 1 1/2\" CD PT CB AM",
+    "unit": "UN",
+    "price": 4.57,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0032",
+    "description": "0815 TRINCHA VERSATIL 2\" CD PT CB AM",
+    "unit": "UN",
+    "price": 5.56,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0033",
+    "description": "0816 TRINCHA VERSATIL 2 1/2\" CD PT CB AM",
+    "unit": "UN",
+    "price": 7.25,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0034",
+    "description": "0611 TRINCHA VERSATIL 1/2\" CD BR CB AZ",
+    "unit": "UN",
+    "price": 2.52,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0035",
+    "description": "0612 TRINCHA VERSATIL 3/4\" CD BR CB AZ",
+    "unit": "UN",
+    "price": 3.02,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0036",
+    "description": "0613 TRINCHA VERSATIL 1\" CD BR CB AZ",
+    "unit": "UN",
+    "price": 3.71,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0037",
+    "description": "0614 TRINCHA VERSATIL 1 1/2\" CD BR CB AZ",
+    "unit": "UN",
+    "price": 4.57,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0038",
+    "description": "0615 TRINCHA VERSATIL 2\" CD BR CB AZ",
+    "unit": "UN",
+    "price": 5.56,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0039",
+    "description": "0616 TRINCHA VERSATIL 2 1/2\" CD BR CB AZ",
+    "unit": "UN",
+    "price": 7.25,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8003.0040",
+    "description": "3957 TRINCHA M.CERDAS GRIS 395-7 3\"",
+    "unit": "UN",
+    "price": 19.8,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0002",
+    "description": "DESEMPENADEIRA PLASTICO C.ARREDONDADOS",
+    "unit": "UN",
+    "price": 26.08,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0004",
+    "description": "DESEMPENADEIRA TRAP INOX 20X9 CM",
+    "unit": "UN",
+    "price": 36.28,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0005",
+    "description": "DESEMPENADEIRA TRAP INOX 28X11CM",
+    "unit": "UN",
+    "price": 41.92,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0012",
+    "description": "143 DESEMPENADEIRA LISA ACO 12X25",
+    "unit": "UN",
+    "price": 53.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0013",
+    "description": "165 DESEMPENADEIRA PLASTICA P/TEXT MEDIA",
+    "unit": "UN",
+    "price": 34.97,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0014",
+    "description": "152 2 ESPATULA PLASTICA 13,1X8,8 CM",
+    "unit": "UN",
+    "price": 3.61,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0015",
+    "description": "175 12 ESPATULA  ACO CARBONO 120MM",
+    "unit": "UN",
+    "price": 17.09,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0016",
+    "description": "BX 080 BEROX PREMIUM 80CM EXPERT LAMINA",
+    "unit": "UN",
+    "price": 226.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0017",
+    "description": "EQX 001 ESPATULA INOX QUINA EXT CABO BOR",
+    "unit": "UN",
+    "price": 57.86,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0018",
+    "description": "ECX 000 ESPATULA ACO INOX CANTO INTERNO",
+    "unit": "UN",
+    "price": 66.67,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0019",
+    "description": "EXB 000 ESPATULA PROFISSIONAL P BALDES",
+    "unit": "UN",
+    "price": 89.66,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0020",
+    "description": "EX 001 ESPATULA 6 EM 1 CABO BORRACHA",
+    "unit": "UN",
+    "price": 23.42,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0021",
+    "description": "152 1 ESPATULA PLASTICA 4,5 CM CELULOIDE",
+    "unit": "UN",
+    "price": 2.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0022",
+    "description": "152 3 ESPATULA PLASTICA 20 CM CELULOIDE",
+    "unit": "UN",
+    "price": 6.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0023",
+    "description": "150 8 ESPATULA PLASTICA LISA 8 CM",
+    "unit": "UN",
+    "price": 3.91,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8004.0024",
+    "description": "12492 DESEMPENADEIRA BEROX VERSATIL 60CM",
+    "unit": "UN",
+    "price": 126.82,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0004",
+    "description": "RASPADOR EM CELULOSE",
+    "unit": "UN",
+    "price": 37.46,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0005",
+    "description": "LUVA COM PELO BAIXO",
+    "unit": "UN",
+    "price": 39.82,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0009",
+    "description": "33023SR GARFO COM BUCHA 23 CM",
+    "unit": "UN",
+    "price": 12.04,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0010",
+    "description": "1600 PROLONGADOR ACO 2 MTS",
+    "unit": "UN",
+    "price": 35.16,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0011",
+    "description": "40023SR GARFO DE PINTURA GAIOLA S/R 23CM",
+    "unit": "UN",
+    "price": 13.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0012",
+    "description": "800/2 BROXA P/PINTURA RETANGULAR 18X8CM",
+    "unit": "UN",
+    "price": 12.46,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0013",
+    "description": "176/1 MISTURADOR DE TINTA METALICO PEQ.",
+    "unit": "UN",
+    "price": 36.19,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0014",
+    "description": "STD23CM SUPORTE DE ROLO 23CM",
+    "unit": "UN",
+    "price": 42.32,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0015",
+    "description": "EXT 360 EXTENSOR PROF DE ALUMINIO 3.6M",
+    "unit": "UN",
+    "price": 309.54,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0016",
+    "description": "FMX 001 MISTURADOR ELETRICO MASSA 1400W",
+    "unit": "UN",
+    "price": 1030.26,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0017",
+    "description": "FFX 001 LIXADEIRA ELETRICA PAREDE 850W",
+    "unit": "UN",
+    "price": 2240.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0018",
+    "description": "2072 SUPORTE DE PRESSAO 23CM",
+    "unit": "UN",
+    "price": 6.85,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0019",
+    "description": "2080 SUPORTE GAIOLA POP 23CM HASTE LONGA",
+    "unit": "UN",
+    "price": 21.45,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0020",
+    "description": "2351 BROXA RETANGULAR PLAST MEDIA 60X157",
+    "unit": "UN",
+    "price": 7.64,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0021",
+    "description": "2910 MEXEDOR DE TINTA HELICE PE",
+    "unit": "UN",
+    "price": 20.32,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0022",
+    "description": "12911 MEXEDOR DE TINTA FERRO 80X8X400MM",
+    "unit": "UN",
+    "price": 20.08,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0023",
+    "description": "1700 PROLONGADOR TELESCOPIO ACO 3M",
+    "unit": "UN",
+    "price": 36.59,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0024",
+    "description": "AT750/80 PAD PINTURA COM CABO AJUSTAVEL",
+    "unit": "UN",
+    "price": 25.37,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0025",
+    "description": "AT751/70 PAD PARA RECORTE EM PINTURA",
+    "unit": "UN",
+    "price": 28.12,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8005.0026",
+    "description": "1.3050 SUPORTE MANUAL PARA LIXAMENTO",
+    "unit": "UN",
+    "price": 17.17,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8006.0001",
+    "description": "CARIMBO DE CAMURCA REDONDO",
+    "unit": "UN",
+    "price": 67.91,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8006.0002",
+    "description": "CARIMBO DE CAMURCA QUADRADO",
+    "unit": "UN",
+    "price": 393.95,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0007",
+    "description": "2003 KIT 3 PCS ANTIRRESPINGO ECONOMICO",
+    "unit": "UN",
+    "price": 31.45,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0008",
+    "description": "AT155/10 CONJ PINTURA TEXT RUSTICA 10CM",
+    "unit": "UN",
+    "price": 40.01,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0009",
+    "description": "AT1002 KIT DE PINTURA E ACABAMENTO 5PC",
+    "unit": "UN",
+    "price": 48.73,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0010",
+    "description": "HPX 000 REFIL DE CACAMBA DE MAO 4 PC",
+    "unit": "UN",
+    "price": 155.6,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0011",
+    "description": "PROKIT23 KIT ROLO SUPORTE PREM 23CM",
+    "unit": "UN",
+    "price": 97.78,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0012",
+    "description": "907 KIT BD GD 23 SINTETICA C/CABO",
+    "unit": "UN",
+    "price": 29.81,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0013",
+    "description": "925 KIT BD GD 23 09 POLIPO C/C SIN.GRIS2",
+    "unit": "UN",
+    "price": 40.52,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8007.0014",
+    "description": "969 KIT PARA PINTURA PEGUE E PINTE 7PCS",
+    "unit": "UN",
+    "price": 60.92,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0002",
+    "description": "LIXA MASSA G 120",
+    "unit": "UN",
+    "price": 0.79,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0003",
+    "description": "LIXA MASSA G 180",
+    "unit": "UN",
+    "price": 0.79,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0005",
+    "description": "LX MASSA DP 180 F225X275",
+    "unit": "UN",
+    "price": 1.15,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0006",
+    "description": "LX MASSA DP 220 F225X275",
+    "unit": "UN",
+    "price": 1.15,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0007",
+    "description": "LX MASSA DP 080 F225X275",
+    "unit": "UN",
+    "price": 1.43,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0008",
+    "description": "LX MASSA DP 150 F225X275",
+    "unit": "UN",
+    "price": 1.15,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0009",
+    "description": "LX MASSA DP 100 F225X275",
+    "unit": "UN",
+    "price": 1.15,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0010",
+    "description": "LX MASSA DP GR 220 225X275",
+    "unit": "UN",
+    "price": 1.15,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0100",
+    "description": "LX FERRO DP GR 40 225X275",
+    "unit": "UN",
+    "price": 5.03,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0101",
+    "description": "LX FERRO DP GR 50 225X275",
+    "unit": "UN",
+    "price": 4.61,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0102",
+    "description": "LX FERRO DP GR 60 225X275",
+    "unit": "UN",
+    "price": 4.61,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0103",
+    "description": "LX FERRO DP GR 150 225X275",
+    "unit": "UN",
+    "price": 4.15,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0200",
+    "description": "LX ORBITAL DP 100 MASSA PAREDE 9",
+    "unit": "UN",
+    "price": 3.76,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0201",
+    "description": "LX ORBITAL DP 150 MASSA PAREDE 9",
+    "unit": "UN",
+    "price": 3.76,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0202",
+    "description": "LX ORBITAL DP 220 MASSA PAREDE 9",
+    "unit": "UN",
+    "price": 3.76,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0203",
+    "description": "LIXA TELADA 150MM GRAO 600",
+    "unit": "UN",
+    "price": 9.04,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0204",
+    "description": "LIXA TELADA 150MM GRAO 180",
+    "unit": "UN",
+    "price": 8.1,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0205",
+    "description": "LX FERRO ABRAS SOBRE GR 60 230X280",
+    "unit": "UN",
+    "price": 4.61,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8008.0206",
+    "description": "LX FERRO ABRAS SOBRE GR 120 230X280",
+    "unit": "UN",
+    "price": 4.15,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8009.0001",
+    "description": "1756 ESPATULA DE ACO CARBONO 6 CM",
+    "unit": "UN",
+    "price": 10.35,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0001",
+    "description": "FITA CREPE P/ PINTURA 48X50",
+    "unit": "UN",
+    "price": 24.11,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0002",
+    "description": "FITA CREPE P/ PINTURA 18X50",
+    "unit": "UN",
+    "price": 9.03,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0003",
+    "description": "LONA PLASTICA PRETA 4X100 10 DOM",
+    "unit": "UN",
+    "price": 4.92,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0004",
+    "description": "FITA CREPE P/ PINTURA 24X50",
+    "unit": "UN",
+    "price": 12.26,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0006",
+    "description": "12344 BANDEJA P/PINT. COMPEL PEQUENA PTA",
+    "unit": "UN",
+    "price": 5.8,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0007",
+    "description": "12343 BANDEJA P/PINT. COMPEL GDE PRETA",
+    "unit": "UN",
+    "price": 9.95,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0008",
+    "description": "77192 ESTOPA P/POLIMENTO COTLIN 200GR",
+    "unit": "UN",
+    "price": 5.33,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0009",
+    "description": "FOLHA DE PAPELAO ONDULADO 1,20",
+    "unit": "MT",
+    "price": 3.33,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0010",
+    "description": "000237 CERA PARA TEXTURAS 350G",
+    "unit": "UN",
+    "price": 61.8,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0011",
+    "description": "224430 CERA TEXTURAS LIQUIDA 1L",
+    "unit": "UN",
+    "price": 124.02,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0012",
+    "description": "HPX-001 CACAMBA PLASTICA DE MAO - EXPERT",
+    "unit": "UN",
+    "price": 107.72,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0013",
+    "description": "380 ESTOPA MULTI 400G",
+    "unit": "UN",
+    "price": 21.18,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0014",
+    "description": "1623 BANDEJA ECONOMICA 1L 280X390MM",
+    "unit": "UN",
+    "price": 16.58,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0016",
+    "description": "2818 BANDEJA P/ PINTURA PQ. 19,3 X 25,1",
+    "unit": "UN",
+    "price": 7.7,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0017",
+    "description": "2823 BANDEJA P/ PINTURA GR. 37,1 X 29,6",
+    "unit": "UN",
+    "price": 10.41,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0018",
+    "description": "2830 CACAMBA PARA PINTURA PRETA -11L",
+    "unit": "UN",
+    "price": 32.02,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0019",
+    "description": "2832 CACAMBA PARA PINTURA PRETA -25L",
+    "unit": "UN",
+    "price": 65.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0020",
+    "description": "12067 PROTEGE FACIL - 240CM X 10M",
+    "unit": "UN",
+    "price": 35.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0021",
+    "description": "2250 FITA CREPE P/ PINTURA 48X50 (ATLAS)",
+    "unit": "UN",
+    "price": 19.8,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0022",
+    "description": "2225 FITA CREPE P/ PINTURA 24X50 (ATLAS)",
+    "unit": "UN",
+    "price": 10.81,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8010.0023",
+    "description": "2245 FITA CREPE P/ PINTURA 18X50 (ATLAS)",
+    "unit": "UN",
+    "price": 7.54,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0001",
+    "description": "25730 GESSO JUNTALIDER SECAG.RAPIDA 1KG",
+    "unit": "UN",
+    "price": 5.37,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0002",
+    "description": "13 AGUARRAS ITAQUA 900ML",
+    "unit": "UN",
+    "price": 21.57,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0004",
+    "description": "00123 THINNER IT 16 0,900ML",
+    "unit": "UN",
+    "price": 22.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0005",
+    "description": "002733 ENDURECEDOR PARA EPOXI",
+    "unit": "UN",
+    "price": 86.39,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0006",
+    "description": "33B010030 STRIPTIZI REMOVEDOR GEL 1KG",
+    "unit": "UN",
+    "price": 71.25,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0007",
+    "description": "33P070288 TUDO PLIM LIMPADOR POS OBRA 1L",
+    "unit": "UN",
+    "price": 24.93,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0008",
+    "description": "33C050030 STRIPTIZI REMOVEDOR GEL 4KG",
+    "unit": "UN",
+    "price": 250.17,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8011.0009",
+    "description": "1.2058 FITA TELADA P/ TRINCAS E DRYWALL 50 X 20",
+    "unit": "UN",
+    "price": 10.69,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8012.0001",
+    "description": "37059 SPRAY CHEMIC.GERAL BCO BRI.400 ML",
+    "unit": "UN",
+    "price": 22.57,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8012.0002",
+    "description": "37066 SPRAY CHEMIC.GERAL PRETO BRIL.400M",
+    "unit": "UN",
+    "price": 22.57,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8012.0003",
+    "description": "37060 SPRAY CHEMIC.GERAL BCO FOS.400ML",
+    "unit": "UN",
+    "price": 22.57,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8012.0004",
+    "description": "37067 SPRAY CHEMIC.GERAL PRETO FOSC400ML",
+    "unit": "UN",
+    "price": 22.57,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8013.0001",
+    "description": "792 CORANTE XADREZ MARROM 50ML",
+    "unit": "UN",
+    "price": 6.69,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8013.0002",
+    "description": "15703 CORANTE XADREZ VIOLETA 50ML",
+    "unit": "UN",
+    "price": 5.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8013.0003",
+    "description": "793 CORANTE XADREZ OCRE 50 ML",
+    "unit": "UN",
+    "price": 5.4,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8013.0004",
+    "description": "24342 CORANTE TEKBOND XADREZ OCRE 50 ML",
+    "unit": "UN",
+    "price": 6.18,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8013.0005",
+    "description": "24346 CORANTE TEKBOND XADREZ VIOLETA 50 ML",
+    "unit": "UN",
+    "price": 6.18,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8020.0001",
+    "description": "ADESIVO CRISTAL TRANSP POLY MAX 115G UHU",
+    "unit": "UN",
+    "price": 36.67,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8020.0002",
+    "description": "ADESIVO CRISTAL TRANSP POLY MAX 300G UHU",
+    "unit": "UN",
+    "price": 53.13,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8020.0003",
+    "description": "ADESIVO BRANCO POLY MAX 165G UHU",
+    "unit": "UN",
+    "price": 31.96,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8020.0004",
+    "description": "ADESIVO BRANCO POLY MAX 425G UHU",
+    "unit": "UN",
+    "price": 51.17,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8021.0001",
+    "description": "COLA UNIVERSAL SUPER STRONG 7G UHU",
+    "unit": "UN",
+    "price": 22.35,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8021.0002",
+    "description": "COLA UNIVERSAL UHU 20ML",
+    "unit": "UN",
+    "price": 14.17,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8022.0001",
+    "description": "ADESIVO FIXACAO S/PREGOS SANCA 440G UHU",
+    "unit": "UN",
+    "price": 27.64,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8022.0002",
+    "description": "ADESIVO FIXACAO S/PREGOS PROF 350G UHU",
+    "unit": "UN",
+    "price": 32.14,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8022.0003",
+    "description": "ADESIVO FIXACAO S/PREGOS SANCA 300G UHU",
+    "unit": "UN",
+    "price": 26.47,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8022.0004",
+    "description": "ADESIVO FIXACAO S/PREGOS DECOR 470G UHU",
+    "unit": "UN",
+    "price": 26.27,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8023.0001",
+    "description": "COLA MADEIRA RAPIDA 250G UHU",
+    "unit": "UN",
+    "price": 28.14,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8023.0002",
+    "description": "COLA MADEIRA 75G UHU",
+    "unit": "UN",
+    "price": 11.96,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8023.0003",
+    "description": "COLA MADEIRA MAX EXPRESS 100G UHU",
+    "unit": "UN",
+    "price": 37.8,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8023.0004",
+    "description": "COLA MADEIRA MAX EXPRESS 380G UHU",
+    "unit": "UN",
+    "price": 79.28,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8023.0005",
+    "description": "COLA UNIVERSAL MAX REPAIR 20G UHU",
+    "unit": "UN",
+    "price": 19.61,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8024.0001",
+    "description": "FITA BORRACHA SELANTE 7,5CMX5M",
+    "unit": "UN",
+    "price": 6.33,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8024.0002",
+    "description": "BORRACHA SELANTE JR 750 ML",
+    "unit": "UN",
+    "price": 6.82,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8024.0003",
+    "description": "BORRACHA SELANTE BU 2,5 L",
+    "unit": "UN",
+    "price": 45.56,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8025.0001",
+    "description": "PRO ACRILICO UNIVERSAL BR 300 ML",
+    "unit": "UN",
+    "price": 5.26,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8026.0001",
+    "description": "AIRMAX REMOVE BOLOR COM/CLO 500M",
+    "unit": "UN",
+    "price": 5.51,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0001",
+    "description": "101133 COLORSTEEL EPOXI BRANCO R 9003",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0002",
+    "description": "711033 COLORSTEEL EPOXI CINZA M N5",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0003",
+    "description": "710633 COLORSTEEL EPOXI CINZA M N6,5",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0004",
+    "description": "206533 COLORSTEEL EPOXI AREIA 2,5 Y 8,5/",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0005",
+    "description": "204133 COLORSTEEL EPOXI AMARELO 5Y",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0006",
+    "description": "905133 COLORSTEEL EPOXI PRETO N1",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0007",
+    "description": "710733 COLORSTEEL EPOXI CINZA N8",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0008",
+    "description": "304033 COLORSTEEL EPOXI VERM BOMBEIRO",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0009",
+    "description": "501633 COLORSTEEL EPOXI VERDE BR MUNSELL",
+    "unit": "UN",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0013",
+    "description": "SV TINTA EPOXI VERMELHO SEG M5 R 4/14",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0014",
+    "description": "SV TINTA EPOXI CINZA ESC N 3,5",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0015",
+    "description": "SV TINTA EPOXI AZUL SEG 2,5 PB 4/10",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0016",
+    "description": "SV TINTA EPOXI BRANCO N 9,5",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0017",
+    "description": "SV TINTA EPOXI CINZA M N5",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0018",
+    "description": "SV TINTA EPOXI CINZA M N6,5",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0019",
+    "description": "SV TINTA EPOXI AMARELO SEG 5Y 8/12",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0020",
+    "description": "SV TINTA EPOXI PRETO N1",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0021",
+    "description": "SV TINTA EPOXI VERDE BR MUNSELL 2,5G 5/10",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0022",
+    "description": "SV TINTA EPOXI VERM SEG 5 R 4/14",
+    "unit": "UN",
+    "price": 299.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8030.0001",
+    "description": "VERNIZ MARITIMO NATURAL BRILHO 0,9 L",
+    "unit": "UN",
+    "price": 42.32,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8030.0002",
+    "description": "VERNIZ MARITIMO NATURAL BRILHO 3,6 L",
+    "unit": "UN",
+    "price": 147.67,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8030.0003",
+    "description": "VERNIZ TINGIDOR MOGNO BRILHO 0,9 L",
+    "unit": "UN",
+    "price": 44.5,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8030.0004",
+    "description": "VERNIZ TINGIDOR MOGNO BRILHO 3,6 L",
+    "unit": "UN",
+    "price": 157.55,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8030.0005",
+    "description": "VERNIZ TINGIDOR IMBUIA BRILHO 0,9 L",
+    "unit": "UN",
+    "price": 44.49,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8030.0006",
+    "description": "VERNIZ TINGIDOR IMBUIA BRILHO 3,6 L",
+    "unit": "UN",
+    "price": 157.55,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8030.0007",
+    "description": "VERNIZ TINGIDOR CASTANHO BRILHO 0,9 L",
+    "unit": "UN",
+    "price": 44.49,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8031.0001",
+    "description": "33C0818655 SELADORA NITRO MADEIRA 3,6L",
+    "unit": "UN",
+    "price": 192.6,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8031.0002",
+    "description": "33B3318655 SELADORA NITRO MADEIRA 0,9L",
+    "unit": "UN",
+    "price": 62.65,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000001.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 88.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000008.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 87.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000010.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 89.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000010.1",
+    "description": "ESMALTE ACETINADO B.AGUA - QT 900 ML",
+    "unit": "QT",
+    "price": 27.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000020.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 87.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000024.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 87.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000025.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 87.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000026.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 87.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000032.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 87.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8101.000090.0",
+    "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 87.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8102.000010.0",
+    "description": "ESMALTE BRILHO B.AGUA - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 95.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000001.0",
+    "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 104.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000001.1",
+    "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
+    "unit": "QT",
+    "price": 27.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000008.0",
+    "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 98.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000008.1",
+    "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
+    "unit": "QT",
+    "price": 27.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000010.0",
+    "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 104.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000010.1",
+    "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
+    "unit": "QT",
+    "price": 28.6,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000024.0",
+    "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 98.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000024.1",
+    "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
+    "unit": "QT",
+    "price": 28.6,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000025.0",
+    "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 98.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000025.1",
+    "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
+    "unit": "QT",
+    "price": 27.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000032.0",
+    "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 104.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000032.1",
+    "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
+    "unit": "QT",
+    "price": 29.7,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000090.0",
+    "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 98.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8103.000090.1",
+    "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
+    "unit": "QT",
+    "price": 29.7,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8202.000000.0",
+    "description": "SELADOR ACRILICO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 24.2,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8202.000000.4",
+    "description": "SELADOR ACRILICO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 96.8,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8203.000019.0",
+    "description": "ZARCAO - 3,6 LTS",
+    "unit": "GL",
+    "price": 99.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8207.000010.1",
+    "description": "VEDA TRINTA - PT 1,0 KG",
+    "unit": "PT",
+    "price": 19.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8302.950A0R.4",
+    "description": "TINTA ACRILICA FOSCO PREM - BL 18 LTS",
+    "unit": "BL",
+    "price": 264.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8302.953A0D.4",
+    "description": "TINTA ACRILICA FOSCO PREM - BL 18 LTS",
+    "unit": "BL",
+    "price": 264.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000003.4",
+    "description": "TINTA ACRILICA STANDARD - BL 18 LTS",
+    "unit": "BL",
+    "price": 191.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000009.0",
+    "description": "TINTA ACRILICA STANDARD - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 44.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000009.4",
+    "description": "TINTA ACRILICA STANDARD - BL 18 LTS",
+    "unit": "BL",
+    "price": 181.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000010.0",
+    "description": "TINTA ACRILICA STANDARD - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 55.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000010.4",
+    "description": "TINTA ACRILICA STANDARD - BL 18 LTS",
+    "unit": "BL",
+    "price": 224.99,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000011.0",
+    "description": "TINTA ACRILICA STANDARD - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 47.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000011.4",
+    "description": "TINTA ACRILICA STANDARD - BL 18 LTS",
+    "unit": "BL",
+    "price": 191.4,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000018.0",
+    "description": "TINTA ACRILICA STANDARD - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 47.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000018.4",
+    "description": "TINTA ACRILICA STANDARD - BL 18 LTS",
+    "unit": "BL",
+    "price": 195.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000089.0",
+    "description": "TINTA ACRILICA STANDARD - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 44.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000105.0",
+    "description": "TINTA ACRILICA STANDARD - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8303.000105.4",
+    "description": "TINTA ACRILICA STANDARD - BL 18 LTS",
+    "unit": "BL",
+    "price": 192.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000004.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000004.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 201.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000004.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000006.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000006.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 201.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000006.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000010.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 53.89,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000010.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 238.7,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000010.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 264.9,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000014.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000014.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 201.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000014.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000015.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000015.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 201.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000015.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000016.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000016.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 201.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000016.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000025.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000025.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 201.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000025.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000027.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000027.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 201.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000027.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000034.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000034.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 192.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000034.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 203.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000109.0",
+    "description": "TINTA PARA PISO - GA 3,6 LTS",
+    "unit": "GL",
+    "price": 49.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000109.4",
+    "description": "TINTA PARA PISO - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 207.9,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.000109.I",
+    "description": "TINTA PARA PISO - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 242.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8305.O00010.4",
+    "description": "TINTA PARA PISO MAX - BL 20,0 LTS",
+    "unit": "BL",
+    "price": 247.5,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000003.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000003.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 99.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000005.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000005.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 99.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000010.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000010.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 99.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000018.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000018.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 99.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000020.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000020.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 99.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000022.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000022.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 89.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000023.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000023.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 99.99,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000028.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000028.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 110.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000110.0",
+    "description": "NACOR - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.49,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8307.000110.4",
+    "description": "NACOR - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 110.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8309.00000A.0",
+    "description": "TINTA BASE A - GP 3,2 LTS",
+    "unit": "GP",
+    "price": 56.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8309.00000A.4",
+    "description": "TINTA BASE A - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 224.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8309.00000B.0",
+    "description": "TINTA BASE B - GP 3,2 LTS",
+    "unit": "GP",
+    "price": 56.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8309.00000B.4",
+    "description": "TINTA BASE B - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 224.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8309.00000C.0",
+    "description": "TINTA BASE C - GP 3,2 LTS",
+    "unit": "GP",
+    "price": 56.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8309.00000C.4",
+    "description": "TINTA BASE C - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 224.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8310.00000C.0",
+    "description": "TINTA EMBORRACHADA C - GP 3,2 LTS",
+    "unit": "GL",
+    "price": 105.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8310.00000C.4",
+    "description": "TINTA EMBORRACHADA C - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 435.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8310.0000AB.0",
+    "description": "TINTA EMBORRACHADA A/B - GP 3,2 LTS",
+    "unit": "GP",
+    "price": 100.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8310.0000AB.4",
+    "description": "TINTA EMBORRACHADA A/B - BL 16,2 LTS",
+    "unit": "BL",
+    "price": 398.9,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000010.0",
+    "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 60.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000010.8",
+    "description": "TINTA EMBORRACHADA PRO - BL 15,0 LTS",
+    "unit": "BL",
+    "price": 333.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000102.0",
+    "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 60.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000102.8",
+    "description": "TINTA EMBORRACHADA PRO - BL 15,0 LTS",
+    "unit": "BL",
+    "price": 333.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000122.0",
+    "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 60.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000122.8",
+    "description": "TINTA EMBORRACHADA PRO - BL 15,0 LTS",
+    "unit": "BL",
+    "price": 333.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000128.0",
+    "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 60.0,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8316.000128.8",
+    "description": "TINTA EMBORRACHADA PRO - BL 15,0 LTS",
+    "unit": "BL",
+    "price": 333.3,
+    "category": "Tintas",
+    "table": "G10"
+  },
+  {
+    "code": "8317.000010.0",
+    "description": "LA CREME RENDE MAIS - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 63.25,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8317.000010.4",
+    "description": "LA CREME RENDE MAIS - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 255.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8401.000000.2",
+    "description": "MASSA ACRILICA - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 28.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8401.000000.8",
+    "description": "MASSA ACRILICA - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 98.9,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8402.000000.1",
+    "description": "MASSA CORRIDA - PT 1,0 KG",
+    "unit": "PT",
+    "price": 10.89,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8402.000000.2",
+    "description": "MASSA CORRIDA - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 24.2,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8402.000000.8",
+    "description": "MASSA CORRIDA - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 68.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8406.000000.6",
+    "description": "NACOR REVLIS - BR 25,0 KGS",
+    "unit": "BR",
+    "price": 55.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8408.000000.K",
+    "description": "KIT IBRATEC 5000",
+    "unit": "CX",
+    "price": 129.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8410.000000.K",
+    "description": "KIT IBRATEC 7000",
+    "unit": "CX",
+    "price": 149.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8501.000000.0",
+    "description": "ANTI MOFO - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 27.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8501.000000.1",
+    "description": "ANTI MOFO - PT 600 ML",
+    "unit": "LT",
+    "price": 11.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8504.000000.0",
+    "description": "AGUARRAS - GA 5,0 LTS",
+    "unit": "GL",
+    "price": 78.1,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8505.000000.0",
+    "description": "MANTA LIQUIDA - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 62.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8505.000000.4",
+    "description": "MANTA LIQUIDA - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 285.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8506.000000.0",
+    "description": "SOLUCAO RESINA ACRILICA - GP 3,6 LTS",
+    "unit": "GL",
+    "price": 44.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8506.000000.4",
+    "description": "SOLUCAO RESINA ACRILICA - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 199.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8507.000000.0",
+    "description": "RESINA PARA PISOS - GL 3,6 LTS",
+    "unit": "GL",
+    "price": 63.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8507.000000.4",
+    "description": "RESINA PARA PISOS - BL 18,0 LTS",
+    "unit": "BL",
+    "price": 248.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8508.000000.0",
+    "description": "BLINDA TELHAS E CALHAS - GL 5,0 KGS",
+    "unit": "GL",
+    "price": 150.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8601.0000AB.8",
+    "description": "BASE AB CRISTALINI PREMIUM - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 180.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8603.000005.3",
+    "description": "TEXTURA LISA PREMIUM - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 49.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8603.000010.8",
+    "description": "TEXTURA LISA PREMIUM - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 137.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8603.000010.J",
+    "description": "TEXTURA LISA PREMIUM - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 137.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8603.000017.3",
+    "description": "TEXTURA LISA PREMIUM - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 49.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8603.000022.3",
+    "description": "TEXTURA LISA PREMIUM - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 49.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8604.000010.8",
+    "description": "TEXTURA RUSTICA PREMIUM - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 137.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8604.000010.J",
+    "description": "TEXTURA RUSTICA PREMIUM - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 137.5,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8614.000010.6",
+    "description": "NACOR TEXTURA RISCADA - BR 25,0 KGS",
+    "unit": "BR",
+    "price": 67.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8615.000010.6",
+    "description": "NACOR TEXTURA LISA - BR 25,0 KGS",
+    "unit": "BR",
+    "price": 67.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8634.000000.6",
+    "description": "NACOR GRANULADO - BR 25,0 KGS",
+    "unit": "BR",
+    "price": 90.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000005.3",
+    "description": "TEXTURA LISA PRO - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 32.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000005.8",
+    "description": "TEXTURA LISA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000010.3",
+    "description": "TEXTURA LISA PRO - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 32.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000010.8",
+    "description": "TEXTURA LISA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000017.3",
+    "description": "TEXTURA LISA PRO - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 32.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000017.8",
+    "description": "TEXTURA LISA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000018.3",
+    "description": "TEXTURA LISA PRO - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 32.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8635.000018.8",
+    "description": "TEXTURA LISA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8636.000010.8",
+    "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8636.000011.3",
+    "description": "TEXTURA RISCADA PRO - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 32.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8636.000011.8",
+    "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8636.000020.3",
+    "description": "TEXTURA RISCADA PRO - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 32.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8636.000020.8",
+    "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8636.000124.3",
+    "description": "TEXTURA RISCADA PRO - SC 15,0 KGS",
+    "unit": "SC",
+    "price": 32.0,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8636.000124.8",
+    "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
+    "unit": "BL",
+    "price": 75.91,
+    "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000010.0",
+    "description": "REPINTA PRO - GL 5,0 KGS",
+    "unit": "GL",
+    "price": 49.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000010.8",
+    "description": "REPINTA PRO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 295.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000022.0",
+    "description": "REPINTA PRO - GL 5,0 KGS",
+    "unit": "GL",
+    "price": 49.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000022.8",
+    "description": "REPINTA PRO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 189.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000125.0",
+    "description": "REPINTA PRO - GL 5,0 KGS",
+    "unit": "GL",
+    "price": 49.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000125.8",
+    "description": "REPINTA PRO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 189.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000126.0",
+    "description": "REPINTA PRO - GL 5,0 KGS",
+    "unit": "GL",
+    "price": 49.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000126.8",
+    "description": "REPINTA PRO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 189.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000127.0",
+    "description": "REPINTA PRO - GL 5,0 KGS",
+    "unit": "GL",
+    "price": 49.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8638.000127.8",
+    "description": "REPINTA PRO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 189.9,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000000.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000050.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000050.8",
+    "description": "CIMENTO QUEIMADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 945.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000054.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000063.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000068.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000100.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000100.8",
+    "description": "CIMENTO QUEIMADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 945.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000101.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000102.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000102.8",
+    "description": "CIMENTO QUEIMADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 945.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000106.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000107.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000108.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000122.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000123.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000140.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000141.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8703.000142.0",
+    "description": "CIMENTO QUEIMADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 185.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8705.076A0D.2",
+    "description": "DECORA PAREDES FOSCO - GP 2,5 LTS",
+    "unit": "GP",
+    "price": 28.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8705.292A0L.2",
+    "description": "DECORA PAREDES FOSCO - GP 2,5 LTS",
+    "unit": "GP",
+    "price": 28.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8705.949A0A.2",
+    "description": "DECORA PAREDES FOSCO - GP 2,5 LTS",
+    "unit": "GP",
+    "price": 28.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8705.954A0A.2",
+    "description": "DECORA PAREDES FOSCO - GP 2,5 LTS",
+    "unit": "GP",
+    "price": 28.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8705.962A0R.2",
+    "description": "DECORA PAREDES FOSCO - GP 2,5 LTS",
+    "unit": "GP",
+    "price": 28.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8706.000044.8",
+    "description": "ESTRELADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 220.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8706.000069.8",
+    "description": "ESTRELADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 220.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000000.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000010.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000025.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000048.2",
+    "description": "MARMORIZADO - GP 4,8 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000054.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000073.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000100.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000101.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8708.000102.0",
+    "description": "MARMORIZADO - GP 4,2 KGS",
+    "unit": "GP",
+    "price": 160.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8714.000085.2",
+    "description": "ACO CORTEN - GP 2,5 LTS",
+    "unit": "GP",
+    "price": 190.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8719.000000.1",
+    "description": "VERNIZ PISO - PT 600 ML",
+    "unit": "PT",
+    "price": 55.0,
+    "category": "Complementos",
+    "table": "G10"
+  },
+  {
+    "code": "8720.000139.0",
+    "description": "CIMENTO QUEIMADO PISO - GP 6,0 KGS",
+    "unit": "GP",
+    "price": 220.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8721.000050.K",
+    "description": "KIT CIMENTO QUEIMADO PISO",
+    "unit": "CX",
+    "price": 235.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8721.000054.K",
+    "description": "KIT CIMENTO QUEIMADO PISO",
+    "unit": "CX",
+    "price": 235.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8721.000068.K",
+    "description": "KIT CIMENTO QUEIMADO PISO",
+    "unit": "CX",
+    "price": 235.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8721.000100.K",
+    "description": "KIT CIMENTO QUEIMADO PISO",
+    "unit": "CX",
+    "price": 235.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8721.000139.K",
+    "description": "KIT CIMENTO QUEIMADO PISO",
+    "unit": "CX",
+    "price": 216.15,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8724.000023.1",
+    "description": "CIMENTO QUEIMADO PEROLIZADO - PT 1,3 KGS",
+    "unit": "PT",
+    "price": 40.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8724.000050.1",
+    "description": "CIMENTO QUEIMADO PEROLIZADO - PT 1,3 KGS",
+    "unit": "PT",
+    "price": 40.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8724.000068.1",
+    "description": "CIMENTO QUEIMADO PEROLIZADO - PT 1,3 KGS",
+    "unit": "PT",
+    "price": 40.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8724.000100.1",
+    "description": "CIMENTO QUEIMADO PEROLIZADO - PT 1,3 KGS",
+    "unit": "PT",
+    "price": 40.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8724.000102.1",
+    "description": "CIMENTO QUEIMADO PEROLIZADO - PT 1,3 KGS",
+    "unit": "PT",
+    "price": 40.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8801.000050.0",
+    "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
+    "unit": "GA",
+    "price": 69.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8801.000054.0",
+    "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
+    "unit": "GA",
+    "price": 38.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8801.000063.0",
+    "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
+    "unit": "GA",
+    "price": 38.5,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8801.000100.0",
+    "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
+    "unit": "GA",
+    "price": 69.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8801.000102.0",
+    "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
+    "unit": "GA",
+    "price": 69.3,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8805.000000.1",
+    "description": "NACOR GLITTER - PT 600 ML",
+    "unit": "PT",
+    "price": 36.6,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "8807.000010.8",
+    "description": "SELA TRINCA E FRISOS - BL 14,0 KGS",
+    "unit": "BL",
+    "price": 350.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "9505.0102",
+    "description": "EXPOSITOR CLASSIC CRISTAL 863.0 ACRIMET",
+    "unit": "UN",
+    "price": 182.26,
+    "category": "Outros",
+    "table": "G10"
   }
 ]
