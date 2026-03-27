@@ -8,8 +8,6 @@ import { QuoteDrawer } from "@/components/catalog/QuoteDrawer";
 import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 
 const allProducts = productsData as Product[];
-const categories = ["Todas as Categorias", ...Array.from(new Set(allProducts.map(p => p.category)))];
-const units = ["Todos", ...Array.from(new Set(allProducts.map(p => p.unit).filter(Boolean)))];
 
 const Index = () => {
   const [activeTable, setActiveTable] = useState("R11");
