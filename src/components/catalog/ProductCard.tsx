@@ -1,14 +1,14 @@
 import type { Product } from "@/types/product";
-import { Eye, Pencil, Trash2, Heart } from "lucide-react";
+import { Eye, Pencil, Heart, HeartOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface ProductCardProps {
   product: Product;
   isFavorite: boolean;
+  showFavoritesView: boolean;
   onToggleFavorite: () => void;
   onDetails: () => void;
   onEdit: () => void;
-  onDelete: () => void;
 }
 
 const unitColorMap: Record<string, string> = {
@@ -23,7 +23,7 @@ function formatPrice(value: number) {
   return value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
-export function ProductCard({ product, isFavorite, onToggleFavorite, onDetails, onEdit, onDelete }: ProductCardProps) {
+export function ProductCard({ product, isFavorite, showFavoritesView, onToggleFavorite, onDetails, onEdit }: ProductCardProps) {
   const badgeClass = unitColorMap[product.unit] || "bg-catalog-badge-default";
 
   return (
@@ -63,9 +63,11 @@ export function ProductCard({ product, isFavorite, onToggleFavorite, onDetails, 
         <Button variant="ghost" size="sm" className="text-xs px-2" onClick={onEdit}>
           <Pencil className="w-3.5 h-3.5" />
         </Button>
-        <Button variant="ghost" size="sm" className="text-xs px-2 text-destructive hover:text-destructive" onClick={onDelete}>
-          <Trash2 className="w-3.5 h-3.5" />
-        </Button>
+        {showFavoritesView && isFavorite && (
+          <Button variant="ghost" size="sm" className="text-xs px-2 text-destructive hover:text-destructive" onClick={onToggleFavorite}>
+            <HeartOff className="w-3.5 h-3.5" />
+          </Button>
+        )}
       </div>
     </div>
   );

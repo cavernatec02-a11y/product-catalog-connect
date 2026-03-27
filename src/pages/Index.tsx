@@ -24,7 +24,6 @@ const Index = () => {
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>({});
   const [addedProducts, setAddedProducts] = useState<Product[]>([]);
-  const [deletedKeys, setDeletedKeys] = useState<Set<string>>(new Set());
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
@@ -38,8 +37,8 @@ const Index = () => {
       if (edit) return { ...p, code: edit.code, price: edit.price };
       return p;
     });
-    return [...edited, ...addedProducts].filter((p) => !deletedKeys.has(productKey(p)));
-  }, [edits, addedProducts, deletedKeys]);
+    return [...edited, ...addedProducts];
+  }, [edits, addedProducts]);
 
   const normalizedProducts = useMemo(() => {
     const seen = new Set<string>();
@@ -107,13 +106,6 @@ const Index = () => {
     toast({ title: "Produto adicionado", description: product.description });
   }, []);
 
-  const handleDeleteProduct = useCallback((product: Product) => {
-    const key = productKey(product);
-    setDeletedKeys((prev) => new Set(prev).add(key));
-    setAddedProducts((prev) => prev.filter((p) => productKey(p) !== key));
-    toast({ title: "Produto excluído", description: product.description, variant: "destructive" });
-  }, []);
-
   const handleToggleFavorite = useCallback((key: string) => {
     setFavorites((prev) => {
       const next = new Set(prev);
@@ -165,11 +157,11 @@ const Index = () => {
         <ProductGrid
           products={displayProducts}
           favorites={favorites}
+          showFavoritesView={showFavorites}
           onToggleFavorite={handleToggleFavorite}
           productKey={productKey}
           onDetails={setSelectedProduct}
           onEdit={setEditingProduct}
-          onDelete={handleDeleteProduct}
         />
       </main>
       <ProductDetailDialog product={selectedProduct} onClose={() => setSelectedProduct(null)} />
