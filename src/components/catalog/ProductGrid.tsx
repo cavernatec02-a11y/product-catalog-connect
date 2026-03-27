@@ -9,14 +9,16 @@ const PAGE_SIZE = 40;
 interface ProductGridProps {
   products: Product[];
   favorites: Set<string>;
+  addedKeys: Set<string>;
   showFavoritesView: boolean;
   onToggleFavorite: (key: string) => void;
   onDetails: (p: Product) => void;
   onEdit: (p: Product) => void;
+  onDelete: (p: Product) => void;
   productKey: (p: Product) => string;
 }
 
-export function ProductGrid({ products, favorites, showFavoritesView, onToggleFavorite, onDetails, onEdit, productKey }: ProductGridProps) {
+export function ProductGrid({ products, favorites, addedKeys, showFavoritesView, onToggleFavorite, onDetails, onEdit, onDelete, productKey }: ProductGridProps) {
   const [page, setPage] = useState(0);
 
   if (products.length === 0) {
@@ -37,15 +39,18 @@ export function ProductGrid({ products, favorites, showFavoritesView, onToggleFa
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {paged.map((product, index) => {
           const key = productKey(product);
+          const isAdded = addedKeys.has(key);
           return (
             <ProductCard
               key={`${product.table}-${product.code}-${currentPage}-${index}`}
               product={product}
               isFavorite={favorites.has(key)}
+              isAdded={isAdded}
               showFavoritesView={showFavoritesView}
               onToggleFavorite={() => onToggleFavorite(key)}
               onDetails={() => onDetails(product)}
               onEdit={() => onEdit(product)}
+              onDelete={isAdded ? () => onDelete(product) : undefined}
             />
           );
         })}
