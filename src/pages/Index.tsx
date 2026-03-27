@@ -9,6 +9,8 @@ import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 
 const allProducts = productsData as Product[];
 
+const normalize = (value: string) => value.trim().toLowerCase();
+
 const Index = () => {
   const [activeTable, setActiveTable] = useState("R11");
   const [search, setSearch] = useState("");
@@ -18,15 +20,32 @@ const Index = () => {
   const [quoteOpen, setQuoteOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
-  const tableProducts = useMemo(() => allProducts.filter(p => p.table === activeTable), [activeTable]);
-  
-  const tableCategories = useMemo(() => 
-    ["Todas as Categorias", ...Array.from(new Set(tableProducts.map(p => p.category)))],
-    [tableProducts]
+  const normalizedProducts = useMemo(() => {
+    const seen = new Set<string>();
+
+    return allProducts.filter((product) => {
+      const table = product.table ?? "R11";
+      const key = `${table}|${product.code}|${product.description}|${product.unit}|${product.price}|${product.category}`;
+
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }, []);
+
+  const tableProducts = useMemo(
+    () => normalizedProducts.filter((product) => (product.table ?? "R11") === activeTable),
+    [activeTable, normalizedProducts],
   );
-  const tableUnits = useMemo(() => 
-    ["Todos", ...Array.from(new Set(tableProducts.map(p => p.unit).filter(Boolean)))],
-    [tableProducts]
+
+  const tableCategories = useMemo(
+    () => ["Todas as Categorias", ...Array.from(new Set(tableProducts.map((product) => product.category)))],
+    [tableProducts],
+  );
+
+  const tableUnits = useMemo(
+    () => ["Todos", ...Array.from(new Set(tableProducts.map((product) => product.unit).filter(Boolean)))],
+    [tableProducts],
   );
 
   const handleTableChange = (table: string) => {
@@ -37,31 +56,44 @@ const Index = () => {
   };
 
   const filtered = useMemo(() => {
-    return tableProducts.filter(p => {
-      const matchSearch = !search || 
-        p.code.toLowerCase().includes(search.toLowerCase()) ||
-        p.description.toLowerCase().includes(search.toLowerCase());
-      const matchCat = category === "Todas as Categorias" || p.category === category;
-      const matchUnit = unit === "Todos" || p.unit === unit;
+    const normalizedSearch = normalize(search);
+    const normalizedCategory = normalize(category);
+    const normalizedUnit = normalize(unit);
+
+    return tableProducts.filter((product) => {
+      const matchSearch =
+        !normalizedSearch ||
+        normalize(product.code).includes(normalizedSearch) ||
+        normalize(product.description).includes(normalizedSearch);
+      const matchCat =
+        normalizedCategory === normalize("Todas as Categorias") ||
+        normalize(product.category) === normalizedCategory;
+      const matchUnit = normalizedUnit === normalize("Todos") || normalize(product.unit) === normalizedUnit;
+
       return matchSearch && matchCat && matchUnit;
     });
   }, [search, category, unit, tableProducts]);
 
   const addToQuote = (product: Product) => {
-    setQuoteItems(prev => {
-      const existing = prev.find(i => i.code === product.code);
-      if (existing) return prev.map(i => i.code === product.code ? { ...i, quantity: i.quantity + 1 } : i);
+    setQuoteItems((prev) => {
+      const existing = prev.find((item) => item.code === product.code);
+
+      if (existing) {
+        return prev.map((item) => (item.code === product.code ? { ...item, quantity: item.quantity + 1 } : item));
+      }
+
       return [...prev, { ...product, quantity: 1 }];
     });
   };
 
   const removeFromQuote = (code: string) => {
-    setQuoteItems(prev => prev.filter(i => i.code !== code));
+    setQuoteItems((prev) => prev.filter((item) => item.code !== code));
   };
 
   const updateQuantity = (code: string, qty: number) => {
     if (qty < 1) return removeFromQuote(code);
-    setQuoteItems(prev => prev.map(i => i.code === code ? { ...i, quantity: qty } : i));
+
+    setQuoteItems((prev) => prev.map((item) => (item.code === code ? { ...item, quantity: qty } : item)));
   };
 
   return (
@@ -88,11 +120,7 @@ const Index = () => {
           <span className="inline-block w-4 h-4">🔍</span>
           {filtered.length} produtos encontrados
         </p>
-        <ProductGrid
-          products={filtered}
-          onSelect={addToQuote}
-          onDetails={setSelectedProduct}
-        />
+        <ProductGrid products={filtered} onSelect={addToQuote} onDetails={setSelectedProduct} />
       </main>
       <QuoteDrawer
         open={quoteOpen}
@@ -101,11 +129,7 @@ const Index = () => {
         onRemove={removeFromQuote}
         onUpdateQuantity={updateQuantity}
       />
-      <ProductDetailDialog
-        product={selectedProduct}
-        onClose={() => setSelectedProduct(null)}
-        onSelect={addToQuote}
-      />
+      <ProductDetailDialog product={selectedProduct} onClose={() => setSelectedProduct(null)} onSelect={addToQuote} />
     </div>
   );
 };
