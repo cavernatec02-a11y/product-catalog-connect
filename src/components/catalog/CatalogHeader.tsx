@@ -1,5 +1,6 @@
 import { Package } from "lucide-react";
 import logoIbratin from "@/assets/logo-ibratin.webp";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 interface CatalogHeaderProps {
   totalProducts: number;
