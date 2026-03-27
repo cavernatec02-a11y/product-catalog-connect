@@ -8,7 +8,7 @@ import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 import { ProductEditDialog } from "@/components/catalog/ProductEditDialog";
 import { ProductAddDialog } from "@/components/catalog/ProductAddDialog";
 import { Button } from "@/components/ui/button";
-import { Plus } from "lucide-react";
+import { Plus, Heart } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 const baseProducts = productsData as Product[];
@@ -26,6 +26,13 @@ const Index = () => {
   const [addedProducts, setAddedProducts] = useState<Product[]>([]);
   const [deletedKeys, setDeletedKeys] = useState<Set<string>>(new Set());
   const [addDialogOpen, setAddDialogOpen] = useState(false);
+  const [favorites, setFavorites] = useState<Set<string>>(() => {
+    try {
+      const saved = localStorage.getItem("ibratin-favorites");
+      return saved ? new Set(JSON.parse(saved)) : new Set<string>();
+    } catch { return new Set<string>(); }
+  });
+  const [showFavorites, setShowFavorites] = useState(false);
 
   const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
 
@@ -112,6 +119,20 @@ const Index = () => {
     toast({ title: "Produto excluído", description: product.description, variant: "destructive" });
   }, []);
 
+  const handleToggleFavorite = useCallback((key: string) => {
+    setFavorites((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key); else next.add(key);
+      localStorage.setItem("ibratin-favorites", JSON.stringify([...next]));
+      return next;
+    });
+  }, []);
+
+  const displayProducts = useMemo(() => {
+    if (!showFavorites) return filtered;
+    return filtered.filter((p) => favorites.has(productKey(p)));
+  }, [filtered, showFavorites, favorites]);
+
   return (
     <div className="min-h-screen bg-background">
       <CatalogHeader
@@ -133,14 +154,32 @@ const Index = () => {
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
             <span className="inline-block w-4 h-4">🔍</span>
-            {filtered.length} produtos encontrados
+            {displayProducts.length} produtos encontrados
           </p>
-          <Button size="sm" onClick={() => setAddDialogOpen(true)}>
-            <Plus className="w-4 h-4 mr-1" /> Adicionar Produto
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button
+              size="sm"
+              variant={showFavorites ? "default" : "outline"}
+              onClick={() => setShowFavorites(!showFavorites)}
+            >
+              <Heart className={`w-4 h-4 mr-1 ${showFavorites ? "fill-current" : ""}`} />
+              Favoritos
+              {favorites.size > 0 && (
+                <span className="ml-1 text-xs bg-destructive text-destructive-foreground rounded-full px-1.5">
+                  {[...favorites].filter((k) => k.startsWith(activeTable)).length}
+                </span>
+              )}
+            </Button>
+            <Button size="sm" onClick={() => setAddDialogOpen(true)}>
+              <Plus className="w-4 h-4 mr-1" /> Adicionar
+            </Button>
+          </div>
         </div>
         <ProductGrid
-          products={filtered}
+          products={displayProducts}
+          favorites={favorites}
+          onToggleFavorite={handleToggleFavorite}
+          productKey={productKey}
           onDetails={setSelectedProduct}
           onEdit={setEditingProduct}
           onDelete={handleDeleteProduct}
