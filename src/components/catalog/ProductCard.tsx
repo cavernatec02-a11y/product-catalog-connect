@@ -70,6 +70,11 @@ export function ProductCard({ product, isFavorite, isAdded, showFavoritesView, o
             <HeartOff className="w-3.5 h-3.5" />
           </Button>
         )}
+        {isAdded && onDelete && (
+          <Button variant="ghost" size="sm" className="text-xs px-2 text-destructive hover:text-destructive" onClick={onDelete}>
+            <Trash2 className="w-3.5 h-3.5" />
+          </Button>
+        )}
       </div>
     </div>
   );

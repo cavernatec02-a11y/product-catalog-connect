@@ -39,15 +39,18 @@ export function ProductGrid({ products, favorites, addedKeys, showFavoritesView,
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {paged.map((product, index) => {
           const key = productKey(product);
+          const isAdded = addedKeys.has(key);
           return (
             <ProductCard
               key={`${product.table}-${product.code}-${currentPage}-${index}`}
               product={product}
               isFavorite={favorites.has(key)}
+              isAdded={isAdded}
               showFavoritesView={showFavoritesView}
               onToggleFavorite={() => onToggleFavorite(key)}
               onDetails={() => onDetails(product)}
               onEdit={() => onEdit(product)}
+              onDelete={isAdded ? () => onDelete(product) : undefined}
             />
           );
         })}
