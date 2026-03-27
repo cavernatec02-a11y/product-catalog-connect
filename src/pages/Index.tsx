@@ -26,12 +26,7 @@ const Index = () => {
   const [addedProducts, setAddedProducts] = useState<Product[]>([]);
   const [deletedKeys, setDeletedKeys] = useState<Set<string>>(new Set());
   const [addDialogOpen, setAddDialogOpen] = useState(false);
-  const [favorites, setFavorites] = useState<Set<string>>(() => {
-    try {
-      localStorage.removeItem("ibratin-favorites");
-    } catch {}
-    return new Set<string>();
-  });
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
 
   const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
