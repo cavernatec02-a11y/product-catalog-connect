@@ -25,7 +25,7 @@ function formatPrice(value: number) {
   return value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
-export function ProductCard({ product, isFavorite, showFavoritesView, onToggleFavorite, onDetails, onEdit }: ProductCardProps) {
+export function ProductCard({ product, isFavorite, isAdded, showFavoritesView, onToggleFavorite, onDetails, onEdit, onDelete }: ProductCardProps) {
   const badgeClass = unitColorMap[product.unit] || "bg-catalog-badge-default";
 
   return (
