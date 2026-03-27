@@ -18,7 +18,7 @@ interface ProductGridProps {
   productKey: (p: Product) => string;
 }
 
-export function ProductGrid({ products, favorites, showFavoritesView, onToggleFavorite, onDetails, onEdit, productKey }: ProductGridProps) {
+export function ProductGrid({ products, favorites, addedKeys, showFavoritesView, onToggleFavorite, onDetails, onEdit, onDelete, productKey }: ProductGridProps) {
   const [page, setPage] = useState(0);
 
   if (products.length === 0) {
