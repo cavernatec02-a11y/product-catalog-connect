@@ -8,10 +8,9 @@ import { QuoteDrawer } from "@/components/catalog/QuoteDrawer";
 import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 
 const allProducts = productsData as Product[];
-const categories = ["Todas as Categorias", ...Array.from(new Set(allProducts.map(p => p.category)))];
-const units = ["Todos", ...Array.from(new Set(allProducts.map(p => p.unit).filter(Boolean)))];
 
 const Index = () => {
+  const [activeTable, setActiveTable] = useState("R11");
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("Todas as Categorias");
   const [unit, setUnit] = useState("Todos");
@@ -19,8 +18,26 @@ const Index = () => {
   const [quoteOpen, setQuoteOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
+  const tableProducts = useMemo(() => allProducts.filter(p => p.table === activeTable), [activeTable]);
+  
+  const tableCategories = useMemo(() => 
+    ["Todas as Categorias", ...Array.from(new Set(tableProducts.map(p => p.category)))],
+    [tableProducts]
+  );
+  const tableUnits = useMemo(() => 
+    ["Todos", ...Array.from(new Set(tableProducts.map(p => p.unit).filter(Boolean)))],
+    [tableProducts]
+  );
+
+  const handleTableChange = (table: string) => {
+    setActiveTable(table);
+    setCategory("Todas as Categorias");
+    setUnit("Todos");
+    setSearch("");
+  };
+
   const filtered = useMemo(() => {
-    return allProducts.filter(p => {
+    return tableProducts.filter(p => {
       const matchSearch = !search || 
         p.code.toLowerCase().includes(search.toLowerCase()) ||
         p.description.toLowerCase().includes(search.toLowerCase());
@@ -28,7 +45,7 @@ const Index = () => {
       const matchUnit = unit === "Todos" || p.unit === unit;
       return matchSearch && matchCat && matchUnit;
     });
-  }, [search, category, unit]);
+  }, [search, category, unit, tableProducts]);
 
   const addToQuote = (product: Product) => {
     setQuoteItems(prev => {
@@ -50,9 +67,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <CatalogHeader
-        totalProducts={allProducts.length}
+        totalProducts={tableProducts.length}
         quoteCount={quoteItems.length}
         onQuoteOpen={() => setQuoteOpen(true)}
+        activeTable={activeTable}
+        onTableChange={handleTableChange}
       />
       <main className="container mx-auto px-4 py-6">
         <CatalogFilters
@@ -60,10 +79,10 @@ const Index = () => {
           onSearchChange={setSearch}
           category={category}
           onCategoryChange={setCategory}
-          categories={categories}
+          categories={tableCategories}
           unit={unit}
           onUnitChange={setUnit}
-          units={units}
+          units={tableUnits}
         />
         <p className="text-muted-foreground text-sm mb-4 flex items-center gap-2">
           <span className="inline-block w-4 h-4">🔍</span>
