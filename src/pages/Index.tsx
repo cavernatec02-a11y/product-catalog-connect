@@ -1,15 +1,20 @@
 import { useState, useMemo, useCallback } from "react";
-import type { Product, QuoteItem } from "@/types/product";
+import type { Product } from "@/types/product";
 import productsData from "@/data/products.json";
 import { CatalogHeader } from "@/components/catalog/CatalogHeader";
 import { CatalogFilters } from "@/components/catalog/CatalogFilters";
 import { ProductGrid } from "@/components/catalog/ProductGrid";
 import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 import { ProductEditDialog } from "@/components/catalog/ProductEditDialog";
+import { ProductAddDialog } from "@/components/catalog/ProductAddDialog";
+import { Button } from "@/components/ui/button";
+import { Plus } from "lucide-react";
+import { toast } from "@/hooks/use-toast";
 
 const baseProducts = productsData as Product[];
 
 const normalize = (value: string) => value.trim().toLowerCase();
+
 const Index = () => {
   const [activeTable, setActiveTable] = useState("R11");
   const [search, setSearch] = useState("");
@@ -18,15 +23,21 @@ const Index = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>({});
+  const [addedProducts, setAddedProducts] = useState<Product[]>([]);
+  const [deletedKeys, setDeletedKeys] = useState<Set<string>>(new Set());
+  const [addDialogOpen, setAddDialogOpen] = useState(false);
+
+  const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
 
   const allProducts = useMemo(() => {
-    return baseProducts.map((p) => {
-      const editKey = `${p.table ?? "R11"}|${p.code}|${p.description}`;
-      const edit = edits[editKey];
+    const edited = baseProducts.map((p) => {
+      const key = productKey(p);
+      const edit = edits[key];
       if (edit) return { ...p, code: edit.code, price: edit.price };
       return p;
     });
-  }, [edits]);
+    return [...edited, ...addedProducts].filter((p) => !deletedKeys.has(productKey(p)));
+  }, [edits, addedProducts, deletedKeys]);
 
   const normalizedProducts = useMemo(() => {
     const seen = new Set<string>();
@@ -85,8 +96,20 @@ const Index = () => {
       (p) => p.code === original.code && p.description === original.description && (p.table ?? "R11") === (original.table ?? "R11")
     );
     const keyBase = origProduct || original;
-    const editKey = `${keyBase.table ?? "R11"}|${keyBase.code}|${keyBase.description}`;
+    const editKey = productKey(keyBase);
     setEdits((prev) => ({ ...prev, [editKey]: updated }));
+  }, []);
+
+  const handleAddProduct = useCallback((product: Product) => {
+    setAddedProducts((prev) => [...prev, product]);
+    toast({ title: "Produto adicionado", description: product.description });
+  }, []);
+
+  const handleDeleteProduct = useCallback((product: Product) => {
+    const key = productKey(product);
+    setDeletedKeys((prev) => new Set(prev).add(key));
+    setAddedProducts((prev) => prev.filter((p) => productKey(p) !== key));
+    toast({ title: "Produto excluído", description: product.description, variant: "destructive" });
   }, []);
 
   return (
@@ -107,14 +130,20 @@ const Index = () => {
           onUnitChange={setUnit}
           units={tableUnits}
         />
-        <p className="text-muted-foreground text-sm mb-4 flex items-center gap-2">
-          <span className="inline-block w-4 h-4">🔍</span>
-          {filtered.length} produtos encontrados
-        </p>
+        <div className="flex items-center justify-between mb-4">
+          <p className="text-muted-foreground text-sm flex items-center gap-2">
+            <span className="inline-block w-4 h-4">🔍</span>
+            {filtered.length} produtos encontrados
+          </p>
+          <Button size="sm" onClick={() => setAddDialogOpen(true)}>
+            <Plus className="w-4 h-4 mr-1" /> Adicionar Produto
+          </Button>
+        </div>
         <ProductGrid
           products={filtered}
           onDetails={setSelectedProduct}
           onEdit={setEditingProduct}
+          onDelete={handleDeleteProduct}
         />
       </main>
       <ProductDetailDialog product={selectedProduct} onClose={() => setSelectedProduct(null)} />
@@ -122,6 +151,13 @@ const Index = () => {
         product={editingProduct}
         onClose={() => setEditingProduct(null)}
         onSave={handleEditSave}
+      />
+      <ProductAddDialog
+        open={addDialogOpen}
+        onClose={() => setAddDialogOpen(false)}
+        onAdd={handleAddProduct}
+        activeTable={activeTable}
+        categories={tableCategories}
       />
     </div>
   );
