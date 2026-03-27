@@ -24,6 +24,7 @@ const Index = () => {
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>({});
   const [addedProducts, setAddedProducts] = useState<Product[]>([]);
+  const [deletedKeys, setDeletedKeys] = useState<Set<string>>(new Set());
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
@@ -37,8 +38,8 @@ const Index = () => {
       if (edit) return { ...p, code: edit.code, price: edit.price };
       return p;
     });
-    return [...edited, ...addedProducts];
-  }, [edits, addedProducts]);
+    return [...edited, ...addedProducts].filter((p) => !deletedKeys.has(productKey(p)));
+  }, [edits, addedProducts, deletedKeys]);
 
   const normalizedProducts = useMemo(() => {
     const seen = new Set<string>();
@@ -106,14 +107,22 @@ const Index = () => {
     toast({ title: "Produto adicionado", description: product.description });
   }, []);
 
-  const handleDeleteAddedProduct = useCallback((product: Product) => {
-    setAddedProducts((prev) => prev.filter((p) => productKey(p) !== productKey(product)));
+  const handleDeleteProduct = useCallback((product: Product) => {
+    const key = productKey(product);
+    setDeletedKeys((prev) => {
+      const next = new Set(prev);
+      next.add(key);
+      return next;
+    });
+    setAddedProducts((prev) => prev.filter((p) => productKey(p) !== key));
+    setFavorites((prev) => {
+      const next = new Set(prev);
+      next.delete(key);
+      localStorage.setItem("ibratin-favorites", JSON.stringify([...next]));
+      return next;
+    });
     toast({ title: "Produto excluído", description: product.description, variant: "destructive" });
   }, []);
-
-  const addedKeys = useMemo(() => {
-    return new Set(addedProducts.map((p) => productKey(p)));
-  }, [addedProducts]);
 
   const handleToggleFavorite = useCallback((key: string) => {
     setFavorites((prev) => {
@@ -166,13 +175,12 @@ const Index = () => {
         <ProductGrid
           products={displayProducts}
           favorites={favorites}
-          addedKeys={addedKeys}
           showFavoritesView={showFavorites}
           onToggleFavorite={handleToggleFavorite}
           productKey={productKey}
           onDetails={setSelectedProduct}
           onEdit={setEditingProduct}
-          onDelete={handleDeleteAddedProduct}
+          onDelete={handleDeleteProduct}
         />
       </main>
       <ProductDetailDialog product={selectedProduct} onClose={() => setSelectedProduct(null)} />
