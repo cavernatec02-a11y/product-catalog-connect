@@ -128,6 +128,10 @@ const Index = () => {
     });
   }, []);
 
+  const favoritesCountForTable = useMemo(() => {
+    return [...favorites].filter((k) => k.startsWith(activeTable)).length;
+  }, [favorites, activeTable]);
+
   const displayProducts = useMemo(() => {
     if (!showFavorites) return filtered;
     return filtered.filter((p) => favorites.has(productKey(p)));
