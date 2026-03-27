@@ -9,14 +9,14 @@ const PAGE_SIZE = 40;
 interface ProductGridProps {
   products: Product[];
   favorites: Set<string>;
+  showFavoritesView: boolean;
   onToggleFavorite: (key: string) => void;
   onDetails: (p: Product) => void;
   onEdit: (p: Product) => void;
-  onDelete: (p: Product) => void;
   productKey: (p: Product) => string;
 }
 
-export function ProductGrid({ products, favorites, onToggleFavorite, onDetails, onEdit, onDelete, productKey }: ProductGridProps) {
+export function ProductGrid({ products, favorites, showFavoritesView, onToggleFavorite, onDetails, onEdit, productKey }: ProductGridProps) {
   const [page, setPage] = useState(0);
 
   if (products.length === 0) {
