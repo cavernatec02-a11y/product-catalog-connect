@@ -1,5 +1,5 @@
 import type { Product } from "@/types/product";
-import { Eye, Pencil, Trash2 } from "lucide-react";
+import { Eye, Pencil, Trash2, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface ProductCardProps {
