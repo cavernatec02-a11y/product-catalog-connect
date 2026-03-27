@@ -1,19 +1,16 @@
 import type { Product } from "@/types/product";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Plus } from "lucide-react";
 
 interface ProductDetailDialogProps {
   product: Product | null;
   onClose: () => void;
-  onSelect: (p: Product) => void;
 }
 
 function formatPrice(value: number) {
   return value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
-export function ProductDetailDialog({ product, onClose, onSelect }: ProductDetailDialogProps) {
+export function ProductDetailDialog({ product, onClose }: ProductDetailDialogProps) {
   if (!product) return null;
 
   return (
@@ -41,9 +38,6 @@ export function ProductDetailDialog({ product, onClose, onSelect }: ProductDetai
               <p className="font-bold text-lg text-foreground">{formatPrice(product.price)}</p>
             </div>
           </div>
-          <Button className="w-full" onClick={() => { onSelect(product); onClose(); }}>
-            <Plus className="w-4 h-4 mr-2" /> Adicionar ao Orçamento
-          </Button>
         </div>
       </DialogContent>
     </Dialog>
