@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 
 interface ProductCardProps {
   product: Product;
+  isFavorite: boolean;
+  onToggleFavorite: () => void;
   onDetails: () => void;
   onEdit: () => void;
   onDelete: () => void;
