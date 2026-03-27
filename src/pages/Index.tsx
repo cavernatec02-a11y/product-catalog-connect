@@ -154,30 +154,18 @@ const Index = () => {
           unit={unit}
           onUnitChange={setUnit}
           units={tableUnits}
+          showFavorites={showFavorites}
+          onToggleFavorites={() => setShowFavorites(!showFavorites)}
+          favoritesCount={favoritesCountForTable}
         />
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
             <span className="inline-block w-4 h-4">🔍</span>
             {displayProducts.length} produtos encontrados
           </p>
-          <div className="flex items-center gap-2">
-            <Button
-              size="sm"
-              variant={showFavorites ? "default" : "outline"}
-              onClick={() => setShowFavorites(!showFavorites)}
-            >
-              <Heart className={`w-4 h-4 mr-1 ${showFavorites ? "fill-current" : ""}`} />
-              Favoritos
-              {favorites.size > 0 && (
-                <span className="ml-1 text-xs bg-destructive text-destructive-foreground rounded-full px-1.5">
-                  {[...favorites].filter((k) => k.startsWith(activeTable)).length}
-                </span>
-              )}
-            </Button>
-            <Button size="sm" onClick={() => setAddDialogOpen(true)}>
-              <Plus className="w-4 h-4 mr-1" /> Adicionar
-            </Button>
-          </div>
+          <Button size="sm" onClick={() => setAddDialogOpen(true)}>
+            <Plus className="w-4 h-4 mr-1" /> Adicionar
+          </Button>
         </div>
         <ProductGrid
           products={displayProducts}
