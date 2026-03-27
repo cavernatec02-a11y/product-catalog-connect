@@ -119,6 +119,20 @@ const Index = () => {
     toast({ title: "Produto excluído", description: product.description, variant: "destructive" });
   }, []);
 
+  const handleToggleFavorite = useCallback((key: string) => {
+    setFavorites((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key); else next.add(key);
+      localStorage.setItem("ibratin-favorites", JSON.stringify([...next]));
+      return next;
+    });
+  }, []);
+
+  const displayProducts = useMemo(() => {
+    if (!showFavorites) return filtered;
+    return filtered.filter((p) => favorites.has(productKey(p)));
+  }, [filtered, showFavorites, favorites]);
+
   return (
     <div className="min-h-screen bg-background">
       <CatalogHeader
