@@ -81,10 +81,10 @@ const Index = () => {
           onSearchChange={setSearch}
           category={category}
           onCategoryChange={setCategory}
-          categories={categories}
+          categories={tableCategories}
           unit={unit}
           onUnitChange={setUnit}
-          units={units}
+          units={tableUnits}
         />
         <p className="text-muted-foreground text-sm mb-4 flex items-center gap-2">
           <span className="inline-block w-4 h-4">🔍</span>
