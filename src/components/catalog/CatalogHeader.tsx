@@ -17,7 +17,7 @@ export function CatalogHeader({ totalProducts, activeTable, onTableChange }: Cat
           <div>
             <h1 className="text-base font-bold text-foreground leading-tight">Catálogo de Produtos Ibratin</h1>
             <p className="text-xs text-muted-foreground">
-              {activeTable === "R11" ? "Tabela R11 - Pessoa Física" : "Tabela 019"}
+              {activeTable === "R11" ? "Tabela R11 - Pessoa Física" : activeTable === "019" ? "Tabela 019" : "Tabela G10 - Galeguinhos"}
             </p>
           </div>
         </div>
@@ -34,6 +34,12 @@ export function CatalogHeader({ totalProducts, activeTable, onTableChange }: Cat
               className={`px-3 py-1.5 text-xs font-semibold transition-colors ${activeTable === "019" ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:text-foreground"}`}
             >
               Tabela 019
+            </button>
+            <button
+              onClick={() => onTableChange("G10")}
+              className={`px-3 py-1.5 text-xs font-semibold transition-colors ${activeTable === "G10" ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:text-foreground"}`}
+            >
+              Tabela G10
             </button>
           </div>
           <span className="text-sm text-muted-foreground hidden sm:block">
