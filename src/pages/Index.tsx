@@ -157,11 +157,11 @@ const Index = () => {
         <ProductGrid
           products={displayProducts}
           favorites={favorites}
+          showFavoritesView={showFavorites}
           onToggleFavorite={handleToggleFavorite}
           productKey={productKey}
           onDetails={setSelectedProduct}
           onEdit={setEditingProduct}
-          onDelete={handleDeleteProduct}
         />
       </main>
       <ProductDetailDialog product={selectedProduct} onClose={() => setSelectedProduct(null)} />
