@@ -5,6 +5,8 @@ interface CatalogHeaderProps {
   totalProducts: number;
   quoteCount: number;
   onQuoteOpen: () => void;
+  activeTable: string;
+  onTableChange: (table: string) => void;
 }
 
 export function CatalogHeader({ totalProducts, quoteCount, onQuoteOpen }: CatalogHeaderProps) {
