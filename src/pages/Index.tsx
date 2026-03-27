@@ -28,9 +28,9 @@ const Index = () => {
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [favorites, setFavorites] = useState<Set<string>>(() => {
     try {
-      const saved = localStorage.getItem("ibratin-favorites");
-      return saved ? new Set(JSON.parse(saved)) : new Set<string>();
-    } catch { return new Set<string>(); }
+      localStorage.removeItem("ibratin-favorites");
+    } catch {}
+    return new Set<string>();
   });
   const [showFavorites, setShowFavorites] = useState(false);
 
