@@ -5,10 +5,12 @@ import { Button } from "@/components/ui/button";
 interface ProductCardProps {
   product: Product;
   isFavorite: boolean;
+  isAdded: boolean;
   showFavoritesView: boolean;
   onToggleFavorite: () => void;
   onDetails: () => void;
   onEdit: () => void;
+  onDelete?: () => void;
 }
 
 const unitColorMap: Record<string, string> = {
