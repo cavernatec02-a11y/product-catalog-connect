@@ -23,11 +23,18 @@ function formatPrice(value: number) {
   return value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
-export function ProductCard({ product, onDetails, onEdit, onDelete }: ProductCardProps) {
+export function ProductCard({ product, isFavorite, onToggleFavorite, onDetails, onEdit, onDelete }: ProductCardProps) {
   const badgeClass = unitColorMap[product.unit] || "bg-catalog-badge-default";
 
   return (
-    <div className="bg-card border rounded-xl p-4 flex flex-col justify-between hover:border-primary/40 transition-colors animate-fade-in">
+    <div className="bg-card border rounded-xl p-4 flex flex-col justify-between hover:border-primary/40 transition-colors animate-fade-in relative">
+      <button
+        onClick={onToggleFavorite}
+        className="absolute top-3 right-3 p-1 rounded-full hover:bg-muted transition-colors"
+        aria-label={isFavorite ? "Remover dos favoritos" : "Adicionar aos favoritos"}
+      >
+        <Heart className={`w-4 h-4 ${isFavorite ? "fill-red-500 text-red-500" : "text-muted-foreground"}`} />
+      </button>
       <div>
         <div className="flex items-start justify-between mb-2">
           <div>

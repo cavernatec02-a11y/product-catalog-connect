@@ -154,14 +154,32 @@ const Index = () => {
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
             <span className="inline-block w-4 h-4">🔍</span>
-            {filtered.length} produtos encontrados
+            {displayProducts.length} produtos encontrados
           </p>
-          <Button size="sm" onClick={() => setAddDialogOpen(true)}>
-            <Plus className="w-4 h-4 mr-1" /> Adicionar Produto
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button
+              size="sm"
+              variant={showFavorites ? "default" : "outline"}
+              onClick={() => setShowFavorites(!showFavorites)}
+            >
+              <Heart className={`w-4 h-4 mr-1 ${showFavorites ? "fill-current" : ""}`} />
+              Favoritos
+              {favorites.size > 0 && (
+                <span className="ml-1 text-xs bg-destructive text-destructive-foreground rounded-full px-1.5">
+                  {[...favorites].filter((k) => k.startsWith(activeTable)).length}
+                </span>
+              )}
+            </Button>
+            <Button size="sm" onClick={() => setAddDialogOpen(true)}>
+              <Plus className="w-4 h-4 mr-1" /> Adicionar
+            </Button>
+          </div>
         </div>
         <ProductGrid
-          products={filtered}
+          products={displayProducts}
+          favorites={favorites}
+          onToggleFavorite={handleToggleFavorite}
+          productKey={productKey}
           onDetails={setSelectedProduct}
           onEdit={setEditingProduct}
           onDelete={handleDeleteProduct}
