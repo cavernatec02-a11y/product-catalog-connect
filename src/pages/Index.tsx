@@ -22,11 +22,19 @@ const Index = () => {
   const [unit, setUnit] = useState("Todos");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
-  const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>({});
-  const [addedProducts, setAddedProducts] = useState<Product[]>([]);
-  const [deletedKeys, setDeletedKeys] = useState<Set<string>>(new Set());
+  const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>(() => {
+    try { return JSON.parse(localStorage.getItem("ibratin-edits") || "{}"); } catch { return {}; }
+  });
+  const [addedProducts, setAddedProducts] = useState<Product[]>(() => {
+    try { return JSON.parse(localStorage.getItem("ibratin-added") || "[]"); } catch { return []; }
+  });
+  const [deletedKeys, setDeletedKeys] = useState<Set<string>>(() => {
+    try { return new Set(JSON.parse(localStorage.getItem("ibratin-deleted") || "[]")); } catch { return new Set(); }
+  });
   const [addDialogOpen, setAddDialogOpen] = useState(false);
-  const [favorites, setFavorites] = useState<Set<string>>(new Set());
+  const [favorites, setFavorites] = useState<Set<string>>(() => {
+    try { return new Set(JSON.parse(localStorage.getItem("ibratin-favorites") || "[]")); } catch { return new Set(); }
+  });
   const [showFavorites, setShowFavorites] = useState(false);
 
   const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
@@ -99,11 +107,19 @@ const Index = () => {
     );
     const keyBase = origProduct || original;
     const editKey = productKey(keyBase);
-    setEdits((prev) => ({ ...prev, [editKey]: updated }));
+    setEdits((prev) => {
+      const next = { ...prev, [editKey]: updated };
+      localStorage.setItem("ibratin-edits", JSON.stringify(next));
+      return next;
+    });
   }, []);
 
   const handleAddProduct = useCallback((product: Product) => {
-    setAddedProducts((prev) => [...prev, product]);
+    setAddedProducts((prev) => {
+      const next = [...prev, product];
+      localStorage.setItem("ibratin-added", JSON.stringify(next));
+      return next;
+    });
     toast({ title: "Produto adicionado", description: product.description });
   }, []);
 
@@ -112,9 +128,14 @@ const Index = () => {
     setDeletedKeys((prev) => {
       const next = new Set(prev);
       next.add(key);
+      localStorage.setItem("ibratin-deleted", JSON.stringify([...next]));
       return next;
     });
-    setAddedProducts((prev) => prev.filter((p) => productKey(p) !== key));
+    setAddedProducts((prev) => {
+      const next = prev.filter((p) => productKey(p) !== key);
+      localStorage.setItem("ibratin-added", JSON.stringify(next));
+      return next;
+    });
     setFavorites((prev) => {
       const next = new Set(prev);
       next.delete(key);
