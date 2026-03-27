@@ -11,6 +11,7 @@ import { ProductEditDialog } from "@/components/catalog/ProductEditDialog";
 const baseProducts = productsData as Product[];
 
 const normalize = (value: string) => value.trim().toLowerCase();
+const getProductKey = (product: Pick<Product, "code" | "table">) => `${product.table ?? "R11"}|${product.code}`;
 
 const Index = () => {
   const [activeTable, setActiveTable] = useState("R11");
@@ -94,22 +95,23 @@ const Index = () => {
   }, []);
 
   const addToQuote = (product: Product) => {
+    const productKey = getProductKey(product);
     setQuoteItems((prev) => {
-      const existing = prev.find((item) => item.code === product.code);
+      const existing = prev.find((item) => getProductKey(item) === productKey);
       if (existing) {
-        return prev.map((item) => (item.code === product.code ? { ...item, quantity: item.quantity + 1 } : item));
+        return prev.map((item) => (getProductKey(item) === productKey ? { ...item, quantity: item.quantity + 1 } : item));
       }
       return [...prev, { ...product, quantity: 1 }];
     });
   };
 
-  const removeFromQuote = (code: string) => {
-    setQuoteItems((prev) => prev.filter((item) => item.code !== code));
+  const removeFromQuote = (itemKey: string) => {
+    setQuoteItems((prev) => prev.filter((item) => getProductKey(item) !== itemKey));
   };
 
-  const updateQuantity = (code: string, qty: number) => {
-    if (qty < 1) return removeFromQuote(code);
-    setQuoteItems((prev) => prev.map((item) => (item.code === code ? { ...item, quantity: qty } : item)));
+  const updateQuantity = (itemKey: string, qty: number) => {
+    if (qty < 1) return removeFromQuote(itemKey);
+    setQuoteItems((prev) => prev.map((item) => (getProductKey(item) === itemKey ? { ...item, quantity: qty } : item)));
   };
 
   return (
