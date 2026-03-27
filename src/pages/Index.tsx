@@ -12,6 +12,7 @@ const categories = ["Todas as Categorias", ...Array.from(new Set(allProducts.map
 const units = ["Todos", ...Array.from(new Set(allProducts.map(p => p.unit).filter(Boolean)))];
 
 const Index = () => {
+  const [activeTable, setActiveTable] = useState("R11");
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("Todas as Categorias");
   const [unit, setUnit] = useState("Todos");
@@ -19,8 +20,26 @@ const Index = () => {
   const [quoteOpen, setQuoteOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
+  const tableProducts = useMemo(() => allProducts.filter(p => p.table === activeTable), [activeTable]);
+  
+  const tableCategories = useMemo(() => 
+    ["Todas as Categorias", ...Array.from(new Set(tableProducts.map(p => p.category)))],
+    [tableProducts]
+  );
+  const tableUnits = useMemo(() => 
+    ["Todos", ...Array.from(new Set(tableProducts.map(p => p.unit).filter(Boolean)))],
+    [tableProducts]
+  );
+
+  const handleTableChange = (table: string) => {
+    setActiveTable(table);
+    setCategory("Todas as Categorias");
+    setUnit("Todos");
+    setSearch("");
+  };
+
   const filtered = useMemo(() => {
-    return allProducts.filter(p => {
+    return tableProducts.filter(p => {
       const matchSearch = !search || 
         p.code.toLowerCase().includes(search.toLowerCase()) ||
         p.description.toLowerCase().includes(search.toLowerCase());
@@ -28,7 +47,7 @@ const Index = () => {
       const matchUnit = unit === "Todos" || p.unit === unit;
       return matchSearch && matchCat && matchUnit;
     });
-  }, [search, category, unit]);
+  }, [search, category, unit, tableProducts]);
 
   const addToQuote = (product: Product) => {
     setQuoteItems(prev => {
