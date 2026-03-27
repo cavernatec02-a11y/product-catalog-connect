@@ -69,9 +69,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <CatalogHeader
-        totalProducts={allProducts.length}
+        totalProducts={tableProducts.length}
         quoteCount={quoteItems.length}
         onQuoteOpen={() => setQuoteOpen(true)}
+        activeTable={activeTable}
+        onTableChange={handleTableChange}
       />
       <main className="container mx-auto px-4 py-6">
         <CatalogFilters
