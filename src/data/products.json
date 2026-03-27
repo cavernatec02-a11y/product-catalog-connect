@@ -6342,5 +6342,781 @@
     "price": 5.52,
     "category": "Tabela 019",
     "table": "019"
+  },
+  {
+    "code": "5380.S00007.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 147.81,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00008.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 37.24,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00008.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 180.85,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00009.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 39.34,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00009.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 191.35,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00010.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 39.17,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00010.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 190.53,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00011.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 34.18,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00011.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 165.57,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00012.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 38.62,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00012.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 187.76,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00013.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 31.63,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00013.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 152.83,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00014.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 40.24,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00014.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 195.87,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00015.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 31.48,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00015.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 152.07,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00016.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 41.03,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00016.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 199.79,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00017.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 30.79,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00017.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 148.61,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00018.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 31.58,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00018.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 152.57,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00019.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 31.17,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00019.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 150.49,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00020.0",
+    "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 30.77,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5380.S00020.4",
+    "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 148.49,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.000050.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 34.32,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.0000AB.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GL 4,9 KGS",
+    "unit": "GL",
+    "price": 34.32,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.0000AB.4",
+    "description": "C.LUSSO CIMENTO QUEIMADO - BL 24,5 KGS",
+    "unit": "BL",
+    "price": 166.35,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.000100.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 34.36,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.000A0A.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 34.34,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.000A0A.1",
+    "description": "C.LUSSO CIMENTO QUEIMADO - PT 1,0 KG",
+    "unit": "PT",
+    "price": 7.51,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.000A0A.4",
+    "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 166.35,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.000A0A.D",
+    "description": "C.LUSSO CIMENTO QUEIMADO - PLACA AMOSTRA",
+    "unit": "UN",
+    "price": 6.84,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.003A0A.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 34.46,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.003A0A.4",
+    "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 166.95,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.999A9A.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 34.93,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.999A9A.1",
+    "description": "C.LUSSO CIMENTO QUEIMADO - PT 1,0 KG",
+    "unit": "PT",
+    "price": 6.35,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.999A9A.4",
+    "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 169.29,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.999A9A.D",
+    "description": "C.LUSSO CIMENTO QUEIMADO - PLACA AMOSTRA",
+    "unit": "UN",
+    "price": 6.96,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.S00001.0",
+    "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
+    "unit": "GL",
+    "price": 34.29,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.S00001.4",
+    "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
+    "unit": "BL",
+    "price": 166.13,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5381.S00001.D",
+    "description": "C.LUSSO CIMENTO QUEIMADO - PLACA AMOSTRA",
+    "unit": "UN",
+    "price": 10.24,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.000A0A.0",
+    "description": "C.LUSSO VERNICE - G.P. 6,0 KGS",
+    "unit": "GL",
+    "price": 9.31,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.000A0A.1",
+    "description": "C.LUSSO VERNICE - PT 1,6 KGS",
+    "unit": "PT",
+    "price": 3.55,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.000A0A.4",
+    "description": "C.LUSSO VERNICE - B.L. 30,0 KGS",
+    "unit": "BL",
+    "price": 31.66,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.000A0A.5",
+    "description": "C.LUSSO VERNICE - L.L. 30,0 KGS",
+    "unit": "LL",
+    "price": 53.2,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.003A0A.0",
+    "description": "C.LUSSO VERNICE - G.P. 6,0 KGS",
+    "unit": "GL",
+    "price": 9.29,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.003A0A.1",
+    "description": "C.LUSSO VERNICE - PT 1,6 KGS",
+    "unit": "PT",
+    "price": 3.55,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.003A0A.4",
+    "description": "C.LUSSO VERNICE - B.L. 30,0 KGS",
+    "unit": "BL",
+    "price": 31.35,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.003A0A.5",
+    "description": "C.LUSSO VERNICE - L.L. 30,0 KGS",
+    "unit": "LL",
+    "price": 53.1,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.999A9A.0",
+    "description": "C.LUSSO VERNICE - G.P. 6,0 KGS",
+    "unit": "GL",
+    "price": 9.59,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.999A9A.1",
+    "description": "C.LUSSO VERNICE - PT 1,6 KGS",
+    "unit": "PT",
+    "price": 3.63,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.999A9A.4",
+    "description": "C.LUSSO VERNICE - B.L. 30,0 KGS",
+    "unit": "BL",
+    "price": 32.24,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5382.999A9A.5",
+    "description": "C.LUSSO VERNICE - L.L. 30,0 KGS",
+    "unit": "LL",
+    "price": 54.62,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10001.0",
+    "description": "C.LUSSO RIFLESSI LISO BIAN - G.P. 6,0 KG",
+    "unit": "GL",
+    "price": 10.46,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10001.4",
+    "description": "C.LUSSO RIFLESSI LISO BIAN - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 46.94,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10001.5",
+    "description": "C.LUSSO RIFLESSI LISO BIAN - L.L. 30,0 K",
+    "unit": "LL",
+    "price": 46.94,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10001.D",
+    "description": "C.LUSSO RIFLESSI LISO BIAN - PLACA AMOST",
+    "unit": "UN",
+    "price": 2.11,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10002.0",
+    "description": "C.LUSSO RIFLESSI LISO NERO - G.P. 6,0 KG",
+    "unit": "GL",
+    "price": 10.47,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10002.4",
+    "description": "C.LUSSO RIFLESSI LISO NERO - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 47.02,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10002.5",
+    "description": "C.LUSSO RIFLESSI LISO NERO - L.L. 30,0 K",
+    "unit": "LL",
+    "price": 47.02,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10002.D",
+    "description": "C.LUSSO RIFLESSI LISO NERO - PLACA AMOST",
+    "unit": "UN",
+    "price": 2.11,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10003.0",
+    "description": "C.LUSSO RIFLESSI LISO VERD - G.P. 6,0 KG",
+    "unit": "GL",
+    "price": 10.67,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10003.4",
+    "description": "C.LUSSO RIFLESSI LISO VERD - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 48.01,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10003.5",
+    "description": "C.LUSSO RIFLESSI LISO VERD - L.L. 30,0 K",
+    "unit": "LL",
+    "price": 48.01,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10004.0",
+    "description": "C.LUSSO RIFLESSI LISO AZZU - G.P. 6,0 KG",
+    "unit": "GL",
+    "price": 10.58,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10004.4",
+    "description": "C.LUSSO RIFLESSI LISO AZZU - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 47.55,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10004.5",
+    "description": "C.LUSSO RIFLESSI LISO AZZU - L.L. 30,0 K",
+    "unit": "LL",
+    "price": 47.55,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10004.D",
+    "description": "C.LUSSO RIFLESSI LISO AZZU - PLACA AMOST",
+    "unit": "UN",
+    "price": 2.14,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10005.0",
+    "description": "C.LUSSO RIFLESSI LISO ROSS - G.P. 6,0 KG",
+    "unit": "GL",
+    "price": 10.64,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10005.4",
+    "description": "C.LUSSO RIFLESSI LISO ROSS - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 47.87,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10005.5",
+    "description": "C.LUSSO RIFLESSI LISO ROSS - L.L. 30,0 K",
+    "unit": "LL",
+    "price": 47.87,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10006.0",
+    "description": "C.LUSSO RIFLESSI LISO GIAL - G.P. 6,0 KG",
+    "unit": "GL",
+    "price": 10.65,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10006.4",
+    "description": "C.LUSSO RIFLESSI LISO GIAL - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 47.89,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10006.5",
+    "description": "C.LUSSO RIFLESSI LISO GIAL - L.L. 30,0 K",
+    "unit": "LL",
+    "price": 47.89,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10006.D",
+    "description": "C.LUSSO RIFLESSI LISO GIAL - PLACA AMOST",
+    "unit": "UN",
+    "price": 2.16,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10007.0",
+    "description": "C.LUSSO RIFLESSI LISO GRIG - G.P. 6,0 KG",
+    "unit": "GL",
+    "price": 10.46,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10007.4",
+    "description": "C.LUSSO RIFLESSI LISO GRIG - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 46.95,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10007.5",
+    "description": "C.LUSSO RIFLESSI LISO GRIG - L.L. 30,0 K",
+    "unit": "LL",
+    "price": 46.95,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10007.D",
+    "description": "C.LUSSO RIFLESSI LISO GRIG - PLACA AMOST",
+    "unit": "UN",
+    "price": 2.11,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10008.4",
+    "description": "C.LUSSO RIFLESSI L.BASE CREME - B.L. 30,",
+    "unit": "BL",
+    "price": 47.08,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5383.R10008.D",
+    "description": "C.LUSSO RIFLESSI L.BASE CREME - PLACA",
+    "unit": "UN",
+    "price": 2.11,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10001.0",
+    "description": "C.LUSSO RIFLESSI NOBI BIAN - G.P. 6,0",
+    "unit": "GL",
+    "price": 10.26,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10001.4",
+    "description": "C.LUSSO RIFLESSI NOBI BIAN - B.L. 30,",
+    "unit": "BL",
+    "price": 45.95,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10001.5",
+    "description": "C.LUSSO RIFLESSI NOBI BIAN - L.L. 30,",
+    "unit": "LL",
+    "price": 45.95,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10001.D",
+    "description": "C.LUSSO RIFLESSI NOBI BIAN - PLACA AM",
+    "unit": "UN",
+    "price": 2.52,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10002.0",
+    "description": "C.LUSSO RIFLESSI NOBI NERO - G.P. 6,0",
+    "unit": "GL",
+    "price": 10.27,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10002.4",
+    "description": "C.LUSSO RIFLESSI NOBI NERO - B.L. 30,",
+    "unit": "BL",
+    "price": 46.03,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10002.5",
+    "description": "C.LUSSO RIFLESSI NOBI NERO - L.L. 30,",
+    "unit": "LL",
+    "price": 46.03,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10003.0",
+    "description": "C.LUSSO RIFLESSI NOBI VERD - G.P. 6,0",
+    "unit": "GL",
+    "price": 10.67,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10003.4",
+    "description": "C.LUSSO RIFLESSI NOBI VERD - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 48.01,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10003.5",
+    "description": "C.LUSSO RIFLESSI NOBI VERD - L.L. 30,",
+    "unit": "LL",
+    "price": 48.01,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10004.0",
+    "description": "C.LUSSO RIFLESSI NOBI AZZU - G.P. 6,0",
+    "unit": "GL",
+    "price": 10.38,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10004.4",
+    "description": "C.LUSSO RIFLESSI NOBI AZZU - B.L. 30,0 K",
+    "unit": "BL",
+    "price": 46.56,
+    "category": "Tabela 019",
+    "table": "019"
+  },
+  {
+    "code": "5384.R10004.5",
+    "description": "C.LUSSO RIFLESSI NOBI AZZU - L.L. 30,",
+    "unit": "LL",
+    "price": 46.56,
+    "category": "Tabela 019",
+    "table": "019"
   }
 ]
