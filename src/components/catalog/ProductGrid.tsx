@@ -3,9 +3,12 @@ import { ProductCard } from "./ProductCard";
 
 interface ProductGridProps {
   products: Product[];
+  favorites: Set<string>;
+  onToggleFavorite: (key: string) => void;
   onDetails: (p: Product) => void;
   onEdit: (p: Product) => void;
   onDelete: (p: Product) => void;
+  productKey: (p: Product) => string;
 }
 
 export function ProductGrid({ products, onDetails, onEdit, onDelete }: ProductGridProps) {
