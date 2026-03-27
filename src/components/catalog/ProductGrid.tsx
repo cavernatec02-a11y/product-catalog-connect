@@ -9,10 +9,12 @@ const PAGE_SIZE = 40;
 interface ProductGridProps {
   products: Product[];
   favorites: Set<string>;
+  addedKeys: Set<string>;
   showFavoritesView: boolean;
   onToggleFavorite: (key: string) => void;
   onDetails: (p: Product) => void;
   onEdit: (p: Product) => void;
+  onDelete: (p: Product) => void;
   productKey: (p: Product) => string;
 }
 
