@@ -1,4 +1,5 @@
 import { Package } from "lucide-react";
+import logoIbratin from "@/assets/logo-ibratin.webp";
 
 interface CatalogHeaderProps {
   totalProducts: number;
@@ -11,9 +12,7 @@ export function CatalogHeader({ totalProducts, activeTable, onTableChange }: Cat
     <header className="sticky top-0 z-50 border-b bg-card/80 backdrop-blur-md">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
-            <Package className="w-5 h-5 text-primary-foreground" />
-          </div>
+          <img src={logoIbratin} alt="Ibratin Tintas e Texturas" className="h-10 w-auto" />
           <div>
             <h1 className="text-base font-bold text-foreground leading-tight">Catálogo de Produtos Ibratin</h1>
             <p className="text-xs text-muted-foreground">
