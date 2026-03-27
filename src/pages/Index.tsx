@@ -24,7 +24,7 @@ const Index = () => {
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>({});
   const [addedProducts, setAddedProducts] = useState<Product[]>([]);
-  const [deletedKeys, setDeletedKeys] = useState<Set<string>>(new Set());
+  const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
