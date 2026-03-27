@@ -107,11 +107,19 @@ const Index = () => {
     );
     const keyBase = origProduct || original;
     const editKey = productKey(keyBase);
-    setEdits((prev) => ({ ...prev, [editKey]: updated }));
+    setEdits((prev) => {
+      const next = { ...prev, [editKey]: updated };
+      localStorage.setItem("ibratin-edits", JSON.stringify(next));
+      return next;
+    });
   }, []);
 
   const handleAddProduct = useCallback((product: Product) => {
-    setAddedProducts((prev) => [...prev, product]);
+    setAddedProducts((prev) => {
+      const next = [...prev, product];
+      localStorage.setItem("ibratin-added", JSON.stringify(next));
+      return next;
+    });
     toast({ title: "Produto adicionado", description: product.description });
   }, []);
 
@@ -120,9 +128,14 @@ const Index = () => {
     setDeletedKeys((prev) => {
       const next = new Set(prev);
       next.add(key);
+      localStorage.setItem("ibratin-deleted", JSON.stringify([...next]));
       return next;
     });
-    setAddedProducts((prev) => prev.filter((p) => productKey(p) !== key));
+    setAddedProducts((prev) => {
+      const next = prev.filter((p) => productKey(p) !== key);
+      localStorage.setItem("ibratin-added", JSON.stringify(next));
+      return next;
+    });
     setFavorites((prev) => {
       const next = new Set(prev);
       next.delete(key);
