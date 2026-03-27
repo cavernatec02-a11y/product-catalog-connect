@@ -7,13 +7,15 @@ interface QuoteDrawerProps {
   open: boolean;
   onOpenChange: (v: boolean) => void;
   items: QuoteItem[];
-  onRemove: (code: string) => void;
-  onUpdateQuantity: (code: string, qty: number) => void;
+  onRemove: (itemKey: string) => void;
+  onUpdateQuantity: (itemKey: string, qty: number) => void;
 }
 
 function formatPrice(value: number) {
   return value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
+
+const getItemKey = (item: Pick<QuoteItem, "code" | "table">) => `${item.table ?? "R11"}|${item.code}`;
 
 export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity }: QuoteDrawerProps) {
   const total = items.reduce((sum, i) => sum + i.price * i.quantity, 0);
@@ -29,23 +31,23 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
         ) : (
           <div className="mt-4 space-y-3">
             {items.map(item => (
-              <div key={item.code} className="bg-muted rounded-lg p-3 space-y-2">
+              <div key={getItemKey(item)} className="bg-muted rounded-lg p-3 space-y-2">
                 <div className="flex justify-between items-start">
                   <div className="flex-1 min-w-0">
                     <p className="text-xs font-mono text-catalog-code">{item.code}</p>
                     <p className="text-sm font-medium text-foreground truncate">{item.description}</p>
                   </div>
-                  <Button variant="ghost" size="icon" className="shrink-0 h-7 w-7" onClick={() => onRemove(item.code)}>
+                  <Button variant="ghost" size="icon" className="shrink-0 h-7 w-7" onClick={() => onRemove(getItemKey(item))}>
                     <Trash2 className="w-3.5 h-3.5 text-destructive" />
                   </Button>
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-1">
-                    <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => onUpdateQuantity(item.code, item.quantity - 1)}>
+                    <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => onUpdateQuantity(getItemKey(item), item.quantity - 1)}>
                       <Minus className="w-3 h-3" />
                     </Button>
                     <span className="w-8 text-center text-sm font-medium text-foreground">{item.quantity}</span>
-                    <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => onUpdateQuantity(item.code, item.quantity + 1)}>
+                    <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => onUpdateQuantity(getItemKey(item), item.quantity + 1)}>
                       <Plus className="w-3 h-3" />
                     </Button>
                   </div>
