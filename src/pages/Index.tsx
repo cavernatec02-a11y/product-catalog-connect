@@ -4,22 +4,17 @@ import productsData from "@/data/products.json";
 import { CatalogHeader } from "@/components/catalog/CatalogHeader";
 import { CatalogFilters } from "@/components/catalog/CatalogFilters";
 import { ProductGrid } from "@/components/catalog/ProductGrid";
-import { QuoteDrawer } from "@/components/catalog/QuoteDrawer";
 import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 import { ProductEditDialog } from "@/components/catalog/ProductEditDialog";
 
 const baseProducts = productsData as Product[];
 
 const normalize = (value: string) => value.trim().toLowerCase();
-const getProductKey = (product: Pick<Product, "code" | "table">) => `${product.table ?? "R11"}|${product.code}`;
-
 const Index = () => {
   const [activeTable, setActiveTable] = useState("R11");
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("Todas as Categorias");
   const [unit, setUnit] = useState("Todos");
-  const [quoteItems, setQuoteItems] = useState<QuoteItem[]>([]);
-  const [quoteOpen, setQuoteOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>({});
@@ -94,32 +89,10 @@ const Index = () => {
     setEdits((prev) => ({ ...prev, [editKey]: updated }));
   }, []);
 
-  const addToQuote = (product: Product) => {
-    const productKey = getProductKey(product);
-    setQuoteItems((prev) => {
-      const existing = prev.find((item) => getProductKey(item) === productKey);
-      if (existing) {
-        return prev.map((item) => (getProductKey(item) === productKey ? { ...item, quantity: item.quantity + 1 } : item));
-      }
-      return [...prev, { ...product, quantity: 1 }];
-    });
-  };
-
-  const removeFromQuote = (itemKey: string) => {
-    setQuoteItems((prev) => prev.filter((item) => getProductKey(item) !== itemKey));
-  };
-
-  const updateQuantity = (itemKey: string, qty: number) => {
-    if (qty < 1) return removeFromQuote(itemKey);
-    setQuoteItems((prev) => prev.map((item) => (getProductKey(item) === itemKey ? { ...item, quantity: qty } : item)));
-  };
-
   return (
     <div className="min-h-screen bg-background">
       <CatalogHeader
         totalProducts={tableProducts.length}
-        quoteCount={quoteItems.length}
-        onQuoteOpen={() => setQuoteOpen(true)}
         activeTable={activeTable}
         onTableChange={handleTableChange}
       />
@@ -140,19 +113,11 @@ const Index = () => {
         </p>
         <ProductGrid
           products={filtered}
-          onSelect={addToQuote}
           onDetails={setSelectedProduct}
           onEdit={setEditingProduct}
         />
       </main>
-      <QuoteDrawer
-        open={quoteOpen}
-        onOpenChange={setQuoteOpen}
-        items={quoteItems}
-        onRemove={removeFromQuote}
-        onUpdateQuantity={updateQuantity}
-      />
-      <ProductDetailDialog product={selectedProduct} onClose={() => setSelectedProduct(null)} onSelect={addToQuote} />
+      <ProductDetailDialog product={selectedProduct} onClose={() => setSelectedProduct(null)} />
       <ProductEditDialog
         product={editingProduct}
         onClose={() => setEditingProduct(null)}

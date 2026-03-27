@@ -1,10 +1,9 @@
 import type { Product } from "@/types/product";
-import { Eye, Plus, Pencil } from "lucide-react";
+import { Eye, Pencil } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface ProductCardProps {
   product: Product;
-  onSelect: () => void;
   onDetails: () => void;
   onEdit: () => void;
 }
@@ -21,7 +20,7 @@ function formatPrice(value: number) {
   return value.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
-export function ProductCard({ product, onSelect, onDetails, onEdit }: ProductCardProps) {
+export function ProductCard({ product, onDetails, onEdit }: ProductCardProps) {
   const badgeClass = unitColorMap[product.unit] || "bg-catalog-badge-default";
 
   return (
@@ -51,9 +50,6 @@ export function ProductCard({ product, onSelect, onDetails, onEdit }: ProductCar
         </Button>
         <Button variant="ghost" size="sm" className="text-xs px-2" onClick={onEdit}>
           <Pencil className="w-3.5 h-3.5" />
-        </Button>
-        <Button size="sm" className="flex-1 text-xs" onClick={onSelect}>
-          <Plus className="w-3.5 h-3.5 mr-1" /> Selecionar
         </Button>
       </div>
     </div>
