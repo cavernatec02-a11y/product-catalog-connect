@@ -29,8 +29,8 @@ export function CatalogFilters({
       </div>
       <div className="flex gap-3 flex-wrap">
         <Select value={category} onValueChange={onCategoryChange}>
-          <SelectTrigger className="w-[200px] bg-muted border-0">
-            <SelectValue />
+          <SelectTrigger className="w-[240px] bg-muted border-0">
+            <SelectValue placeholder="Categoria" />
           </SelectTrigger>
           <SelectContent>
             {categories.map(c => (
@@ -39,8 +39,8 @@ export function CatalogFilters({
           </SelectContent>
         </Select>
         <Select value={unit} onValueChange={onUnitChange}>
-          <SelectTrigger className="w-[120px] bg-muted border-0">
-            <SelectValue />
+          <SelectTrigger className="w-[160px] bg-muted border-0">
+            <SelectValue placeholder="Embalagem" />
           </SelectTrigger>
           <SelectContent>
             {units.map(u => (
