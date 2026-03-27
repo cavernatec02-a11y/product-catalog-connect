@@ -5,9 +5,10 @@ interface ProductGridProps {
   products: Product[];
   onSelect: (p: Product) => void;
   onDetails: (p: Product) => void;
+  onEdit: (p: Product) => void;
 }
 
-export function ProductGrid({ products, onSelect, onDetails }: ProductGridProps) {
+export function ProductGrid({ products, onSelect, onDetails, onEdit }: ProductGridProps) {
   if (products.length === 0) {
     return (
       <div className="text-center py-20 text-muted-foreground">
@@ -25,6 +26,7 @@ export function ProductGrid({ products, onSelect, onDetails }: ProductGridProps)
           product={product}
           onSelect={() => onSelect(product)}
           onDetails={() => onDetails(product)}
+          onEdit={() => onEdit(product)}
         />
       ))}
     </div>
