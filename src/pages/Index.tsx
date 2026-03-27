@@ -106,6 +106,15 @@ const Index = () => {
     toast({ title: "Produto adicionado", description: product.description });
   }, []);
 
+  const handleDeleteAddedProduct = useCallback((product: Product) => {
+    setAddedProducts((prev) => prev.filter((p) => productKey(p) !== productKey(product)));
+    toast({ title: "Produto excluído", description: product.description, variant: "destructive" });
+  }, []);
+
+  const addedKeys = useMemo(() => {
+    return new Set(addedProducts.map((p) => productKey(p)));
+  }, [addedProducts]);
+
   const handleToggleFavorite = useCallback((key: string) => {
     setFavorites((prev) => {
       const next = new Set(prev);
