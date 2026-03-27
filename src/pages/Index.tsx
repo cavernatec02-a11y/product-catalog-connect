@@ -26,7 +26,6 @@ const Index = () => {
   const [addedProducts, setAddedProducts] = useState<Product[]>([]);
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
-  const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
 
   const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
@@ -38,8 +37,8 @@ const Index = () => {
       if (edit) return { ...p, code: edit.code, price: edit.price };
       return p;
     });
-    return [...edited, ...addedProducts].filter((p) => !deletedKeys.has(productKey(p)));
-  }, [edits, addedProducts, deletedKeys]);
+    return [...edited, ...addedProducts];
+  }, [edits, addedProducts]);
 
   const normalizedProducts = useMemo(() => {
     const seen = new Set<string>();
