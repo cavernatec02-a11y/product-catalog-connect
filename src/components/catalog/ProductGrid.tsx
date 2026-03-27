@@ -42,10 +42,10 @@ export function ProductGrid({ products, favorites, showFavoritesView, onToggleFa
               key={`${product.table}-${product.code}-${currentPage}-${index}`}
               product={product}
               isFavorite={favorites.has(key)}
+              showFavoritesView={showFavoritesView}
               onToggleFavorite={() => onToggleFavorite(key)}
               onDetails={() => onDetails(product)}
               onEdit={() => onEdit(product)}
-              onDelete={() => onDelete(product)}
             />
           );
         })}
