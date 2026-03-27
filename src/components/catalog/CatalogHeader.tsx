@@ -1,4 +1,5 @@
 import { Package } from "lucide-react";
+import logoIbratin from "@/assets/logo-ibratin.webp";
 
 interface CatalogHeaderProps {
   totalProducts: number;
