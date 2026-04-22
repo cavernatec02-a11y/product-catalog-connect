@@ -32451,7 +32451,7 @@
     "code": "5200.002A0A.0",
     "description": "TINTA ECONOMICA P/GESSO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 38.5,
+    "price": 47.5,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32459,7 +32459,7 @@
     "code": "5200.002A0A.4",
     "description": "TINTA ECONOMICA P/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 169.9,
+    "price": 190.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32571,7 +32571,7 @@
     "code": "5407.002A0A.4",
     "description": "TINTA ACR SEMI BRILHO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 350.0,
+    "price": 365.99,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32611,7 +32611,7 @@
     "code": "5432.00000A.0",
     "description": "BASE TINTA PREMIUM A - GL 3,2 LTS",
     "unit": "GL",
-    "price": 78.75,
+    "price": 89.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32619,7 +32619,7 @@
     "code": "5432.00000A.4",
     "description": "BASE TINTA PREMIUM A - BL 16,2 LTS",
     "unit": "BL",
-    "price": 334.4,
+    "price": 389.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32627,7 +32627,7 @@
     "code": "5432.00000B.0",
     "description": "BASE TINTA PREMIUM B - GL 3,2 LTS",
     "unit": "GL",
-    "price": 78.75,
+    "price": 89.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32635,7 +32635,7 @@
     "code": "5432.00000B.4",
     "description": "BASE TINTA PREMIUM B - BL 16,2 LTS",
     "unit": "BL",
-    "price": 334.4,
+    "price": 389.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32659,7 +32659,7 @@
     "code": "5435.002A0A.4",
     "description": "TINTA PREMIUM DECORA PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 375.0,
+    "price": 432.99,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32675,7 +32675,7 @@
     "code": "5456.002A0A.4",
     "description": "TINTA LIMPEZA TOTAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 399.0,
+    "price": 439.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32707,7 +32707,7 @@
     "code": "5511.003A0A.4",
     "description": "CRISTALLINI GROSSO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 180.0,
+    "price": 200.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32715,7 +32715,7 @@
     "code": "5525.003A0A.4",
     "description": "TEXTURA PROJETADA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 159.5,
+    "price": 200.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32747,7 +32747,7 @@
     "code": "5540.003A0A.4",
     "description": "CRISTALLINI PREMIUM - BL 28,0 KGS",
     "unit": "BL",
-    "price": 180.0,
+    "price": 195.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32755,7 +32755,7 @@
     "code": "5542.003A0A.4",
     "description": "CRISTALLINI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 253.0,
+    "price": 255.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32875,7 +32875,7 @@
     "code": "7850.F",
     "description": "PIG AZUL ORGANICO - FR 70 GRAMAS",
     "unit": "FR",
-    "price": 8.4,
+    "price": 9.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34707,7 +34707,7 @@
     "code": "8101.000001.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 88.0,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34795,7 +34795,7 @@
     "code": "8103.000001.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 104.5,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34803,7 +34803,7 @@
     "code": "8103.000001.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 27.5,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34915,7 +34915,7 @@
     "code": "8202.000000.4",
     "description": "SELADOR ACRILICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 96.8,
+    "price": 107.99,
     "category": "Complementos",
     "table": "G10"
   },
@@ -34979,7 +34979,7 @@
     "code": "8303.000010.0",
     "description": "TINTA ACRILICA STANDARD - GA 3,6 LTS",
     "unit": "GL",
-    "price": 55.0,
+    "price": 60.99,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35123,7 +35123,7 @@
     "code": "8305.000014.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35131,7 +35131,7 @@
     "code": "8305.000014.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 201.3,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35299,7 +35299,7 @@
     "code": "8307.000003.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35307,7 +35307,7 @@
     "code": "8307.000003.4",
     "description": "NACOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 99.99,
+    "price": 112.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35523,7 +35523,7 @@
     "code": "8316.000010.0",
     "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 60.0,
+    "price": 70.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35603,7 +35603,7 @@
     "code": "8401.000000.2",
     "description": "MASSA ACRILICA - GP 5,0 KGS",
     "unit": "GL",
-    "price": 28.0,
+    "price": 29.99,
     "category": "Complementos",
     "table": "G10"
   },
@@ -35611,7 +35611,7 @@
     "code": "8401.000000.8",
     "description": "MASSA ACRILICA - BL 25,0 KGS",
     "unit": "BL",
-    "price": 98.9,
+    "price": 105.0,
     "category": "Complementos",
     "table": "G10"
   },
@@ -35667,7 +35667,7 @@
     "code": "8501.000000.0",
     "description": "ANTI MOFO - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.5,
+    "price": 35.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35747,7 +35747,7 @@
     "code": "8601.0000AB.8",
     "description": "BASE AB CRISTALINI PREMIUM - BL 22,0 KGS",
     "unit": "BL",
-    "price": 180.0,
+    "price": 202.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35763,7 +35763,7 @@
     "code": "8603.000010.8",
     "description": "TEXTURA LISA PREMIUM - BL 25,0 KGS",
     "unit": "BL",
-    "price": 137.5,
+    "price": 150.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35771,7 +35771,7 @@
     "code": "8603.000010.J",
     "description": "TEXTURA LISA PREMIUM - BL 22,0 KGS",
     "unit": "BL",
-    "price": 137.5,
+    "price": 150.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35795,7 +35795,7 @@
     "code": "8604.000010.8",
     "description": "TEXTURA RUSTICA PREMIUM - BL 25,0 KGS",
     "unit": "BL",
-    "price": 137.5,
+    "price": 150.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35803,7 +35803,7 @@
     "code": "8604.000010.J",
     "description": "TEXTURA RUSTICA PREMIUM - BL 22,0 KGS",
     "unit": "BL",
-    "price": 137.5,
+    "price": 150.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -36243,7 +36243,7 @@
     "code": "8708.000000.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36419,7 +36419,7 @@
     "code": "8801.000050.0",
     "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
     "unit": "GA",
-    "price": 69.3,
+    "price": 69.99,
     "category": "Outros",
     "table": "G10"
   },
@@ -36459,7 +36459,7 @@
     "code": "8805.000000.1",
     "description": "NACOR GLITTER - PT 600 ML",
     "unit": "PT",
-    "price": 36.6,
+    "price": 42.99,
     "category": "Outros",
     "table": "G10"
   },
