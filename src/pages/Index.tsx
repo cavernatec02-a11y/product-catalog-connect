@@ -8,7 +8,7 @@ import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 import { ProductEditDialog } from "@/components/catalog/ProductEditDialog";
 import { ProductAddDialog } from "@/components/catalog/ProductAddDialog";
 import { Button } from "@/components/ui/button";
-import { Plus, Search } from "lucide-react";
+import { Plus, Search as SearchIcon } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 const baseProducts = productsData as Product[];
