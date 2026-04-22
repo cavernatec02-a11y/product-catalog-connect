@@ -186,11 +186,11 @@ const Index = () => {
         />
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
-            <span className="inline-block w-4 h-4">🔍</span>
+            <Search className="w-4 h-4" />
             {displayProducts.length} produtos encontrados
           </p>
           <Button size="sm" onClick={() => setAddDialogOpen(true)}>
-            <Plus className="w-4 h-4 mr-1" /> Adicionar
+            <Plus className="w-4 h-4 mr-2" /> Adicionar
           </Button>
         </div>
         <ProductGrid
