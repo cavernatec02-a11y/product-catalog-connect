@@ -8,7 +8,7 @@ import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 import { ProductEditDialog } from "@/components/catalog/ProductEditDialog";
 import { ProductAddDialog } from "@/components/catalog/ProductAddDialog";
 import { Button } from "@/components/ui/button";
-import { Plus, Search } from "lucide-react";
+import { Plus, Search as SearchIcon } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 
 const baseProducts = productsData as Product[];
@@ -186,7 +186,7 @@ const Index = () => {
         />
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
-            <Search className="w-4 h-4" />
+            <SearchIcon className="w-4 h-4" />
             {displayProducts.length} produtos encontrados
           </p>
           <Button size="sm" onClick={() => setAddDialogOpen(true)}>
