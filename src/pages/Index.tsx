@@ -23,13 +23,37 @@ const Index = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [edits, setEdits] = useState<Record<string, { code: string; price: number }>>(() => {
-    try { return JSON.parse(localStorage.getItem("ibratin-edits") || "{}"); } catch { return {}; }
+    try {
+      const saved = localStorage.getItem("ibratin-edits");
+      if (!saved) return {};
+      const parsed = JSON.parse(saved);
+      if (typeof parsed !== "object" || parsed === null) return {};
+      // Basic validation of the parsed data
+      return Object.entries(parsed).reduce((acc, [key, val]: [string, any]) => {
+        if (val && typeof val.code === "string" && typeof val.price === "number") {
+          acc[key] = { code: val.code, price: val.price };
+        }
+        return acc;
+      }, {} as Record<string, { code: string; price: number }>);
+    } catch { return {}; }
   });
   const [addedProducts, setAddedProducts] = useState<Product[]>(() => {
-    try { return JSON.parse(localStorage.getItem("ibratin-added") || "[]"); } catch { return []; }
+    try {
+      const saved = localStorage.getItem("ibratin-added");
+      if (!saved) return [];
+      const parsed = JSON.parse(saved);
+      if (!Array.isArray(parsed)) return [];
+      return parsed.filter((p: any) => p && typeof p.code === "string" && typeof p.price === "number");
+    } catch { return []; }
   });
   const [deletedKeys, setDeletedKeys] = useState<Set<string>>(() => {
-    try { return new Set(JSON.parse(localStorage.getItem("ibratin-deleted") || "[]")); } catch { return new Set(); }
+    try {
+      const saved = localStorage.getItem("ibratin-deleted");
+      if (!saved) return new Set();
+      const parsed = JSON.parse(saved);
+      if (!Array.isArray(parsed)) return new Set();
+      return new Set(parsed.filter((k: any) => typeof k === "string"));
+    } catch { return new Set(); }
   });
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [favorites, setFavorites] = useState<Set<string>>(() => {
