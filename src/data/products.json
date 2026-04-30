@@ -2451,7 +2451,7 @@
     "code": "5438.002A0A.1",
     "description": "IBRATIN HIDROCIMENT  - L.M. 5,0 LTS",
     "unit": "LM",
-    "price": 1.17217,
+    "price": 1172.0,
     "category": "Outros",
     "table": "R11"
   },
@@ -2547,7 +2547,7 @@
     "code": "5458.002A0A.4",
     "description": "VERNIZ HIDROFOBICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 2.6833,
+    "price": 2682.0,
     "category": "Esmaltes",
     "table": "R11"
   },
@@ -12003,7 +12003,7 @@
     "code": "5438.002A0A.1",
     "description": "IBRATIN HIDROCIMENT  - L.M. 5,0 LTS",
     "unit": "LM",
-    "price": 1.17217,
+    "price": 1172.0,
     "category": "Outros",
     "table": "019"
   },
@@ -12219,7 +12219,7 @@
     "code": "5458.002A0A.4",
     "description": "VERNIZ HIDROFOBICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 2.6833,
+    "price": 2682.0,
     "category": "Complementos",
     "table": "019"
   },
