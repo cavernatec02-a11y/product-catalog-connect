@@ -35,7 +35,7 @@
     "code": "5005.003A0A.4",
     "description": "ARCADIA NEUTRO-SIL - B.L. 16,0 LTS",
     "unit": "BL",
-    "price": 1318.72,
+    "price": 1.31872,
     "category": "Tintas",
     "table": "R11"
   },
@@ -411,7 +411,7 @@
     "code": "5351.000A0A.4",
     "description": "C.LUSSO REAGENTE VELVET - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1521.43,
+    "price": 1.52143,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -435,7 +435,7 @@
     "code": "5351.999A9A.4",
     "description": "C.LUSSO REAGENTE VELVET - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1749.65,
+    "price": 1.74965,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -475,7 +475,7 @@
     "code": "5353.000A0A.4",
     "description": "C.LUSSO REAGENTE STON - BL 18,0 LTS",
     "unit": "BL",
-    "price": 1521.43,
+    "price": 1.52143,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -499,7 +499,7 @@
     "code": "5353.999A9A.4",
     "description": "C.LUSSO REAGENTE STON - BL 18,0 LTS",
     "unit": "BL",
-    "price": 1749.65,
+    "price": 1.74965,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -539,7 +539,7 @@
     "code": "5355.000A0A.4",
     "description": "C.LUSSO REAGENTE CAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 2231.44,
+    "price": 2.23144,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -563,7 +563,7 @@
     "code": "5355.999A9A.4",
     "description": "C.LUSSO REAGENTE CAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 2563.89,
+    "price": 2.56389,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -603,7 +603,7 @@
     "code": "5357.000A0A.4",
     "description": "C.LUSSO REAGENTE SILC - BL 18,0 LTS",
     "unit": "BL",
-    "price": 2231.44,
+    "price": 2.23144,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -627,7 +627,7 @@
     "code": "5357.999A9A.4",
     "description": "C.LUSSO REAGENTE SILC - BL 18,0 LTS",
     "unit": "BL",
-    "price": 2563.89,
+    "price": 2.56389,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -731,7 +731,7 @@
     "code": "5361.000A0A.4",
     "description": "C.LUSSO CIMENTO METALIZADO - BL 25,0 KG",
     "unit": "BL",
-    "price": 2099.01,
+    "price": 2.09901,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -747,7 +747,7 @@
     "code": "5361.999A9A.4",
     "description": "C.LUSSO CIMENTO METALIZADO - BL 25,0 KG",
     "unit": "BL",
-    "price": 2394.84,
+    "price": 2.39484,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -763,7 +763,7 @@
     "code": "5362.000A0A.4",
     "description": "C.LUSSO CIMENTO PEROLIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1831.35,
+    "price": 1.83135,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -779,7 +779,7 @@
     "code": "5362.999A9A.4",
     "description": "C.LUSSO CIMENTO PEROLIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 2113.1,
+    "price": 2.1131,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -795,7 +795,7 @@
     "code": "5367.000000.4",
     "description": "C.LUSSO VERNIZ PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 1406.48,
+    "price": 1.40648,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -811,7 +811,7 @@
     "code": "5368.000A0A.4",
     "description": "C.LUSSO STUCCO PISO - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 1547.13,
+    "price": 1.54713,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -835,7 +835,7 @@
     "code": "5368.999A9A.4",
     "description": "C.LUSSO STUCCO PISO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1547.13,
+    "price": 1.54713,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1307,7 +1307,7 @@
     "code": "5380.S00007.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1323,7 +1323,7 @@
     "code": "5380.S00008.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1339,7 +1339,7 @@
     "code": "5380.S00009.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1355,7 +1355,7 @@
     "code": "5380.S00010.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1371,7 +1371,7 @@
     "code": "5380.S00011.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1387,7 +1387,7 @@
     "code": "5380.S00012.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1403,7 +1403,7 @@
     "code": "5380.S00013.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1419,7 +1419,7 @@
     "code": "5380.S00014.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1435,7 +1435,7 @@
     "code": "5380.S00015.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1451,7 +1451,7 @@
     "code": "5380.S00016.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1467,7 +1467,7 @@
     "code": "5380.S00017.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1483,7 +1483,7 @@
     "code": "5380.S00018.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1499,7 +1499,7 @@
     "code": "5380.S00019.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1515,7 +1515,7 @@
     "code": "5380.S00020.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1350.22,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1547,7 +1547,7 @@
     "code": "5381.000A0A.4",
     "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1288.85,
+    "price": 1.28885,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1563,7 +1563,7 @@
     "code": "5381.999A9A.4",
     "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1288.85,
+    "price": 1.28885,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -1579,7 +1579,7 @@
     "code": "5381.S00001.4",
     "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 1288.85,
+    "price": 1.28885,
     "category": "Casa Lusso",
     "table": "R11"
   },
@@ -2219,7 +2219,7 @@
     "code": "5417.002A0A.4",
     "description": "ARTLINE VERNIZ PEROLADO - B.L. 20,0 LTS",
     "unit": "BL",
-    "price": 2079.23,
+    "price": 2.07923,
     "category": "Esmaltes",
     "table": "R11"
   },
@@ -2323,7 +2323,7 @@
     "code": "5429.002A0A.4",
     "description": "IBRATIN HIDROJET - B.L 18,0 LTS",
     "unit": "BL",
-    "price": 2394.6,
+    "price": 2.3946,
     "category": "Outros",
     "table": "R11"
   },
@@ -2451,7 +2451,7 @@
     "code": "5438.002A0A.1",
     "description": "IBRATIN HIDROCIMENT  - L.M. 5,0 LTS",
     "unit": "LM",
-    "price": 1172.17,
+    "price": 1.17217,
     "category": "Outros",
     "table": "R11"
   },
@@ -2547,7 +2547,7 @@
     "code": "5458.002A0A.4",
     "description": "VERNIZ HIDROFOBICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 2683.3,
+    "price": 2.6833,
     "category": "Esmaltes",
     "table": "R11"
   },
@@ -4771,7 +4771,7 @@
     "code": "5614.000A0A.4",
     "description": "VERNIZ TONALIZANTE - BL 18,0 LTS",
     "unit": "BL",
-    "price": 1002.05,
+    "price": 1.00205,
     "category": "Esmaltes",
     "table": "R11"
   },
@@ -4787,7 +4787,7 @@
     "code": "5614.999A9A.4",
     "description": "VERNIZ TONALIZANTE - BL 18,0 LTS",
     "unit": "BL",
-    "price": 1090.09,
+    "price": 1.09009,
     "category": "Esmaltes",
     "table": "R11"
   },
@@ -6139,7 +6139,7 @@
     "code": "5002.003A0A.0",
     "description": "ARCADIA FIXA-SIL - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 20.69,
+    "price": 87.89,
     "category": "Tintas",
     "table": "019"
   },
@@ -6147,7 +6147,7 @@
     "code": "5002.003A0A.4",
     "description": "ARCADIA FIXA-SIL - B.L. 16,0 LTS",
     "unit": "BL",
-    "price": 85.58,
+    "price": 386.83,
     "category": "Tintas",
     "table": "019"
   },
@@ -6155,7 +6155,7 @@
     "code": "5003.003A0A.4",
     "description": "ARCADIA FUNDO-SIL - B.L. 8,4 LTS",
     "unit": "BL",
-    "price": 34.15,
+    "price": 228.59,
     "category": "Tintas",
     "table": "019"
   },
@@ -6179,7 +6179,7 @@
     "code": "5005.003A0A.0",
     "description": "ARCADIA NEUTRO-SIL - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 31.88,
+    "price": 228.59,
     "category": "Tintas",
     "table": "019"
   },
@@ -6187,7 +6187,7 @@
     "code": "5005.003A0A.4",
     "description": "ARCADIA NEUTRO-SIL - B.L. 16,0 LTS",
     "unit": "BL",
-    "price": 135.32,
+    "price": 1.31872,
     "category": "Tintas",
     "table": "019"
   },
@@ -6195,7 +6195,7 @@
     "code": "5006.003A0A.0",
     "description": "ARCADIA SIL - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 33.84,
+    "price": 158.25,
     "category": "Tintas",
     "table": "019"
   },
@@ -6211,7 +6211,7 @@
     "code": "5007.000A0A.4",
     "description": "ARCADIA TINTA - B.L. 8,4 LTS",
     "unit": "BL",
-    "price": 42.22,
+    "price": 228.59,
     "category": "Tintas",
     "table": "019"
   },
@@ -6227,7 +6227,7 @@
     "code": "5007.003A0A.4",
     "description": "ARCADIA TINTA - B.L. 8,4 LTS",
     "unit": "BL",
-    "price": 41.46,
+    "price": 228.59,
     "category": "Tintas",
     "table": "019"
   },
@@ -6243,7 +6243,7 @@
     "code": "5007.999A9A.4",
     "description": "ARCADIA TINTA - BL 8,4 LTS",
     "unit": "BL",
-    "price": 62.11,
+    "price": 351.65,
     "category": "Tintas",
     "table": "019"
   },
@@ -6259,7 +6259,7 @@
     "code": "5008.003A0A.4",
     "description": "ARCADIA MASSA-SIL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 70.68,
+    "price": 439.58,
     "category": "Tintas",
     "table": "019"
   },
@@ -6315,7 +6315,7 @@
     "code": "5111.002A0A.4",
     "description": "BASE PERMALIT FUNDO TINT. - B.L. 22,21",
     "unit": "BL",
-    "price": 32.33,
+    "price": 166.61,
     "category": "Tintas",
     "table": "019"
   },
@@ -6443,7 +6443,7 @@
     "code": "5123.003A0A.4",
     "description": "BASE P.TEX.EXT.MOD.TINT. - B.L. 27,916",
     "unit": "BL",
-    "price": 40.59,
+    "price": 207.98,
     "category": "Outros",
     "table": "019"
   },
@@ -6795,7 +6795,7 @@
     "code": "5200.000A0A.4",
     "description": "TINTA ECONOMICA P/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 54.07,
+    "price": 206.83,
     "category": "Tintas",
     "table": "019"
   },
@@ -6803,7 +6803,7 @@
     "code": "5200.002A0A.0",
     "description": "TINTA ECONOMICA P/GESSO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 13.24,
+    "price": 51.71,
     "category": "Tintas",
     "table": "019"
   },
@@ -6811,7 +6811,7 @@
     "code": "5200.002A0A.4",
     "description": "TINTA ECONOMICA P/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 57.05,
+    "price": 206.83,
     "category": "Tintas",
     "table": "019"
   },
@@ -6819,7 +6819,7 @@
     "code": "5203.000A0A.0",
     "description": "TINTA ECONOMICA CONTRUCAO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 11.97,
+    "price": 44.73,
     "category": "Tintas",
     "table": "019"
   },
@@ -6827,7 +6827,7 @@
     "code": "5203.000A0A.4",
     "description": "TINTA ECONOMICA CONTRUCAO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 49.59,
+    "price": 178.88,
     "category": "Tintas",
     "table": "019"
   },
@@ -6835,7 +6835,7 @@
     "code": "5203.002A0A.0",
     "description": "TINTA ECONOMICA CONTRUCAO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 10.93,
+    "price": 41.93,
     "category": "Tintas",
     "table": "019"
   },
@@ -6843,7 +6843,7 @@
     "code": "5203.002A0A.4",
     "description": "TINTA ECONOMICA CONTRUCAO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 44.4,
+    "price": 167.71,
     "category": "Tintas",
     "table": "019"
   },
@@ -6891,7 +6891,7 @@
     "code": "5219.002A0A.3",
     "description": "MASSA CORRIDA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 8.16,
+    "price": 32.02,
     "category": "Complementos",
     "table": "019"
   },
@@ -6907,7 +6907,7 @@
     "code": "5219.002A0A.8",
     "description": "MASSA CORRIDA - BL 25,0 KGS",
     "unit": "BL",
-    "price": 18.52,
+    "price": 71.15,
     "category": "Complementos",
     "table": "019"
   },
@@ -6971,7 +6971,7 @@
     "code": "5227.000A0A.4",
     "description": "SELADOR ACRILICO/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 41.35,
+    "price": 170.5,
     "category": "Complementos",
     "table": "019"
   },
@@ -6979,7 +6979,7 @@
     "code": "5227.002A0A.4",
     "description": "SELADOR ACRILICO/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 40.13,
+    "price": 170.49,
     "category": "Complementos",
     "table": "019"
   },
@@ -6995,7 +6995,7 @@
     "code": "5236.000A0A.3",
     "description": "ECO MASSAFIX EXTERNO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 15.35,
+    "price": 53.36,
     "category": "Complementos",
     "table": "019"
   },
@@ -7003,7 +7003,7 @@
     "code": "5236.000A0A.4",
     "description": "ECO MASSAFIX EXTERNO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 35.86,
+    "price": 120.07,
     "category": "Complementos",
     "table": "019"
   },
@@ -7027,7 +7027,7 @@
     "code": "5236.002A0A.3",
     "description": "ECO MASSAFIX EXTERNO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 15.13,
+    "price": 53.36,
     "category": "Complementos",
     "table": "019"
   },
@@ -7035,7 +7035,7 @@
     "code": "5236.002A0A.4",
     "description": "ECO MASSAFIX EXTERNO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 35.42,
+    "price": 120.07,
     "category": "Complementos",
     "table": "019"
   },
@@ -7059,7 +7059,7 @@
     "code": "5236.999A9A.3",
     "description": "ECO MASSAFIX EXTERNO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 15.53,
+    "price": 60.03,
     "category": "Complementos",
     "table": "019"
   },
@@ -7067,7 +7067,7 @@
     "code": "5236.999A9A.4",
     "description": "ECO MASSAFIX EXTERNO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 36.22,
+    "price": 126.73,
     "category": "Complementos",
     "table": "019"
   },
@@ -7091,7 +7091,7 @@
     "code": "5237.002A0A.3",
     "description": "ECO MASSAFIX INTERNO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 8.84,
+    "price": 33.35,
     "category": "Complementos",
     "table": "019"
   },
@@ -7107,7 +7107,7 @@
     "code": "5238.002A0A.3",
     "description": "REVLIS - SC 15,0 KGS",
     "unit": "SC",
-    "price": 6.97,
+    "price": 24.87,
     "category": "Complementos",
     "table": "019"
   },
@@ -7131,7 +7131,7 @@
     "code": "5306.000A0A.4",
     "description": "C.LUSSO PINGATO DUO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 47.61,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7147,7 +7147,7 @@
     "code": "5306.003A0A.4",
     "description": "C.LUSSO PINGATO DUO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 47.51,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7163,7 +7163,7 @@
     "code": "5306.999A9A.4",
     "description": "C.LUSSO PINGATO DUO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 48.93,
+    "price": 514.25,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7179,7 +7179,7 @@
     "code": "5307.000A0A.4",
     "description": "C.LUSSO PINGATO UNO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 47.58,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7195,7 +7195,7 @@
     "code": "5307.003A0A.4",
     "description": "C.LUSSO PINGATO UNO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 47.63,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7211,7 +7211,7 @@
     "code": "5307.999A9A.4",
     "description": "C.LUSSO PINGATO UNO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 48.9,
+    "price": 514.25,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7243,7 +7243,7 @@
     "code": "5349.000A0A.4",
     "description": "C.LUSSO STUCATTO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 40.43,
+    "price": 402.93,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7275,7 +7275,7 @@
     "code": "5349.003A0A.4",
     "description": "C.LUSSO STUCATTO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 40.7,
+    "price": 402.93,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7323,7 +7323,7 @@
     "code": "5350.000110.0",
     "description": "C.LUSSO GRANMARMO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 15.72,
+    "price": 123.27,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7339,7 +7339,7 @@
     "code": "5350.000110.4",
     "description": "C.LUSSO GRANMARMO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 73.25,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7355,7 +7355,7 @@
     "code": "5350.000111.0",
     "description": "C.LUSSO GRANMARMO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 15.65,
+    "price": 123.27,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7371,7 +7371,7 @@
     "code": "5350.000111.4",
     "description": "C.LUSSO GRANMARMO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 72.89,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7387,7 +7387,7 @@
     "code": "5350.000112.0",
     "description": "C.LUSSO GRANMARMO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 15.53,
+    "price": 123.27,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7403,7 +7403,7 @@
     "code": "5350.000112.4",
     "description": "C.LUSSO GRANMARMO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 72.3,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7419,7 +7419,7 @@
     "code": "5350.000113.0",
     "description": "C.LUSSO GRANMARMO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 15.99,
+    "price": 123.27,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7435,7 +7435,7 @@
     "code": "5350.000113.4",
     "description": "C.LUSSO GRANMARMO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 74.59,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7499,7 +7499,7 @@
     "code": "5350.000120.0",
     "description": "C.LUSSO GRANMARMO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 15.6,
+    "price": 123.27,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7515,7 +7515,7 @@
     "code": "5350.000120.4",
     "description": "C.LUSSO GRANMARMO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 72.67,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7531,7 +7531,7 @@
     "code": "5351.000A0A.0",
     "description": "C.LUSSO REAGENTE VELVET - GL 5,0 KGS",
     "unit": "GL",
-    "price": 14.37,
+    "price": 380.37,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7539,7 +7539,7 @@
     "code": "5351.000A0A.1",
     "description": "C.LUSSO REAGENTE VELVET - PT 1,0 KG",
     "unit": "PT",
-    "price": 3.52,
+    "price": 126.79,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7547,7 +7547,7 @@
     "code": "5351.000A0A.4",
     "description": "C.LUSSO REAGENTE VELVET - BL 25,0 KGS",
     "unit": "BL",
-    "price": 66.51,
+    "price": 1.52143,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7555,7 +7555,7 @@
     "code": "5351.999A9A.0",
     "description": "C.LUSSO REAGENTE VELVET - GL 5,0 KGS",
     "unit": "GL",
-    "price": 16.14,
+    "price": 437.4,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7563,7 +7563,7 @@
     "code": "5351.999A9A.1",
     "description": "C.LUSSO REAGENTE VELVET - PT 1,0 KG",
     "unit": "PT",
-    "price": 3.87,
+    "price": 145.82,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7571,7 +7571,7 @@
     "code": "5351.999A9A.4",
     "description": "C.LUSSO REAGENTE VELVET - BL 25,0 KGS",
     "unit": "BL",
-    "price": 75.34,
+    "price": 1.74965,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7579,7 +7579,7 @@
     "code": "5352.000000.0",
     "description": "C.LUSSO VELVET - GL 5,0 KGS",
     "unit": "GL",
-    "price": 11.24,
+    "price": 116.23,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7595,7 +7595,7 @@
     "code": "5352.000000.4",
     "description": "C.LUSSO VELVET - BL 25,0 KGS",
     "unit": "BL",
-    "price": 50.88,
+    "price": 464.87,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7611,7 +7611,7 @@
     "code": "5353.000A0A.0",
     "description": "C.LUSSO REAGENTE STON - GL 3,6 LTS",
     "unit": "GL",
-    "price": 16.23,
+    "price": 380.37,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7619,7 +7619,7 @@
     "code": "5353.000A0A.1",
     "description": "C.LUSSO REAGENTE STON - PT 1,0 LT",
     "unit": "PT",
-    "price": 6.79,
+    "price": 126.79,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7627,7 +7627,7 @@
     "code": "5353.000A0A.4",
     "description": "C.LUSSO REAGENTE STON - BL 18,0 LTS",
     "unit": "BL",
-    "price": 75.82,
+    "price": 1.52143,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7635,7 +7635,7 @@
     "code": "5353.999A9A.0",
     "description": "C.LUSSO REAGENTE STON - GL 3,6 LTS",
     "unit": "GL",
-    "price": 17.5,
+    "price": 436.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7643,7 +7643,7 @@
     "code": "5353.999A9A.1",
     "description": "C.LUSSO REAGENTE STON - PT 1,0 LT",
     "unit": "PT",
-    "price": 7.15,
+    "price": 145.1,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7651,7 +7651,7 @@
     "code": "5353.999A9A.4",
     "description": "C.LUSSO REAGENTE STON - BL 18,0 LTS",
     "unit": "BL",
-    "price": 82.18,
+    "price": 1.74965,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7659,7 +7659,7 @@
     "code": "5354.000000.0",
     "description": "C.LUSSO EFFETI STON - GL 5,0 KGS",
     "unit": "GL",
-    "price": 10.61,
+    "price": 116.23,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7667,7 +7667,7 @@
     "code": "5354.000000.4",
     "description": "C.LUSSO EFFETI STON - BL 25,0 KGS",
     "unit": "BL",
-    "price": 47.71,
+    "price": 464.87,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7683,7 +7683,7 @@
     "code": "5355.000A0A.0",
     "description": "C.LUSSO REAGENTE CAL - GL 3,6 LTS",
     "unit": "GL",
-    "price": 15.27,
+    "price": 557.85,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7691,7 +7691,7 @@
     "code": "5355.000A0A.1",
     "description": "C.LUSSO REAGENTE CAL - PT 1,0 LT",
     "unit": "PT",
-    "price": 6.53,
+    "price": 154.97,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7699,7 +7699,7 @@
     "code": "5355.000A0A.4",
     "description": "C.LUSSO REAGENTE CAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 71.03,
+    "price": 2.23144,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7707,7 +7707,7 @@
     "code": "5355.999A9A.0",
     "description": "C.LUSSO REAGENTE CAL - GL 3,6 LTS",
     "unit": "GL",
-    "price": 17.27,
+    "price": 640.97,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7715,7 +7715,7 @@
     "code": "5355.999A9A.1",
     "description": "C.LUSSO REAGENTE CAL - PT 1,0 LT",
     "unit": "PT",
-    "price": 7.08,
+    "price": 178.2,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7723,7 +7723,7 @@
     "code": "5355.999A9A.4",
     "description": "C.LUSSO REAGENTE CAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 81.04,
+    "price": 2.56389,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7731,7 +7731,7 @@
     "code": "5356.000000.0",
     "description": "C.LUSSO IBRACAL - GL 5,0 KGS",
     "unit": "GL",
-    "price": 14.0,
+    "price": 176.09,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7747,7 +7747,7 @@
     "code": "5356.000000.4",
     "description": "C.LUSSO IBRACAL - BL 25,0 KGS",
     "unit": "BL",
-    "price": 64.68,
+    "price": 704.36,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7763,7 +7763,7 @@
     "code": "5357.000A0A.0",
     "description": "C.LUSSO REAGENTE SILC - GL 3,6 LTS",
     "unit": "GL",
-    "price": 14.88,
+    "price": 557.85,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7771,7 +7771,7 @@
     "code": "5357.000A0A.1",
     "description": "C.LUSSO REAGENTE SILC - PT 1,0 LT",
     "unit": "PT",
-    "price": 6.42,
+    "price": 154.97,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7779,7 +7779,7 @@
     "code": "5357.000A0A.4",
     "description": "C.LUSSO REAGENTE SILC - BL 18,0 LTS",
     "unit": "BL",
-    "price": 69.05,
+    "price": 2.23144,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7787,7 +7787,7 @@
     "code": "5357.999A9A.0",
     "description": "C.LUSSO REAGENTE SILC - GL 3,6 LTS",
     "unit": "GL",
-    "price": 16.57,
+    "price": 640.97,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7795,7 +7795,7 @@
     "code": "5357.999A9A.1",
     "description": "C.LUSSO REAGENTE SILC - PT 1,0 LT",
     "unit": "PT",
-    "price": 6.89,
+    "price": 176.09,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7803,7 +7803,7 @@
     "code": "5357.999A9A.4",
     "description": "C.LUSSO REAGENTE SILC - BL 18,0 LTS",
     "unit": "BL",
-    "price": 77.52,
+    "price": 2.56389,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7811,7 +7811,7 @@
     "code": "5358.000000.0",
     "description": "C.LUSSO EFFETTI SILC - GL 5,0 KGS",
     "unit": "GL",
-    "price": 10.62,
+    "price": 176.09,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7827,7 +7827,7 @@
     "code": "5358.000000.4",
     "description": "C.LUSSO EFFETTI SILC - BL 25,0 KGS",
     "unit": "BL",
-    "price": 47.78,
+    "price": 704.36,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7859,7 +7859,7 @@
     "code": "5359.000A0A.4",
     "description": "C.LUSSO STELLATO FINO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 52.95,
+    "price": 402.93,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7899,7 +7899,7 @@
     "code": "5359.003A0A.4",
     "description": "C.LUSSO STELLATO FINO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 58.84,
+    "price": 402.93,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7931,7 +7931,7 @@
     "code": "5359.999A9A.4",
     "description": "C.LUSSO STELLATO FINO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 55.16,
+    "price": 463.43,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7963,7 +7963,7 @@
     "code": "5360.P00001.4",
     "description": "C.LUSSO PEDRAS NATURAIS - BL.25 KGS",
     "unit": "BL",
-    "price": 87.61,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -7995,7 +7995,7 @@
     "code": "5360.P00002.4",
     "description": "C.LUSSO PEDRAS NATURAIS - BL.25 KGS",
     "unit": "BL",
-    "price": 87.13,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8043,7 +8043,7 @@
     "code": "5360.P00003.4",
     "description": "C.LUSSO PEDRAS NATURAIS - BL.25 KGS",
     "unit": "BL",
-    "price": 80.47,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8075,7 +8075,7 @@
     "code": "5360.P00004.4",
     "description": "C.LUSSO PEDRAS NATURAIS - BL.25 KGS",
     "unit": "BL",
-    "price": 89.56,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8107,7 +8107,7 @@
     "code": "5360.P00005.4",
     "description": "C.LUSSO PEDRAS NATURAIS - BL.25 KGS",
     "unit": "BL",
-    "price": 87.13,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8139,7 +8139,7 @@
     "code": "5360.P00006.4",
     "description": "C.LUSSO PEDRAS NATURAIS - BL 25 KGS",
     "unit": "BL",
-    "price": 109.54,
+    "price": 493.05,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8155,7 +8155,7 @@
     "code": "5361.000A0A.0",
     "description": "C.LUSSO CIMENTO METALIZADO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 95.72,
+    "price": 422.62,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8171,7 +8171,7 @@
     "code": "5361.000A0A.4",
     "description": "C.LUSSO CIMENTO METALIZADO - BL 25,0 KG",
     "unit": "BL",
-    "price": 468.11,
+    "price": 2.09901,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8179,7 +8179,7 @@
     "code": "5361.999A9A.0",
     "description": "C.LUSSO CIMENTO METALIZADO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 96.6,
+    "price": 535.32,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8195,7 +8195,7 @@
     "code": "5361.999A9A.4",
     "description": "C.LUSSO CIMENTO METALIZADO - BL 25,0 KG",
     "unit": "BL",
-    "price": 472.53,
+    "price": 2.39484,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8203,7 +8203,7 @@
     "code": "5362.000A0A.0",
     "description": "C.LUSSO CIMENTO PEROLIZADO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 53.88,
+    "price": 366.27,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8219,7 +8219,7 @@
     "code": "5362.000A0A.4",
     "description": "C.LUSSO CIMENTO PEROLIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 264.07,
+    "price": 1.83135,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8227,7 +8227,7 @@
     "code": "5362.999A9A.0",
     "description": "C.LUSSO CIMENTO PEROLIZADO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 54.77,
+    "price": 422.62,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8243,7 +8243,7 @@
     "code": "5362.999A9A.4",
     "description": "C.LUSSO CIMENTO PEROLIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 268.49,
+    "price": 2.1131,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8251,7 +8251,7 @@
     "code": "5367.000000.1",
     "description": "C.LUSSO VERNIZ PISO - PT 600 ML",
     "unit": "PT",
-    "price": 9.12,
+    "price": 70.32,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8259,7 +8259,7 @@
     "code": "5367.000000.1",
     "description": "C.LUSSO VERNIZ PISO - PT 600 ML",
     "unit": "PT",
-    "price": 9.12,
+    "price": 70.32,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8267,7 +8267,7 @@
     "code": "5367.000000.4",
     "description": "C.LUSSO VERNIZ PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 187.93,
+    "price": 1.40648,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8275,7 +8275,7 @@
     "code": "5368.000A0A.0",
     "description": "C.LUSSO STUCCO PISO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 23.0,
+    "price": 379.74,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8283,7 +8283,7 @@
     "code": "5368.000A0A.4",
     "description": "C.LUSSO STUCCO PISO - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 109.69,
+    "price": 1.54713,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8307,7 +8307,7 @@
     "code": "5368.003A0A.0",
     "description": "C.LUSSO STUCCO PISO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 34.46,
+    "price": 379.74,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8323,7 +8323,7 @@
     "code": "5368.999A9A.0",
     "description": "C.LUSSO STUCCO PISO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 23.59,
+    "price": 379.74,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8331,7 +8331,7 @@
     "code": "5368.999A9A.4",
     "description": "C.LUSSO STUCCO PISO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 112.63,
+    "price": 1.54713,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8355,7 +8355,7 @@
     "code": "5370.000A0A.0",
     "description": "C.LUSSO FUNDO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 11.44,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8371,7 +8371,7 @@
     "code": "5370.000A0A.4",
     "description": "C.LUSSO FUNDO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 51.88,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8379,7 +8379,7 @@
     "code": "5370.999A9A.0",
     "description": "C.LUSSO FUNDO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 13.16,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8395,7 +8395,7 @@
     "code": "5370.999A9A.4",
     "description": "C.LUSSO FUNDO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 60.46,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8403,7 +8403,7 @@
     "code": "5370.B00001.0",
     "description": "C.LUSSO FUNDO BIANCO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 10.05,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8411,7 +8411,7 @@
     "code": "5370.B00001.4",
     "description": "C.LUSSO FUNDO BIANCO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 44.9,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8419,7 +8419,7 @@
     "code": "5370.B30001.0",
     "description": "C.LUSSO FUNDO PIETRA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 9.46,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8427,7 +8427,7 @@
     "code": "5370.B30001.4",
     "description": "C.LUSSO FUNDO PIETRA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 41.99,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8435,7 +8435,7 @@
     "code": "5370.B30002.0",
     "description": "C.LUSSO FUNDO PIETRA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 9.61,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8443,7 +8443,7 @@
     "code": "5370.B30002.4",
     "description": "C.LUSSO FUNDO PIETRA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 42.71,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8451,7 +8451,7 @@
     "code": "5370.B30003.0",
     "description": "C.LUSSO FUNDO PIETRA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 8.84,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8459,7 +8459,7 @@
     "code": "5370.B30003.4",
     "description": "C.LUSSO FUNDO PIETRA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 38.84,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8467,7 +8467,7 @@
     "code": "5370.B50001.0",
     "description": "C.LUSSO FUNDO RIFLESSI - GL 3,6 LTS",
     "unit": "GL",
-    "price": 9.49,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8475,7 +8475,7 @@
     "code": "5370.B50001.4",
     "description": "C.LUSSO FUNDO RIFLESSI - BL 18,0 LTS",
     "unit": "BL",
-    "price": 42.09,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8499,7 +8499,7 @@
     "code": "5370.B70001.0",
     "description": "C.LUSSO FUNDO PEDRAS NAT - GL 3,6 LTS",
     "unit": "GL",
-    "price": 11.41,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8507,7 +8507,7 @@
     "code": "5370.B70001.4",
     "description": "C.LUSSO FUNDO PEDRAS NAT - BL 18,0 LTS",
     "unit": "BL",
-    "price": 51.74,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8515,7 +8515,7 @@
     "code": "5370.B70002.0",
     "description": "C.LUSSO FUNDO PEDRAS NAT - GL 3,6 LTS",
     "unit": "GL",
-    "price": 11.32,
+    "price": 64.71,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8523,7 +8523,7 @@
     "code": "5370.B70002.4",
     "description": "C.LUSSO FUNDO PEDRAS NAT - BL 18,0 LTS",
     "unit": "BL",
-    "price": 51.24,
+    "price": 262.55,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8539,7 +8539,7 @@
     "code": "5376.B30004.4",
     "description": "C.LUSSO PIETRA FINO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 55.4,
+    "price": 633.93,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8571,7 +8571,7 @@
     "code": "5376.B30005.4",
     "description": "C.LUSSO PIETRA CRISTAL - BL 30,0 KGS",
     "unit": "BL",
-    "price": 109.91,
+    "price": 633.93,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8635,7 +8635,7 @@
     "code": "5378.000A0A.4",
     "description": "C.LUSSO STELLATO - B.L. 30,0 KGS",
     "unit": "BL",
-    "price": 64.29,
+    "price": 484.0,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8675,7 +8675,7 @@
     "code": "5378.003A0A.4",
     "description": "C.LUSSO STELLATO - B.L. 30,0 KGS",
     "unit": "BL",
-    "price": 64.82,
+    "price": 484.0,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8707,7 +8707,7 @@
     "code": "5378.999A9A.4",
     "description": "C.LUSSO STELLATO - B.L. 30,0 KGS",
     "unit": "BL",
-    "price": 66.94,
+    "price": 556.6,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8723,7 +8723,7 @@
     "code": "5379.000A0A.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.92,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8739,7 +8739,7 @@
     "code": "5379.000A0A.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 49.28,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8747,7 +8747,7 @@
     "code": "5379.999A9A.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.81,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8763,7 +8763,7 @@
     "code": "5379.999A9A.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 53.7,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8771,7 +8771,7 @@
     "code": "5379.S00001.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.21,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8779,7 +8779,7 @@
     "code": "5379.S00001.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 45.72,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8787,7 +8787,7 @@
     "code": "5379.S00002.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 14.15,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8795,7 +8795,7 @@
     "code": "5379.S00002.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 65.42,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8803,7 +8803,7 @@
     "code": "5379.S00003.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 13.04,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8811,7 +8811,7 @@
     "code": "5379.S00003.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 59.88,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8819,7 +8819,7 @@
     "code": "5379.S00004.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.93,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8827,7 +8827,7 @@
     "code": "5379.S00004.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 54.33,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8835,7 +8835,7 @@
     "code": "5379.S00005.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.57,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8843,7 +8843,7 @@
     "code": "5379.S00005.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 47.49,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8851,7 +8851,7 @@
     "code": "5379.S00006.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 12.95,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8859,7 +8859,7 @@
     "code": "5379.S00006.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 59.39,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8867,7 +8867,7 @@
     "code": "5379.S00007.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.22,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8875,7 +8875,7 @@
     "code": "5379.S00007.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 45.75,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8883,7 +8883,7 @@
     "code": "5379.S00008.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 3.16,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8891,7 +8891,7 @@
     "code": "5379.S00008.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 49.88,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8899,7 +8899,7 @@
     "code": "5379.S00009.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.31,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8907,7 +8907,7 @@
     "code": "5379.S00009.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 51.19,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8915,7 +8915,7 @@
     "code": "5379.S00010.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.29,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8923,7 +8923,7 @@
     "code": "5379.S00010.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 51.1,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8931,7 +8931,7 @@
     "code": "5379.S00011.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.66,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8939,7 +8939,7 @@
     "code": "5379.S00011.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 47.97,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8947,7 +8947,7 @@
     "code": "5379.S00012.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.22,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8955,7 +8955,7 @@
     "code": "5379.S00012.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 50.74,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8963,7 +8963,7 @@
     "code": "5379.S00013.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.34,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8971,7 +8971,7 @@
     "code": "5379.S00013.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 46.38,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8979,7 +8979,7 @@
     "code": "5379.S00014.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.42,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -8987,7 +8987,7 @@
     "code": "5379.S00014.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 41.27,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9003,7 +9003,7 @@
     "code": "5379.S00015.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.96,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9011,7 +9011,7 @@
     "code": "5379.S00015.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 54.44,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9019,7 +9019,7 @@
     "code": "5379.S00016.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 11.52,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9027,7 +9027,7 @@
     "code": "5379.S00016.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 41.77,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9035,7 +9035,7 @@
     "code": "5379.S00017.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.34,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9043,7 +9043,7 @@
     "code": "5379.S00017.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 46.37,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9051,7 +9051,7 @@
     "code": "5379.S00018.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.34,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9059,7 +9059,7 @@
     "code": "5379.S00018.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 46.34,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9067,7 +9067,7 @@
     "code": "5379.S00019.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.29,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9075,7 +9075,7 @@
     "code": "5379.S00019.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 46.09,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9083,7 +9083,7 @@
     "code": "5379.S00020.0",
     "description": "C.LUSSO CIMENTO FUNDO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 10.23,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9091,7 +9091,7 @@
     "code": "5379.S00020.4",
     "description": "C.LUSSO CIMENTO FUNDO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 35.35,
+    "price": 592.31,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9099,7 +9099,7 @@
     "code": "5380.000A0A.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 30.05,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9115,7 +9115,7 @@
     "code": "5380.000A0A.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 144.9,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9131,7 +9131,7 @@
     "code": "5380.999A9A.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 31.08,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9147,7 +9147,7 @@
     "code": "5380.999A9A.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 150.05,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9163,7 +9163,7 @@
     "code": "5380.S00001.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 29.98,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9171,7 +9171,7 @@
     "code": "5380.S00001.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 144.54,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9195,7 +9195,7 @@
     "code": "5380.S00002.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 63.3,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9203,7 +9203,7 @@
     "code": "5380.S00002.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 311.17,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9211,7 +9211,7 @@
     "code": "5380.S00003.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 53.22,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9219,7 +9219,7 @@
     "code": "5380.S00003.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 260.77,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9227,7 +9227,7 @@
     "code": "5380.S00004.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 44.35,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9235,7 +9235,7 @@
     "code": "5380.S00004.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 216.4,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9243,7 +9243,7 @@
     "code": "5380.S00005.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 33.41,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9251,7 +9251,7 @@
     "code": "5380.S00005.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 77.32,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9259,7 +9259,7 @@
     "code": "5380.S00006.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 39.28,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9267,7 +9267,7 @@
     "code": "5380.S00006.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 191.04,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9275,7 +9275,7 @@
     "code": "5380.S00007.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 30.63,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9283,7 +9283,7 @@
     "code": "5380.S00007.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 147.81,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9291,7 +9291,7 @@
     "code": "5380.S00008.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 37.24,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9299,7 +9299,7 @@
     "code": "5380.S00008.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 180.85,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9307,7 +9307,7 @@
     "code": "5380.S00009.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 39.34,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9315,7 +9315,7 @@
     "code": "5380.S00009.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 191.35,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9323,7 +9323,7 @@
     "code": "5380.S00010.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 39.17,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9331,7 +9331,7 @@
     "code": "5380.S00010.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 190.53,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9339,7 +9339,7 @@
     "code": "5380.S00011.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 34.18,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9347,7 +9347,7 @@
     "code": "5380.S00011.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 165.57,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9355,7 +9355,7 @@
     "code": "5380.S00012.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 38.62,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9363,7 +9363,7 @@
     "code": "5380.S00012.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 187.76,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9371,7 +9371,7 @@
     "code": "5380.S00013.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 31.63,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9379,7 +9379,7 @@
     "code": "5380.S00013.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 152.83,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9387,7 +9387,7 @@
     "code": "5380.S00014.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 40.24,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9395,7 +9395,7 @@
     "code": "5380.S00014.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 195.87,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9403,7 +9403,7 @@
     "code": "5380.S00015.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 31.48,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9411,7 +9411,7 @@
     "code": "5380.S00015.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 152.07,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9419,7 +9419,7 @@
     "code": "5380.S00016.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 41.03,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9427,7 +9427,7 @@
     "code": "5380.S00016.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 199.79,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9435,7 +9435,7 @@
     "code": "5380.S00017.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 30.79,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9443,7 +9443,7 @@
     "code": "5380.S00017.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 148.61,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9451,7 +9451,7 @@
     "code": "5380.S00018.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 31.58,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9459,7 +9459,7 @@
     "code": "5380.S00018.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 152.57,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9467,7 +9467,7 @@
     "code": "5380.S00019.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 31.17,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9475,7 +9475,7 @@
     "code": "5380.S00019.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 150.49,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9483,7 +9483,7 @@
     "code": "5380.S00020.0",
     "description": "C.LUSSO MARMORIZADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 30.77,
+    "price": 337.56,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9491,7 +9491,7 @@
     "code": "5380.S00020.4",
     "description": "C.LUSSO MARMORIZADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 148.49,
+    "price": 1.35022,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9499,7 +9499,7 @@
     "code": "5381.000050.0",
     "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 34.32,
+    "price": 322.22,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9523,7 +9523,7 @@
     "code": "5381.000100.0",
     "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 34.36,
+    "price": 322.22,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9531,7 +9531,7 @@
     "code": "5381.000A0A.0",
     "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 34.34,
+    "price": 322.22,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9547,7 +9547,7 @@
     "code": "5381.000A0A.4",
     "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 166.35,
+    "price": 1.28885,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9579,7 +9579,7 @@
     "code": "5381.999A9A.0",
     "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 34.93,
+    "price": 322.22,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9595,7 +9595,7 @@
     "code": "5381.999A9A.4",
     "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 169.29,
+    "price": 1.28885,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9611,7 +9611,7 @@
     "code": "5381.S00001.0",
     "description": "C.LUSSO CIMENTO QUEIMADO - GP 5,0 KGS",
     "unit": "GL",
-    "price": 34.29,
+    "price": 322.22,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9619,7 +9619,7 @@
     "code": "5381.S00001.4",
     "description": "C.LUSSO CIMENTO QUEIMADO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 166.13,
+    "price": 1.28885,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9731,7 +9731,7 @@
     "code": "5383.R10001.0",
     "description": "C.LUSSO RIFLESSI LISO BIAN - G.P. 6,0 KG",
     "unit": "GL",
-    "price": 10.46,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9739,7 +9739,7 @@
     "code": "5383.R10001.4",
     "description": "C.LUSSO RIFLESSI LISO BIAN - B.L. 30,0 K",
     "unit": "BL",
-    "price": 46.94,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9763,7 +9763,7 @@
     "code": "5383.R10002.0",
     "description": "C.LUSSO RIFLESSI LISO NERO - G.P. 6,0 KG",
     "unit": "GL",
-    "price": 10.47,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9771,7 +9771,7 @@
     "code": "5383.R10002.4",
     "description": "C.LUSSO RIFLESSI LISO NERO - B.L. 30,0 K",
     "unit": "BL",
-    "price": 47.02,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9803,7 +9803,7 @@
     "code": "5383.R10003.0",
     "description": "C.LUSSO RIFLESSI LISO VERD - G.P. 6,0 KG",
     "unit": "GL",
-    "price": 10.67,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9811,7 +9811,7 @@
     "code": "5383.R10003.4",
     "description": "C.LUSSO RIFLESSI LISO VERD - B.L. 30,0 K",
     "unit": "BL",
-    "price": 48.01,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9827,7 +9827,7 @@
     "code": "5383.R10004.0",
     "description": "C.LUSSO RIFLESSI LISO AZZU - G.P. 6,0 KG",
     "unit": "GL",
-    "price": 10.58,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9835,7 +9835,7 @@
     "code": "5383.R10004.4",
     "description": "C.LUSSO RIFLESSI LISO AZZU - B.L. 30,0 K",
     "unit": "BL",
-    "price": 47.55,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9859,7 +9859,7 @@
     "code": "5383.R10005.0",
     "description": "C.LUSSO RIFLESSI LISO ROSS - G.P. 6,0 KG",
     "unit": "GL",
-    "price": 10.64,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9867,7 +9867,7 @@
     "code": "5383.R10005.4",
     "description": "C.LUSSO RIFLESSI LISO ROSS - B.L. 30,0 K",
     "unit": "BL",
-    "price": 47.87,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9883,7 +9883,7 @@
     "code": "5383.R10006.0",
     "description": "C.LUSSO RIFLESSI LISO GIAL - G.P. 6,0 KG",
     "unit": "GL",
-    "price": 10.65,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9891,7 +9891,7 @@
     "code": "5383.R10006.4",
     "description": "C.LUSSO RIFLESSI LISO GIAL - B.L. 30,0 K",
     "unit": "BL",
-    "price": 47.89,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9915,7 +9915,7 @@
     "code": "5383.R10007.0",
     "description": "C.LUSSO RIFLESSI LISO GRIG - G.P. 6,0 KG",
     "unit": "GL",
-    "price": 10.46,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9923,7 +9923,7 @@
     "code": "5383.R10007.4",
     "description": "C.LUSSO RIFLESSI LISO GRIG - B.L. 30,0 K",
     "unit": "BL",
-    "price": 46.95,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9947,7 +9947,7 @@
     "code": "5383.R10008.4",
     "description": "C.LUSSO RIFLESSI L.BASE CREME - B.L. 30,",
     "unit": "BL",
-    "price": 47.08,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9963,7 +9963,7 @@
     "code": "5384.R10001.0",
     "description": "C.LUSSO RIFLESSI NOBI BIAN - G.P. 6,0",
     "unit": "GL",
-    "price": 10.26,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9971,7 +9971,7 @@
     "code": "5384.R10001.4",
     "description": "C.LUSSO RIFLESSI NOBI BIAN - B.L. 30,",
     "unit": "BL",
-    "price": 45.95,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -9995,7 +9995,7 @@
     "code": "5384.R10002.0",
     "description": "C.LUSSO RIFLESSI NOBI NERO - G.P. 6,0",
     "unit": "GL",
-    "price": 10.27,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10003,7 +10003,7 @@
     "code": "5384.R10002.4",
     "description": "C.LUSSO RIFLESSI NOBI NERO - B.L. 30,",
     "unit": "BL",
-    "price": 46.03,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10019,7 +10019,7 @@
     "code": "5384.R10003.0",
     "description": "C.LUSSO RIFLESSI NOBI VERD - G.P. 6,0",
     "unit": "GL",
-    "price": 10.67,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10027,7 +10027,7 @@
     "code": "5384.R10003.4",
     "description": "C.LUSSO RIFLESSI NOBI VERD - B.L. 30,0 K",
     "unit": "BL",
-    "price": 48.01,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10043,7 +10043,7 @@
     "code": "5384.R10004.0",
     "description": "C.LUSSO RIFLESSI NOBI AZZU - G.P. 6,0",
     "unit": "GL",
-    "price": 10.38,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10051,7 +10051,7 @@
     "code": "5384.R10004.4",
     "description": "C.LUSSO RIFLESSI NOBI AZZU - B.L. 30,0 K",
     "unit": "BL",
-    "price": 46.56,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10067,7 +10067,7 @@
     "code": "5384.R10005.0",
     "description": "C.LUSSO RIFLESSI NOBI ROSS - G.P. 6,0",
     "unit": "GL",
-    "price": 10.64,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10075,7 +10075,7 @@
     "code": "5384.R10005.4",
     "description": "C.LUSSO RIFLESSI NOBI ROSS - B.L. 30,0",
     "unit": "BL",
-    "price": 47.87,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10091,7 +10091,7 @@
     "code": "5384.R10006.0",
     "description": "C.LUSSO RIFLESSI NOBI GIAL - G.P. 6,0",
     "unit": "GL",
-    "price": 10.28,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10099,7 +10099,7 @@
     "code": "5384.R10006.4",
     "description": "C.LUSSO RIFLESSI NOBI GIAL - B.L. 30,",
     "unit": "BL",
-    "price": 46.08,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10115,7 +10115,7 @@
     "code": "5384.R10007.0",
     "description": "C.LUSSO RIFLESSI NOBI GRIG - G.P. 6,0",
     "unit": "GL",
-    "price": 10.09,
+    "price": 123.41,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10123,7 +10123,7 @@
     "code": "5384.R10007.4",
     "description": "C.LUSSO RIFLESSI NOBI GRIG - B.L. 30,",
     "unit": "BL",
-    "price": 45.13,
+    "price": 607.5,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10139,7 +10139,7 @@
     "code": "5385.B40001.0",
     "description": "C.LUSSO MARMORINO - G.P. 6,0 KGS",
     "unit": "GL",
-    "price": 11.74,
+    "price": 172.29,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10155,7 +10155,7 @@
     "code": "5385.B40001.4",
     "description": "C.LUSSO MARMORINO - B.L. 30,0 KG",
     "unit": "BL",
-    "price": 53.37,
+    "price": 689.18,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10211,7 +10211,7 @@
     "code": "5386.V00001.0",
     "description": "C.LUSSO VERNIZ PERLA - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 7.33,
+    "price": 210.98,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10219,7 +10219,7 @@
     "code": "5386.V00001.4",
     "description": "C.LUSSO VERNIZ PERLA - B.L. 18,0 LTS",
     "unit": "BL",
-    "price": 31.29,
+    "price": 843.89,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10243,7 +10243,7 @@
     "code": "5386.V00002.0",
     "description": "C.LUSSO VERNIZ PRATA - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 8.62,
+    "price": 210.98,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10251,7 +10251,7 @@
     "code": "5386.V00002.4",
     "description": "C.LUSSO VERNIZ PRATA - B.L. 18,0 LTS",
     "unit": "BL",
-    "price": 37.75,
+    "price": 843.89,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10283,7 +10283,7 @@
     "code": "5389.B50001.4",
     "description": "BRONZATO - BL 15,0 KGS",
     "unit": "BL",
-    "price": 52.53,
+    "price": 492.26,
     "category": "Outros",
     "table": "019"
   },
@@ -10291,7 +10291,7 @@
     "code": "5389.B50001.C",
     "description": "BRONZATO - GA. 3,0 KG",
     "unit": "GA",
-    "price": 12.08,
+    "price": 126.6,
     "category": "Outros",
     "table": "019"
   },
@@ -10307,7 +10307,7 @@
     "code": "5389.B50002.4",
     "description": "BRONZATO GROSSO - BL 15,0 KGS",
     "unit": "BL",
-    "price": 49.69,
+    "price": 492.26,
     "category": "Outros",
     "table": "019"
   },
@@ -10315,7 +10315,7 @@
     "code": "5389.B50002.C",
     "description": "BRONZATO GROSSO - GA. 3,0 KG",
     "unit": "GA",
-    "price": 12.46,
+    "price": 126.6,
     "category": "Outros",
     "table": "019"
   },
@@ -10331,7 +10331,7 @@
     "code": "5390.000085.2",
     "description": "CASA LUSSO ACO CORTEN - GP 2,5 LTS",
     "unit": "GP",
-    "price": 19.35,
+    "price": 298.87,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10355,7 +10355,7 @@
     "code": "5390.000086.2",
     "description": "CASA LUSSO ACO CORTEN - GP 2,5 LTS",
     "unit": "GP",
-    "price": 19.38,
+    "price": 298.87,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10379,7 +10379,7 @@
     "code": "5390.000087.2",
     "description": "CASA LUSSO ACO CORTEN - GP 2,5 LTS",
     "unit": "GP",
-    "price": 19.5,
+    "price": 298.87,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10395,7 +10395,7 @@
     "code": "5390.000A0A.2",
     "description": "CASA LUSSO ACO CORTEN - GP 2,5 LTS",
     "unit": "GP",
-    "price": 15.54,
+    "price": 298.87,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10411,7 +10411,7 @@
     "code": "5390.999A9A.2",
     "description": "CASA LUSSO ACO CORTEN - GP 2,5 LTS",
     "unit": "GP",
-    "price": 16.36,
+    "price": 343.19,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10443,7 +10443,7 @@
     "code": "5392.000A0A.4",
     "description": "C.LUSSO PERLATO - B.L. 30,0 KGS",
     "unit": "BL",
-    "price": 59.06,
+    "price": 484.0,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10483,7 +10483,7 @@
     "code": "5392.003A0A.4",
     "description": "C.LUSSO PERLATO - B.L. 30,0 KGS",
     "unit": "BL",
-    "price": 59.73,
+    "price": 484.0,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10523,7 +10523,7 @@
     "code": "5392.999A9A.4",
     "description": "C.LUSSO PERLATO - B.L. 30,0 KGS",
     "unit": "BL",
-    "price": 59.06,
+    "price": 556.6,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10731,7 +10731,7 @@
     "code": "5395.000087.2",
     "description": "PRIMER - GP 2,5 LTS",
     "unit": "GP",
-    "price": 6.23,
+    "price": 45.57,
     "category": "Outros",
     "table": "019"
   },
@@ -10755,7 +10755,7 @@
     "code": "5398.000A0A.4",
     "description": "C.LUSSO CRISTALLO MEDIO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 51.99,
+    "price": 413.82,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10787,7 +10787,7 @@
     "code": "5398.003A0A.4",
     "description": "C.LUSSO CRISTALLO MEDIO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 52.87,
+    "price": 413.82,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10819,7 +10819,7 @@
     "code": "5398.999A9A.4",
     "description": "C.LUSSO CRISTALLO MEDIO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 56.93,
+    "price": 476.74,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -10899,7 +10899,7 @@
     "code": "5401.000A0A.0",
     "description": "TINTA EMBORRACHADA CONSTR. - GL 3,6 LTS",
     "unit": "GL",
-    "price": 29.65,
+    "price": 130.08,
     "category": "Tintas",
     "table": "019"
   },
@@ -10915,7 +10915,7 @@
     "code": "5401.000A0A.4",
     "description": "TINTA EMBORRACHADA CONSTR. - BL 18,0 LTS",
     "unit": "BL",
-    "price": 139.1,
+    "price": 520.28,
     "category": "Tintas",
     "table": "019"
   },
@@ -10923,7 +10923,7 @@
     "code": "5401.002A0A.0",
     "description": "TINTA EMBORRACHADA CONSTR. - GL 3,6 LTS",
     "unit": "GL",
-    "price": 30.07,
+    "price": 130.08,
     "category": "Tintas",
     "table": "019"
   },
@@ -10939,7 +10939,7 @@
     "code": "5401.002A0A.4",
     "description": "TINTA EMBORRACHADA CONSTR. - BL 18,0 LTS",
     "unit": "BL",
-    "price": 141.22,
+    "price": 520.28,
     "category": "Tintas",
     "table": "019"
   },
@@ -10947,7 +10947,7 @@
     "code": "5401.999A9A.0",
     "description": "TINTA EMBORRACHADA CONSTR. - GL 3,6 LTS",
     "unit": "GL",
-    "price": 31.01,
+    "price": 143.07,
     "category": "Tintas",
     "table": "019"
   },
@@ -10963,7 +10963,7 @@
     "code": "5401.999A9A.4",
     "description": "TINTA EMBORRACHADA CONSTR. - BL 18,0 LTS",
     "unit": "BL",
-    "price": 145.93,
+    "price": 572.3,
     "category": "Tintas",
     "table": "019"
   },
@@ -11083,7 +11083,7 @@
     "code": "5404.000A0A.0",
     "description": "PERMACRYL MICRO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 15.69,
+    "price": 93.38,
     "category": "Tintas",
     "table": "019"
   },
@@ -11099,7 +11099,7 @@
     "code": "5404.000A0A.4",
     "description": "PERMACRYL MICRO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 69.75,
+    "price": 337.5,
     "category": "Tintas",
     "table": "019"
   },
@@ -11115,7 +11115,7 @@
     "code": "5404.003A0A.0",
     "description": "PERMACRYL MICRO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 16.07,
+    "price": 93.38,
     "category": "Tintas",
     "table": "019"
   },
@@ -11123,7 +11123,7 @@
     "code": "5404.003A0A.4",
     "description": "PERMACRYL MICRO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 71.63,
+    "price": 337.5,
     "category": "Tintas",
     "table": "019"
   },
@@ -11163,7 +11163,7 @@
     "code": "5407.000A0A.4",
     "description": "TINTA ACR SEMI BRILHO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 132.1,
+    "price": 542.55,
     "category": "Tintas",
     "table": "019"
   },
@@ -11179,7 +11179,7 @@
     "code": "5407.002A0A.4",
     "description": "TINTA ACR SEMI BRILHO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 147.68,
+    "price": 562.65,
     "category": "Tintas",
     "table": "019"
   },
@@ -11187,7 +11187,7 @@
     "code": "5407.999A9A.4",
     "description": "TINTA ACR SEMI BRILHO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 135.89,
+    "price": 623.95,
     "category": "Tintas",
     "table": "019"
   },
@@ -11195,7 +11195,7 @@
     "code": "5408.002A0A.0",
     "description": "PERMACRYL VERNIZ - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 25.05,
+    "price": 109.18,
     "category": "Tintas",
     "table": "019"
   },
@@ -11203,7 +11203,7 @@
     "code": "5408.002A0A.4",
     "description": "PERMACRYL VERNIZ - B.L. 20,0 LTS",
     "unit": "BL",
-    "price": 127.03,
+    "price": 553.01,
     "category": "Tintas",
     "table": "019"
   },
@@ -11211,7 +11211,7 @@
     "code": "5409.002A0A.1",
     "description": "IBRATIN PREP. CONC. R.A.F - L.M. 5,0 LTS",
     "unit": "LM",
-    "price": 55.27,
+    "price": 185.17,
     "category": "Outros",
     "table": "019"
   },
@@ -11219,7 +11219,7 @@
     "code": "5409.002A0A.5",
     "description": "IBRATIN PREP. CONC. R.A.F - L.B. 18,0 LT",
     "unit": "LL",
-    "price": 189.36,
+    "price": 654.89,
     "category": "Outros",
     "table": "019"
   },
@@ -11227,7 +11227,7 @@
     "code": "5410.002A0A.1",
     "description": "IBRATIN VERNIZ EM SOLV. - L.M. 5,0 LTS",
     "unit": "LM",
-    "price": 60.49,
+    "price": 191.16,
     "category": "Complementos",
     "table": "019"
   },
@@ -11243,7 +11243,7 @@
     "code": "5412.000A0A.4",
     "description": "IBRAPISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 73.5,
+    "price": 381.15,
     "category": "Outros",
     "table": "019"
   },
@@ -11259,7 +11259,7 @@
     "code": "5412.002A0A.4",
     "description": "IBRAPISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 91.52,
+    "price": 381.15,
     "category": "Outros",
     "table": "019"
   },
@@ -11275,7 +11275,7 @@
     "code": "5412.999A9A.4",
     "description": "IBRAPISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 86.64,
+    "price": 419.26,
     "category": "Outros",
     "table": "019"
   },
@@ -11283,7 +11283,7 @@
     "code": "5413.002A0A.0",
     "description": "SANITIZA+ - GL 3,6 LTS",
     "unit": "GL",
-    "price": 29.01,
+    "price": 117.39,
     "category": "Outros",
     "table": "019"
   },
@@ -11291,7 +11291,7 @@
     "code": "5413.002A0A.4",
     "description": "SANITIZA+ - BL 18,0 LTS",
     "unit": "BL",
-    "price": 135.93,
+    "price": 528.28,
     "category": "Outros",
     "table": "019"
   },
@@ -11299,7 +11299,7 @@
     "code": "5414.002A0A.1",
     "description": "HIDROFUGANTE PLUS - LM 5,0 LTS",
     "unit": "LM",
-    "price": 56.87,
+    "price": 181.69,
     "category": "Outros",
     "table": "019"
   },
@@ -11307,7 +11307,7 @@
     "code": "5414.002A0A.5",
     "description": "HIDROFUGANTE PLUS - LL 18,0 LTS",
     "unit": "LL",
-    "price": 195.14,
+    "price": 628.9,
     "category": "Outros",
     "table": "019"
   },
@@ -11323,7 +11323,7 @@
     "code": "5415.002A0A.1",
     "description": "FUNDO PREPAR SOLVENTE - LM 5,0 LTS",
     "unit": "LM",
-    "price": 44.63,
+    "price": 188.38,
     "category": "Complementos",
     "table": "019"
   },
@@ -11331,7 +11331,7 @@
     "code": "5415.002A0A.5",
     "description": "FUNDO PREPAR SOLVENTE - LL 18,0 LTS",
     "unit": "LL",
-    "price": 151.08,
+    "price": 659.34,
     "category": "Complementos",
     "table": "019"
   },
@@ -11347,7 +11347,7 @@
     "code": "5417.002A0A.0",
     "description": "ARTLINE VERNIZ PEROLADO - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 7.18,
+    "price": 415.86,
     "category": "Complementos",
     "table": "019"
   },
@@ -11355,7 +11355,7 @@
     "code": "5417.002A0A.4",
     "description": "ARTLINE VERNIZ PEROLADO - B.L. 20,0 LTS",
     "unit": "BL",
-    "price": 27.75,
+    "price": 2.07923,
     "category": "Complementos",
     "table": "019"
   },
@@ -11363,7 +11363,7 @@
     "code": "5418.002A0A.0",
     "description": "FUNDO PREPAR BASE AGUA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 8.1,
+    "price": 85.44,
     "category": "Complementos",
     "table": "019"
   },
@@ -11371,7 +11371,7 @@
     "code": "5418.002A0A.4",
     "description": "FUNDO PREPAR BASE AGUA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 30.25,
+    "price": 379.81,
     "category": "Complementos",
     "table": "019"
   },
@@ -11403,7 +11403,7 @@
     "code": "5419.000A0A.3",
     "description": "PERMACRYL MACRO - S.C. 15,0 KGS",
     "unit": "SC",
-    "price": 30.79,
+    "price": 204.09,
     "category": "Tintas",
     "table": "019"
   },
@@ -11411,7 +11411,7 @@
     "code": "5419.000A0A.4",
     "description": "PERMACRYL MACRO - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 56.73,
+    "price": 373.55,
     "category": "Tintas",
     "table": "019"
   },
@@ -11435,7 +11435,7 @@
     "code": "5419.003A0A.3",
     "description": "PERMACRYL MACRO - S.C. 15,0 KGS",
     "unit": "SC",
-    "price": 30.13,
+    "price": 197.2,
     "category": "Tintas",
     "table": "019"
   },
@@ -11443,7 +11443,7 @@
     "code": "5419.003A0A.4",
     "description": "PERMACRYL MACRO - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 55.63,
+    "price": 362.04,
     "category": "Tintas",
     "table": "019"
   },
@@ -11467,7 +11467,7 @@
     "code": "5419.999A9A.3",
     "description": "PERMACRYL MACRO - S.C. 15,0 KGS",
     "unit": "SC",
-    "price": 39.62,
+    "price": 246.22,
     "category": "Tintas",
     "table": "019"
   },
@@ -11475,7 +11475,7 @@
     "code": "5419.999A9A.4",
     "description": "PERMACRYL MACRO - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 71.44,
+    "price": 443.8,
     "category": "Tintas",
     "table": "019"
   },
@@ -11483,7 +11483,7 @@
     "code": "5426.002A0A.1",
     "description": "HIDROREPELENTE - LM 5,0 LTS",
     "unit": "LM",
-    "price": 44.63,
+    "price": 198.92,
     "category": "Outros",
     "table": "019"
   },
@@ -11491,7 +11491,7 @@
     "code": "5426.002A0A.5",
     "description": "HIDROREPELENTE - LL 18,0 LTS",
     "unit": "LL",
-    "price": 151.08,
+    "price": 632.96,
     "category": "Outros",
     "table": "019"
   },
@@ -11499,7 +11499,7 @@
     "code": "5428.002A0A.0",
     "description": "PROTETOR A.F. - G.P. 3,6 LT",
     "unit": "GL",
-    "price": 5.61,
+    "price": 40.52,
     "category": "Outros",
     "table": "019"
   },
@@ -11507,7 +11507,7 @@
     "code": "5428.002A0A.4",
     "description": "PROTETOR A.F. - B.L 18,0 LT",
     "unit": "BL",
-    "price": 18.91,
+    "price": 130.34,
     "category": "Outros",
     "table": "019"
   },
@@ -11523,7 +11523,7 @@
     "code": "5429.002A0A.4",
     "description": "IBRATIN HIDROJET - B.L 18,0 LTS",
     "unit": "BL",
-    "price": 457.29,
+    "price": 2.3946,
     "category": "Outros",
     "table": "019"
   },
@@ -11587,7 +11587,7 @@
     "code": "5431.000A0A.4",
     "description": "TINTA ACR ACETINADO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 122.47,
+    "price": 531.07,
     "category": "Tintas",
     "table": "019"
   },
@@ -11595,7 +11595,7 @@
     "code": "5431.002A0A.4",
     "description": "TINTA ACR ACETINADO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 138.48,
+    "price": 531.07,
     "category": "Tintas",
     "table": "019"
   },
@@ -11603,7 +11603,7 @@
     "code": "5431.999A9A.4",
     "description": "TINTA ACR ACETINADO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 132.14,
+    "price": 610.73,
     "category": "Tintas",
     "table": "019"
   },
@@ -11659,7 +11659,7 @@
     "code": "5432.000A0A.0",
     "description": "TINTA ACRILICA PREMIUM - GL 3,6 LTS",
     "unit": "GL",
-    "price": 18.35,
+    "price": 106.72,
     "category": "Tintas",
     "table": "019"
   },
@@ -11667,7 +11667,7 @@
     "code": "5432.000A0A.4",
     "description": "TINTA ACRILICA PREMIUM - BL 18,0 LTS",
     "unit": "BL",
-    "price": 81.5,
+    "price": 426.89,
     "category": "Tintas",
     "table": "019"
   },
@@ -11675,7 +11675,7 @@
     "code": "5432.002A0A.0",
     "description": "TINTA ACRILICA PREMIUM - GL 3,6 LTS",
     "unit": "GL",
-    "price": 24.31,
+    "price": 106.72,
     "category": "Tintas",
     "table": "019"
   },
@@ -11683,7 +11683,7 @@
     "code": "5432.002A0A.4",
     "description": "TINTA ACRILICA PREMIUM - BL 18,0 LTS",
     "unit": "BL",
-    "price": 114.69,
+    "price": 426.89,
     "category": "Tintas",
     "table": "019"
   },
@@ -11691,7 +11691,7 @@
     "code": "5432.999A9A.0",
     "description": "TINTA ACRILICA PREMIUM - GL 3,6 LTS",
     "unit": "GL",
-    "price": 20.59,
+    "price": 117.39,
     "category": "Tintas",
     "table": "019"
   },
@@ -11699,7 +11699,7 @@
     "code": "5432.999A9A.4",
     "description": "TINTA ACRILICA PREMIUM - BL 18,0 LTS",
     "unit": "BL",
-    "price": 92.69,
+    "price": 469.58,
     "category": "Tintas",
     "table": "019"
   },
@@ -11755,7 +11755,7 @@
     "code": "5434.000A0A.0",
     "description": "PERMACRYL REVITALIZE 3EM1 - GL 5,0 KGS",
     "unit": "GL",
-    "price": 21.23,
+    "price": 105.66,
     "category": "Tintas",
     "table": "019"
   },
@@ -11779,7 +11779,7 @@
     "code": "5434.000A0A.4",
     "description": "PERMACRYL REVITALIZE 3EM1 - BL 25,0 KGS",
     "unit": "BL",
-    "price": 95.87,
+    "price": 418.22,
     "category": "Tintas",
     "table": "019"
   },
@@ -11835,7 +11835,7 @@
     "code": "5434.003A0A.4",
     "description": "PERMACRYL REVITALIZE 3EM1 - BL 25,0 KGS",
     "unit": "BL",
-    "price": 94.77,
+    "price": 418.22,
     "category": "Tintas",
     "table": "019"
   },
@@ -11907,7 +11907,7 @@
     "code": "5435.000A0A.4",
     "description": "TINTA PREMIUM DECORA PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 113.75,
+    "price": 469.58,
     "category": "Tintas",
     "table": "019"
   },
@@ -11923,7 +11923,7 @@
     "code": "5435.002A0A.4",
     "description": "TINTA PREMIUM DECORA PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 136.24,
+    "price": 498.92,
     "category": "Tintas",
     "table": "019"
   },
@@ -11939,7 +11939,7 @@
     "code": "5435.999A9A.4",
     "description": "TINTA PREMIUM DECORA PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 118.3,
+    "price": 540.01,
     "category": "Tintas",
     "table": "019"
   },
@@ -12003,7 +12003,7 @@
     "code": "5438.002A0A.1",
     "description": "IBRATIN HIDROCIMENT  - L.M. 5,0 LTS",
     "unit": "LM",
-    "price": 37.73,
+    "price": 1.17217,
     "category": "Outros",
     "table": "019"
   },
@@ -12051,7 +12051,7 @@
     "code": "5446.000A0A.0",
     "description": "ESMALTE ACETINADO B.AGUA  - GL 3,6 LTS",
     "unit": "GL",
-    "price": 43.4,
+    "price": 143.33,
     "category": "Outros",
     "table": "019"
   },
@@ -12059,7 +12059,7 @@
     "code": "5446.000A0A.0",
     "description": "ESMALTE ACETINADO B.AGUA  - GL 3,6 LTS",
     "unit": "GL",
-    "price": 43.4,
+    "price": 143.33,
     "category": "Outros",
     "table": "019"
   },
@@ -12067,7 +12067,7 @@
     "code": "5446.999A9A.0",
     "description": "ESMALTE ACETINADO B.AGUA  - GL 3,6 LTS",
     "unit": "GL",
-    "price": 37.28,
+    "price": 164.18,
     "category": "Outros",
     "table": "019"
   },
@@ -12075,7 +12075,7 @@
     "code": "5446.999A9A.0",
     "description": "ESMALTE ACETINADO B.AGUA  - GL 3,6 LTS",
     "unit": "GL",
-    "price": 37.28,
+    "price": 164.18,
     "category": "Outros",
     "table": "019"
   },
@@ -12083,7 +12083,7 @@
     "code": "5453.002A0A.0",
     "description": "LIQUIDO FF BASE AGUA  - GL 3,6 LTS",
     "unit": "GL",
-    "price": 26.51,
+    "price": 114.29,
     "category": "Outros",
     "table": "019"
   },
@@ -12091,7 +12091,7 @@
     "code": "5453.002A0A.4",
     "description": "LIQUIDO FF BASE AGUA  - BL 18,0 LTS",
     "unit": "BL",
-    "price": 122.29,
+    "price": 478.2,
     "category": "Outros",
     "table": "019"
   },
@@ -12123,7 +12123,7 @@
     "code": "5456.000A0A.4",
     "description": "TINTA LIMPEZA TOTAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 162.87,
+    "price": 640.82,
     "category": "Tintas",
     "table": "019"
   },
@@ -12139,7 +12139,7 @@
     "code": "5456.002A0A.4",
     "description": "TINTA LIMPEZA TOTAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 171.63,
+    "price": 640.82,
     "category": "Tintas",
     "table": "019"
   },
@@ -12155,7 +12155,7 @@
     "code": "5456.999A9A.4",
     "description": "TINTA LIMPEZA TOTAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 165.75,
+    "price": 736.92,
     "category": "Tintas",
     "table": "019"
   },
@@ -12171,7 +12171,7 @@
     "code": "5457.000A0A.4",
     "description": "PERMACRYL MICRO MICA - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 79.74,
+    "price": 409.57,
     "category": "Tintas",
     "table": "019"
   },
@@ -12187,7 +12187,7 @@
     "code": "5457.003A0A.4",
     "description": "PERMACRYL MICRO MICA - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 78.7,
+    "price": 409.57,
     "category": "Tintas",
     "table": "019"
   },
@@ -12203,7 +12203,7 @@
     "code": "5457.999A9A.4",
     "description": "PERMACRYL MICRO MICA - BL. 25,0 KGS",
     "unit": "BL",
-    "price": 93.72,
+    "price": 471.02,
     "category": "Tintas",
     "table": "019"
   },
@@ -12211,7 +12211,7 @@
     "code": "5458.002A0A.0",
     "description": "VERNIZ  HIDROFOBICO - GP 3,6 LTS",
     "unit": "GL",
-    "price": 118.29,
+    "price": 670.82,
     "category": "Complementos",
     "table": "019"
   },
@@ -12219,7 +12219,7 @@
     "code": "5458.002A0A.4",
     "description": "VERNIZ HIDROFOBICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 582.33,
+    "price": 2.6833,
     "category": "Complementos",
     "table": "019"
   },
@@ -12227,7 +12227,7 @@
     "code": "5459.002A0A.4",
     "description": "BASECOAT IBRATIN - BL 20,0 KGS",
     "unit": "BL",
-    "price": 47.46,
+    "price": 174.2,
     "category": "Outros",
     "table": "019"
   },
@@ -12235,7 +12235,7 @@
     "code": "5460.002A0A.0",
     "description": "PROMOTOR DE ADERENCIA - GP 3,6 LTS",
     "unit": "GL",
-    "price": 11.15,
+    "price": 93.59,
     "category": "Outros",
     "table": "019"
   },
@@ -12243,7 +12243,7 @@
     "code": "5460.002A0A.4",
     "description": "PROMOTOR DE ADERENCIA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 46.62,
+    "price": 415.97,
     "category": "Outros",
     "table": "019"
   },
@@ -12267,7 +12267,7 @@
     "code": "5461.000A0A.4",
     "description": "EFFETI ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 73.77,
+    "price": 556.6,
     "category": "Outros",
     "table": "019"
   },
@@ -12299,7 +12299,7 @@
     "code": "5461.003A0A.4",
     "description": "EFFETI ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 76.01,
+    "price": 556.6,
     "category": "Outros",
     "table": "019"
   },
@@ -12323,7 +12323,7 @@
     "code": "5461.999A9A.4",
     "description": "EFFETI ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 78.92,
+    "price": 640.09,
     "category": "Outros",
     "table": "019"
   },
@@ -12347,7 +12347,7 @@
     "code": "5462.000A0A.4",
     "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 107.68,
+    "price": 492.31,
     "category": "Tintas",
     "table": "019"
   },
@@ -12355,7 +12355,7 @@
     "code": "5462.000A0A.4",
     "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 107.68,
+    "price": 492.31,
     "category": "Tintas",
     "table": "019"
   },
@@ -12371,7 +12371,7 @@
     "code": "5462.003A0A.4",
     "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 107.13,
+    "price": 492.31,
     "category": "Tintas",
     "table": "019"
   },
@@ -12379,7 +12379,7 @@
     "code": "5462.003A0A.4",
     "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 107.13,
+    "price": 492.31,
     "category": "Tintas",
     "table": "019"
   },
@@ -12395,7 +12395,7 @@
     "code": "5462.999A9A.4",
     "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 115.04,
+    "price": 566.16,
     "category": "Tintas",
     "table": "019"
   },
@@ -12403,7 +12403,7 @@
     "code": "5462.999A9A.4",
     "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 115.04,
+    "price": 566.16,
     "category": "Tintas",
     "table": "019"
   },
@@ -12427,7 +12427,7 @@
     "code": "5465.000A0A.0",
     "description": "TINTA SUPER PREMIUM ULTRA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 32.5,
+    "price": 118.46,
     "category": "Tintas",
     "table": "019"
   },
@@ -12443,7 +12443,7 @@
     "code": "5465.000A0A.4",
     "description": "TINTA SUPER PREMIUM ULTRA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 153.36,
+    "price": 592.31,
     "category": "Tintas",
     "table": "019"
   },
@@ -12475,7 +12475,7 @@
     "code": "5465.999A9A.0",
     "description": "TINTA SUPER PREMIUM ULTRA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 37.48,
+    "price": 130.31,
     "category": "Tintas",
     "table": "019"
   },
@@ -12491,7 +12491,7 @@
     "code": "5465.999A9A.4",
     "description": "TINTA SUPER PREMIUM ULTRA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 178.28,
+    "price": 651.54,
     "category": "Tintas",
     "table": "019"
   },
@@ -12499,7 +12499,7 @@
     "code": "5466.002A0A.0",
     "description": "BLANCO FLEX - GL 3,6 LTS",
     "unit": "GL",
-    "price": 9.44,
+    "price": 48.9,
     "category": "Outros",
     "table": "019"
   },
@@ -12507,7 +12507,7 @@
     "code": "5466.002A0A.4",
     "description": "BLANCO FLEX - BL 18,0 LTS",
     "unit": "BL",
-    "price": 35.29,
+    "price": 195.65,
     "category": "Outros",
     "table": "019"
   },
@@ -12515,7 +12515,7 @@
     "code": "5503.000A0A.0",
     "description": "C.LUSSO ETRUSCA GEL ENV - GL 3,6 LTS",
     "unit": "GL",
-    "price": 9.35,
+    "price": 114.95,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -12531,7 +12531,7 @@
     "code": "5503.000A0A.4",
     "description": "C.LUSSO ETRUSCA GEL ENV - BL 18,0 LTS",
     "unit": "BL",
-    "price": 32.43,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -12539,7 +12539,7 @@
     "code": "5503.003A0A.0",
     "description": "C.LUSSO ETRUSCA GEL ENV - GL 3,6 LTS",
     "unit": "GL",
-    "price": 9.3,
+    "price": 114.95,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -12555,7 +12555,7 @@
     "code": "5503.003A0A.4",
     "description": "C.LUSSO ETRUSCA GEL ENV - BL 18,0 LTS",
     "unit": "BL",
-    "price": 32.19,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -12563,7 +12563,7 @@
     "code": "5503.999A9A.0",
     "description": "C.LUSSO ETRUSCA GEL ENV - GL 3,6 LTS",
     "unit": "GL",
-    "price": 9.98,
+    "price": 133.1,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -12579,7 +12579,7 @@
     "code": "5503.999A9A.4",
     "description": "C.LUSSO ETRUSCA GEL ENV - BL 18,0 LTS",
     "unit": "BL",
-    "price": 35.61,
+    "price": 514.25,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -12603,7 +12603,7 @@
     "code": "5517.000A0A.3",
     "description": "TEXTURA DE ROLO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.59,
+    "price": 96.44,
     "category": "Texturas",
     "table": "019"
   },
@@ -12611,7 +12611,7 @@
     "code": "5517.000A0A.4",
     "description": "TEXTURA DE ROLO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.84,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -12659,7 +12659,7 @@
     "code": "5517.003A0A.3",
     "description": "TEXTURA DE ROLO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.75,
+    "price": 96.44,
     "category": "Texturas",
     "table": "019"
   },
@@ -12667,7 +12667,7 @@
     "code": "5517.003A0A.4",
     "description": "TEXTURA DE ROLO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 42.14,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -12723,7 +12723,7 @@
     "code": "5517.999A9A.3",
     "description": "TEXTURA DE ROLO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 20.38,
+    "price": 110.88,
     "category": "Texturas",
     "table": "019"
   },
@@ -12731,7 +12731,7 @@
     "code": "5517.999A9A.4",
     "description": "TEXTURA DE ROLO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 43.31,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -12795,7 +12795,7 @@
     "code": "5525.000A0A.3",
     "description": "TEXTURA PROJETADA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.46,
+    "price": 105.79,
     "category": "Texturas",
     "table": "019"
   },
@@ -12803,7 +12803,7 @@
     "code": "5525.000A0A.4",
     "description": "TEXTURA PROJETADA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.59,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -12867,7 +12867,7 @@
     "code": "5525.003A0A.3",
     "description": "TEXTURA PROJETADA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.6,
+    "price": 105.79,
     "category": "Texturas",
     "table": "019"
   },
@@ -12875,7 +12875,7 @@
     "code": "5525.003A0A.4",
     "description": "TEXTURA PROJETADA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.86,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -12923,7 +12923,7 @@
     "code": "5525.999A9A.3",
     "description": "TEXTURA PROJETADA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 20.79,
+    "price": 122.24,
     "category": "Texturas",
     "table": "019"
   },
@@ -12931,7 +12931,7 @@
     "code": "5525.999A9A.4",
     "description": "TEXTURA PROJETADA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 44.06,
+    "price": 278.53,
     "category": "Texturas",
     "table": "019"
   },
@@ -12971,7 +12971,7 @@
     "code": "5526.000A0A.4",
     "description": "PERMALIT PROGETTATO RUSTI - B.L. 28,0 KG",
     "unit": "BL",
-    "price": 23.53,
+    "price": 303.07,
     "category": "Tintas",
     "table": "019"
   },
@@ -12979,7 +12979,7 @@
     "code": "5526.003A0A.4",
     "description": "PERMALIT PROGETTATO RUSTI - B.L. 28,0 KG",
     "unit": "BL",
-    "price": 36.72,
+    "price": 303.07,
     "category": "Tintas",
     "table": "019"
   },
@@ -13067,7 +13067,7 @@
     "code": "5527.000A0A.0",
     "description": "SELADOR TEXTURA - GP 3,6 LTS",
     "unit": "GL",
-    "price": 9.74,
+    "price": 43.36,
     "category": "Texturas",
     "table": "019"
   },
@@ -13083,7 +13083,7 @@
     "code": "5527.000A0A.4",
     "description": "SELADOR TEXTURA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 39.56,
+    "price": 173.43,
     "category": "Texturas",
     "table": "019"
   },
@@ -13107,7 +13107,7 @@
     "code": "5527.003A0A.0",
     "description": "SELADOR TEXTURA - GP 3,6 LTS",
     "unit": "GL",
-    "price": 9.67,
+    "price": 36.69,
     "category": "Texturas",
     "table": "019"
   },
@@ -13123,7 +13123,7 @@
     "code": "5527.003A0A.4",
     "description": "SELADOR TEXTURA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 39.24,
+    "price": 146.75,
     "category": "Texturas",
     "table": "019"
   },
@@ -13147,7 +13147,7 @@
     "code": "5527.999A9A.0",
     "description": "SELADOR TEXTURA - GP 3,6 LTS",
     "unit": "GL",
-    "price": 10.6,
+    "price": 50.04,
     "category": "Texturas",
     "table": "019"
   },
@@ -13163,7 +13163,7 @@
     "code": "5527.999A9A.4",
     "description": "SELADOR TEXTURA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 43.85,
+    "price": 200.11,
     "category": "Texturas",
     "table": "019"
   },
@@ -13195,7 +13195,7 @@
     "code": "5531.000A0A.3",
     "description": "TEXTURA RISCADA - 222/10 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.75,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13203,7 +13203,7 @@
     "code": "5531.000A0A.4",
     "description": "TEXTURA RISCADA - 222/10 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.27,
+    "price": 237.36,
     "category": "Texturas",
     "table": "019"
   },
@@ -13251,7 +13251,7 @@
     "code": "5531.003A0A.3",
     "description": "TEXTURA RISCADA - 222/10 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.79,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13259,7 +13259,7 @@
     "code": "5531.003A0A.4",
     "description": "TEXTURA RISCADA - 222/10 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.34,
+    "price": 237.36,
     "category": "Texturas",
     "table": "019"
   },
@@ -13283,7 +13283,7 @@
     "code": "5531.999A9A.3",
     "description": "TEXTURA RISCADA - 222/10 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.46,
+    "price": 117.23,
     "category": "Texturas",
     "table": "019"
   },
@@ -13291,7 +13291,7 @@
     "code": "5531.999A9A.4",
     "description": "TEXTURA RISCADA - 222/10 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.59,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -13331,7 +13331,7 @@
     "code": "5532.000A0A.3",
     "description": "TEXTURA RISCADA - 222/12 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.67,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13339,7 +13339,7 @@
     "code": "5532.000A0A.4",
     "description": "TEXTURA RISCADA - 222/12 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.12,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -13387,7 +13387,7 @@
     "code": "5532.003A0A.3",
     "description": "TEXTURA RISCADA - 222/12 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.71,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13395,7 +13395,7 @@
     "code": "5532.003A0A.4",
     "description": "TEXTURA RISCADA - 222/12 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.2,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -13435,7 +13435,7 @@
     "code": "5532.999A9A.3",
     "description": "TEXTURA RISCADA - 222/12 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.38,
+    "price": 117.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -13443,7 +13443,7 @@
     "code": "5532.999A9A.4",
     "description": "TEXTURA RISCADA - 222/12 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.44,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -13499,7 +13499,7 @@
     "code": "5533.000A0A.3",
     "description": "TEXTURA RISCADA - 222/14 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.62,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13507,7 +13507,7 @@
     "code": "5533.000A0A.4",
     "description": "TEXTURA RISCADA - 222/14 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.03,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -13555,7 +13555,7 @@
     "code": "5533.003A0A.3",
     "description": "TEXTURA RISCADA - 222/14 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.71,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13563,7 +13563,7 @@
     "code": "5533.003A0A.4",
     "description": "TEXTURA RISCADA - 222/14 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.2,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -13619,7 +13619,7 @@
     "code": "5533.999A9A.3",
     "description": "TEXTURA RISCADA - 222/14 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.38,
+    "price": 117.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -13627,7 +13627,7 @@
     "code": "5533.999A9A.4",
     "description": "TEXTURA RISCADA - 222/14 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.44,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -13667,7 +13667,7 @@
     "code": "5534.000A0A.3",
     "description": "TEXTURA RISCADA - 222/20 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.64,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13675,7 +13675,7 @@
     "code": "5534.000A0A.4",
     "description": "TEXTURA RISCADA - 222/20 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.05,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -13739,7 +13739,7 @@
     "code": "5534.003A0A.3",
     "description": "TEXTURA RISCADA - 222/20 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.91,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -13747,7 +13747,7 @@
     "code": "5534.003A0A.4",
     "description": "TEXTURA RISCADA - 222/20 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.57,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -13787,7 +13787,7 @@
     "code": "5534.999A9A.3",
     "description": "TEXTURA RISCADA - 222/20 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.4,
+    "price": 117.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -13795,7 +13795,7 @@
     "code": "5534.999A9A.4",
     "description": "TEXTURA RISCADA - 222/20 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.47,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -13843,7 +13843,7 @@
     "code": "5535.000A0A.4",
     "description": "C.LUSSO SPECIALI - BL 28,0 KGS",
     "unit": "BL",
-    "price": 42.31,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -13859,7 +13859,7 @@
     "code": "5535.003A0A.4",
     "description": "C.LUSSO SPECIALI - BL 28,0 KGS",
     "unit": "BL",
-    "price": 42.53,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -13867,7 +13867,7 @@
     "code": "5535.999A9A.4",
     "description": "C.LUSSO SPECIALI - BL 28,0 KGS",
     "unit": "BL",
-    "price": 43.7,
+    "price": 514.25,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -13883,7 +13883,7 @@
     "code": "5536.000A0A.4",
     "description": "C.LUSSO ETRUSCA REV - BL 28,0 KGS",
     "unit": "BL",
-    "price": 44.34,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -13907,7 +13907,7 @@
     "code": "5536.003A0A.4",
     "description": "C.LUSSO ETRUSCA REV - BL 28,0 KGS",
     "unit": "BL",
-    "price": 42.53,
+    "price": 451.33,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -13939,7 +13939,7 @@
     "code": "5536.999A9A.4",
     "description": "C.LUSSO ETRUSCA REV - BL 28,0 KGS",
     "unit": "BL",
-    "price": 47.63,
+    "price": 514.25,
     "category": "Casa Lusso",
     "table": "019"
   },
@@ -13963,7 +13963,7 @@
     "code": "5537.000A0A.3",
     "description": "GRANELLI GROSSO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 23.21,
+    "price": 107.61,
     "category": "Outros",
     "table": "019"
   },
@@ -13971,7 +13971,7 @@
     "code": "5537.000A0A.4",
     "description": "GRANELLI GROSSO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 48.58,
+    "price": 230.6,
     "category": "Outros",
     "table": "019"
   },
@@ -14027,7 +14027,7 @@
     "code": "5537.003A0A.3",
     "description": "GRANELLI GROSSO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 23.51,
+    "price": 107.61,
     "category": "Outros",
     "table": "019"
   },
@@ -14035,7 +14035,7 @@
     "code": "5537.003A0A.4",
     "description": "GRANELLI GROSSO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 49.15,
+    "price": 230.6,
     "category": "Outros",
     "table": "019"
   },
@@ -14099,7 +14099,7 @@
     "code": "5537.999A9A.3",
     "description": "GRANELLI GROSSO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 25.85,
+    "price": 123.76,
     "category": "Outros",
     "table": "019"
   },
@@ -14107,7 +14107,7 @@
     "code": "5537.999A9A.4",
     "description": "GRANELLI GROSSO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 53.53,
+    "price": 265.2,
     "category": "Outros",
     "table": "019"
   },
@@ -14243,7 +14243,7 @@
     "code": "5540.000A0A.3",
     "description": "CRISTALLINI PREMIUM - SC 15,0 KGS",
     "unit": "SC",
-    "price": 25.03,
+    "price": 107.61,
     "category": "Texturas",
     "table": "019"
   },
@@ -14251,7 +14251,7 @@
     "code": "5540.000A0A.4",
     "description": "CRISTALLINI PREMIUM - BL 28,0 KGS",
     "unit": "BL",
-    "price": 51.99,
+    "price": 229.2,
     "category": "Texturas",
     "table": "019"
   },
@@ -14291,7 +14291,7 @@
     "code": "5540.003A0A.3",
     "description": "CRISTALLINI PREMIUM - SC 15,0 KGS",
     "unit": "SC",
-    "price": 25.51,
+    "price": 107.61,
     "category": "Texturas",
     "table": "019"
   },
@@ -14299,7 +14299,7 @@
     "code": "5540.003A0A.4",
     "description": "CRISTALLINI PREMIUM - BL 28,0 KGS",
     "unit": "BL",
-    "price": 52.87,
+    "price": 229.2,
     "category": "Texturas",
     "table": "019"
   },
@@ -14339,7 +14339,7 @@
     "code": "5540.999A9A.3",
     "description": "CRISTALLINI PREMIUM - SC 15,0 KGS",
     "unit": "SC",
-    "price": 27.68,
+    "price": 123.76,
     "category": "Texturas",
     "table": "019"
   },
@@ -14347,7 +14347,7 @@
     "code": "5540.999A9A.4",
     "description": "CRISTALLINI PREMIUM - BL 28,0 KGS",
     "unit": "BL",
-    "price": 56.93,
+    "price": 263.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -14387,7 +14387,7 @@
     "code": "5542.000A0A.3",
     "description": "CRISTALLINI FINO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 25.36,
+    "price": 129.75,
     "category": "Texturas",
     "table": "019"
   },
@@ -14395,7 +14395,7 @@
     "code": "5542.000A0A.4",
     "description": "CRISTALLINI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 52.6,
+    "price": 269.67,
     "category": "Texturas",
     "table": "019"
   },
@@ -14443,7 +14443,7 @@
     "code": "5542.003A0A.3",
     "description": "CRISTALLINI FINO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 25.75,
+    "price": 127.49,
     "category": "Texturas",
     "table": "019"
   },
@@ -14451,7 +14451,7 @@
     "code": "5542.003A0A.4",
     "description": "CRISTALLINI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 53.32,
+    "price": 269.67,
     "category": "Texturas",
     "table": "019"
   },
@@ -14491,7 +14491,7 @@
     "code": "5542.999A9A.3",
     "description": "CRISTALLINI FINO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 28.01,
+    "price": 133.63,
     "category": "Texturas",
     "table": "019"
   },
@@ -14499,7 +14499,7 @@
     "code": "5542.999A9A.4",
     "description": "CRISTALLINI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 57.55,
+    "price": 309.53,
     "category": "Texturas",
     "table": "019"
   },
@@ -14547,7 +14547,7 @@
     "code": "5544.000A0A.4",
     "description": "ARTLINE CRISTALLINI NOBRE - B.L. 28.0 K",
     "unit": "BL",
-    "price": 41.22,
+    "price": 451.33,
     "category": "Texturas",
     "table": "019"
   },
@@ -14579,7 +14579,7 @@
     "code": "5544.003A0A.4",
     "description": "ARTLINE CRISTALLINI NOBRE - B.L. 28.0 L",
     "unit": "BL",
-    "price": 41.52,
+    "price": 451.33,
     "category": "Texturas",
     "table": "019"
   },
@@ -14611,7 +14611,7 @@
     "code": "5544.999A9A.4",
     "description": "ARTLINE CRISTALLINI NOBRE - B.L. 28.0 K",
     "unit": "BL",
-    "price": 43.89,
+    "price": 514.25,
     "category": "Texturas",
     "table": "019"
   },
@@ -14707,7 +14707,7 @@
     "code": "5546.000A0A.3",
     "description": "GRANELLI FINO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 22.12,
+    "price": 107.61,
     "category": "Outros",
     "table": "019"
   },
@@ -14715,7 +14715,7 @@
     "code": "5546.000A0A.4",
     "description": "GRANELLI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 46.55,
+    "price": 229.2,
     "category": "Outros",
     "table": "019"
   },
@@ -14747,7 +14747,7 @@
     "code": "5546.003A0A.3",
     "description": "GRANELLI FINO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 21.92,
+    "price": 107.61,
     "category": "Outros",
     "table": "019"
   },
@@ -14755,7 +14755,7 @@
     "code": "5546.003A0A.4",
     "description": "GRANELLI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 46.19,
+    "price": 229.2,
     "category": "Outros",
     "table": "019"
   },
@@ -14787,7 +14787,7 @@
     "code": "5546.999A9A.3",
     "description": "GRANELLI FINO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 24.77,
+    "price": 123.76,
     "category": "Outros",
     "table": "019"
   },
@@ -14795,7 +14795,7 @@
     "code": "5546.999A9A.4",
     "description": "GRANELLI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 51.5,
+    "price": 263.57,
     "category": "Outros",
     "table": "019"
   },
@@ -14835,7 +14835,7 @@
     "code": "5547.000A0A.4",
     "description": "GRANELLI RIGATO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.26,
+    "price": 451.33,
     "category": "Outros",
     "table": "019"
   },
@@ -14891,7 +14891,7 @@
     "code": "5547.003A0A.4",
     "description": "GRANELLI RIGATO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.53,
+    "price": 451.33,
     "category": "Outros",
     "table": "019"
   },
@@ -14923,7 +14923,7 @@
     "code": "5547.999A9A.4",
     "description": "GRANELLI RIGATO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 43.73,
+    "price": 514.25,
     "category": "Outros",
     "table": "019"
   },
@@ -14963,7 +14963,7 @@
     "code": "5549.000A0A.3",
     "description": "TEXTURA RISCADA - 222/08 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.67,
+    "price": 146.55,
     "category": "Texturas",
     "table": "019"
   },
@@ -14971,7 +14971,7 @@
     "code": "5549.000A0A.4",
     "description": "TEXTURA RISCADA - 222/08 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.11,
+    "price": 304.52,
     "category": "Texturas",
     "table": "019"
   },
@@ -15003,7 +15003,7 @@
     "code": "5549.003A0A.3",
     "description": "TEXTURA RISCADA - 222/08 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.66,
+    "price": 146.29,
     "category": "Texturas",
     "table": "019"
   },
@@ -15011,7 +15011,7 @@
     "code": "5549.003A0A.4",
     "description": "TEXTURA RISCADA - 222/08 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.1,
+    "price": 304.06,
     "category": "Texturas",
     "table": "019"
   },
@@ -15027,7 +15027,7 @@
     "code": "5549.999A9A.3",
     "description": "TEXTURA RISCADA - 222/08 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.42,
+    "price": 150.06,
     "category": "Texturas",
     "table": "019"
   },
@@ -15035,7 +15035,7 @@
     "code": "5549.999A9A.4",
     "description": "TEXTURA RISCADA - 222/08 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.52,
+    "price": 311.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -15059,7 +15059,7 @@
     "code": "5551.000A0A.3",
     "description": "TEXTURA RISCADA - 222/16 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.72,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -15067,7 +15067,7 @@
     "code": "5551.000A0A.4",
     "description": "TEXTURA RISCADA - 222/16 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.2,
+    "price": 235.09,
     "category": "Texturas",
     "table": "019"
   },
@@ -15107,7 +15107,7 @@
     "code": "5551.003A0A.3",
     "description": "TEXTURA RISCADA - 222/16 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.79,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -15115,7 +15115,7 @@
     "code": "5551.003A0A.4",
     "description": "TEXTURA RISCADA - 222/16 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.34,
+    "price": 235.09,
     "category": "Texturas",
     "table": "019"
   },
@@ -15147,7 +15147,7 @@
     "code": "5551.999A9A.3",
     "description": "TEXTURA RISCADA - 222/16 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 20.09,
+    "price": 109.43,
     "category": "Texturas",
     "table": "019"
   },
@@ -15155,7 +15155,7 @@
     "code": "5551.999A9A.4",
     "description": "TEXTURA RISCADA - 222/16 - BL 28,0 KGS",
     "unit": "BL",
-    "price": 42.76,
+    "price": 258.64,
     "category": "Texturas",
     "table": "019"
   },
@@ -15195,7 +15195,7 @@
     "code": "5553.000A0A.3",
     "description": "VITAREV 14 - SC. 15,0 KGS",
     "unit": "SC",
-    "price": 16.84,
+    "price": 82.47,
     "category": "Outros",
     "table": "019"
   },
@@ -15203,7 +15203,7 @@
     "code": "5553.000A0A.4",
     "description": "VITAREV 14 - B.L. 28.0 KGS",
     "unit": "BL",
-    "price": 36.71,
+    "price": 164.91,
     "category": "Outros",
     "table": "019"
   },
@@ -15243,7 +15243,7 @@
     "code": "5553.003A0A.3",
     "description": "VITAREV 14 - SC. 15,0 KGS",
     "unit": "SC",
-    "price": 17.18,
+    "price": 82.47,
     "category": "Outros",
     "table": "019"
   },
@@ -15251,7 +15251,7 @@
     "code": "5553.003A0A.4",
     "description": "VITAREV 14 - B.L. 28.0 KGS",
     "unit": "BL",
-    "price": 37.33,
+    "price": 164.91,
     "category": "Outros",
     "table": "019"
   },
@@ -15283,7 +15283,7 @@
     "code": "5553.999A9A.3",
     "description": "VITAREV 14 - SC. 15,0 KGS",
     "unit": "SC",
-    "price": 17.55,
+    "price": 94.83,
     "category": "Outros",
     "table": "019"
   },
@@ -15291,7 +15291,7 @@
     "code": "5553.999A9A.4",
     "description": "VITAREV 14 - B.L. 28.0 KGS",
     "unit": "BL",
-    "price": 38.02,
+    "price": 189.64,
     "category": "Outros",
     "table": "019"
   },
@@ -15331,7 +15331,7 @@
     "code": "5554.000A0A.3",
     "description": "VITATEX - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.61,
+    "price": 82.47,
     "category": "Outros",
     "table": "019"
   },
@@ -15339,7 +15339,7 @@
     "code": "5554.000A0A.4",
     "description": "VITATEX - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.01,
+    "price": 164.91,
     "category": "Outros",
     "table": "019"
   },
@@ -15379,7 +15379,7 @@
     "code": "5554.003A0A.3",
     "description": "VITATEX - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.69,
+    "price": 82.47,
     "category": "Outros",
     "table": "019"
   },
@@ -15387,7 +15387,7 @@
     "code": "5554.003A0A.4",
     "description": "VITATEX - BL 28,0 KGS",
     "unit": "BL",
-    "price": 40.14,
+    "price": 164.91,
     "category": "Outros",
     "table": "019"
   },
@@ -15435,7 +15435,7 @@
     "code": "5554.999A9A.3",
     "description": "VITATEX - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.32,
+    "price": 94.83,
     "category": "Outros",
     "table": "019"
   },
@@ -15443,7 +15443,7 @@
     "code": "5554.999A9A.4",
     "description": "VITATEX - BL 28,0 KGS",
     "unit": "BL",
-    "price": 41.33,
+    "price": 189.64,
     "category": "Outros",
     "table": "019"
   },
@@ -15715,7 +15715,7 @@
     "code": "5557.000A0A.3",
     "description": "CRISTALLINI PREMIUM ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.97,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -15723,7 +15723,7 @@
     "code": "5557.000A0A.4",
     "description": "CRISTALLINI PREMIUM ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 77.11,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -15755,7 +15755,7 @@
     "code": "5557.003A0A.3",
     "description": "CRISTALLINI PREMIUM ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 36.07,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -15763,7 +15763,7 @@
     "code": "5557.003A0A.4",
     "description": "CRISTALLINI PREMIUM ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 77.3,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -15779,7 +15779,7 @@
     "code": "5557.999A9A.3",
     "description": "CRISTALLINI PREMIUM ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 41.12,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -15787,7 +15787,7 @@
     "code": "5557.999A9A.4",
     "description": "CRISTALLINI PREMIUM ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 87.41,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -15835,7 +15835,7 @@
     "code": "5558.000A0A.3",
     "description": "VITAREV 12 - SC. 15,0 KGS",
     "unit": "SC",
-    "price": 16.84,
+    "price": 82.47,
     "category": "Outros",
     "table": "019"
   },
@@ -15843,7 +15843,7 @@
     "code": "5558.000A0A.4",
     "description": "VITAREV 12 - B.L. 28.0 KGS",
     "unit": "BL",
-    "price": 36.71,
+    "price": 164.91,
     "category": "Outros",
     "table": "019"
   },
@@ -15875,7 +15875,7 @@
     "code": "5558.003A0A.3",
     "description": "VITAREV 12 - SC. 15,0 KGS",
     "unit": "SC",
-    "price": 17.18,
+    "price": 82.47,
     "category": "Outros",
     "table": "019"
   },
@@ -15883,7 +15883,7 @@
     "code": "5558.003A0A.4",
     "description": "VITAREV 12 - B.L. 28.0 KGS",
     "unit": "BL",
-    "price": 37.33,
+    "price": 164.91,
     "category": "Outros",
     "table": "019"
   },
@@ -15907,7 +15907,7 @@
     "code": "5558.999A9A.3",
     "description": "VITAREV 12 - SC. 15,0 KGS",
     "unit": "SC",
-    "price": 17.55,
+    "price": 94.83,
     "category": "Outros",
     "table": "019"
   },
@@ -15915,7 +15915,7 @@
     "code": "5558.999A9A.4",
     "description": "VITAREV 12 - B.L. 28.0 KGS",
     "unit": "BL",
-    "price": 38.02,
+    "price": 189.64,
     "category": "Outros",
     "table": "019"
   },
@@ -15939,7 +15939,7 @@
     "code": "5560.000A0A.3",
     "description": "TEXTURA RISCADA 12 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.51,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -15947,7 +15947,7 @@
     "code": "5560.000A0A.4",
     "description": "TEXTURA RISCADA 12 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 64.09,
+    "price": 328.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -15987,7 +15987,7 @@
     "code": "5560.003A0A.3",
     "description": "TEXTURA RISCADA 12 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.83,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -15995,7 +15995,7 @@
     "code": "5560.003A0A.4",
     "description": "TEXTURA RISCADA 12 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 64.68,
+    "price": 328.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -16027,7 +16027,7 @@
     "code": "5560.999A9A.3",
     "description": "TEXTURA RISCADA 12 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 42.52,
+    "price": 193.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -16035,7 +16035,7 @@
     "code": "5560.999A9A.4",
     "description": "TEXTURA RISCADA 12 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 84.64,
+    "price": 368.41,
     "category": "Texturas",
     "table": "019"
   },
@@ -16067,7 +16067,7 @@
     "code": "5561.000A0A.3",
     "description": "TEXTURA DE ROLO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 26.12,
+    "price": 141.29,
     "category": "Texturas",
     "table": "019"
   },
@@ -16075,7 +16075,7 @@
     "code": "5561.000A0A.4",
     "description": "TEXTURA DE ROLO ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 54.02,
+    "price": 296.05,
     "category": "Texturas",
     "table": "019"
   },
@@ -16115,7 +16115,7 @@
     "code": "5561.003A0A.3",
     "description": "TEXTURA DE ROLO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 26.37,
+    "price": 148.02,
     "category": "Texturas",
     "table": "019"
   },
@@ -16123,7 +16123,7 @@
     "code": "5561.003A0A.4",
     "description": "TEXTURA DE ROLO ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 54.48,
+    "price": 296.05,
     "category": "Texturas",
     "table": "019"
   },
@@ -16163,7 +16163,7 @@
     "code": "5561.999A9A.3",
     "description": "TEXTURA DE ROLO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 29.55,
+    "price": 167.45,
     "category": "Texturas",
     "table": "019"
   },
@@ -16171,7 +16171,7 @@
     "code": "5561.999A9A.4",
     "description": "TEXTURA DE ROLO ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 60.43,
+    "price": 334.91,
     "category": "Texturas",
     "table": "019"
   },
@@ -16195,7 +16195,7 @@
     "code": "5562.000A0A.3",
     "description": "TEXTURA RISCADA 12 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.78,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -16203,7 +16203,7 @@
     "code": "5562.000A0A.4",
     "description": "TEXTURA RISCADA 12 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 74.73,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -16227,7 +16227,7 @@
     "code": "5562.003A0A.3",
     "description": "TEXTURA RISCADA 12 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.88,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -16235,7 +16235,7 @@
     "code": "5562.003A0A.4",
     "description": "TEXTURA RISCADA 12 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 74.93,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -16259,7 +16259,7 @@
     "code": "5562.999A9A.3",
     "description": "TEXTURA RISCADA 12 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 39.93,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -16267,7 +16267,7 @@
     "code": "5562.999A9A.4",
     "description": "TEXTURA RISCADA 12 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 85.02,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -16299,7 +16299,7 @@
     "code": "5563.000A0A.3",
     "description": "TEXTURA DE ROLO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.1,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -16307,7 +16307,7 @@
     "code": "5563.000A0A.4",
     "description": "TEXTURA DE ROLO ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 75.37,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -16347,7 +16347,7 @@
     "code": "5563.003A0A.3",
     "description": "TEXTURA DE ROLO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.59,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -16355,7 +16355,7 @@
     "code": "5563.003A0A.4",
     "description": "TEXTURA DE ROLO ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 76.35,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -16379,7 +16379,7 @@
     "code": "5563.999A9A.3",
     "description": "TEXTURA DE ROLO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 40.25,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -16387,7 +16387,7 @@
     "code": "5563.999A9A.4",
     "description": "TEXTURA DE ROLO ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 85.67,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -16547,7 +16547,7 @@
     "code": "5565.000A0A.4",
     "description": "EFFETI - BL 28,0 KGS",
     "unit": "BL",
-    "price": 45.17,
+    "price": 451.33,
     "category": "Outros",
     "table": "019"
   },
@@ -16611,7 +16611,7 @@
     "code": "5565.003A0A.4",
     "description": "EFFETI - BL 28,0 KGS",
     "unit": "BL",
-    "price": 44.73,
+    "price": 451.33,
     "category": "Outros",
     "table": "019"
   },
@@ -16667,7 +16667,7 @@
     "code": "5565.999A9A.4",
     "description": "EFFETI - BL 28,0 KGS",
     "unit": "BL",
-    "price": 47.11,
+    "price": 514.25,
     "category": "Outros",
     "table": "019"
   },
@@ -16715,7 +16715,7 @@
     "code": "5567.000A0A.3",
     "description": "TEXTURA PROJETADA ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.24,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -16723,7 +16723,7 @@
     "code": "5567.000A0A.4",
     "description": "TEXTURA PROJETADA ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 75.65,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -16755,7 +16755,7 @@
     "code": "5567.003A0A.3",
     "description": "TEXTURA PROJETADA ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.34,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -16763,7 +16763,7 @@
     "code": "5567.003A0A.4",
     "description": "TEXTURA PROJETADA ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 75.84,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -16795,7 +16795,7 @@
     "code": "5567.999A9A.3",
     "description": "TEXTURA PROJETADA ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 40.39,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -16803,7 +16803,7 @@
     "code": "5567.999A9A.4",
     "description": "TEXTURA PROJETADA ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 85.94,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -16875,7 +16875,7 @@
     "code": "5571.000A0A.3",
     "description": "TEXTURA PROJETADA ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 29.33,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -16883,7 +16883,7 @@
     "code": "5571.000A0A.4",
     "description": "TEXTURA PROJETADA ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 60.02,
+    "price": 334.8,
     "category": "Texturas",
     "table": "019"
   },
@@ -16923,7 +16923,7 @@
     "code": "5571.003A0A.3",
     "description": "TEXTURA PROJETADA ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 29.73,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -16931,7 +16931,7 @@
     "code": "5571.003A0A.4",
     "description": "TEXTURA PROJETADA ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 60.76,
+    "price": 334.8,
     "category": "Texturas",
     "table": "019"
   },
@@ -16971,7 +16971,7 @@
     "code": "5571.999A9A.3",
     "description": "TEXTURA PROJETADA ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 41.1,
+    "price": 193.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -16979,7 +16979,7 @@
     "code": "5571.999A9A.4",
     "description": "TEXTURA PROJETADA ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 81.98,
+    "price": 393.86,
     "category": "Texturas",
     "table": "019"
   },
@@ -17011,7 +17011,7 @@
     "code": "5572.000A0A.3",
     "description": "EFFETI PREDIAL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 21.96,
+    "price": 119.35,
     "category": "Outros",
     "table": "019"
   },
@@ -17019,7 +17019,7 @@
     "code": "5572.000A0A.4",
     "description": "EFFETI PREDIAL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 46.26,
+    "price": 271.28,
     "category": "Outros",
     "table": "019"
   },
@@ -17067,7 +17067,7 @@
     "code": "5572.003A0A.3",
     "description": "EFFETI PREDIAL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 21.12,
+    "price": 119.35,
     "category": "Outros",
     "table": "019"
   },
@@ -17075,7 +17075,7 @@
     "code": "5572.003A0A.4",
     "description": "EFFETI PREDIAL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 44.7,
+    "price": 271.28,
     "category": "Outros",
     "table": "019"
   },
@@ -17115,7 +17115,7 @@
     "code": "5572.999A9A.3",
     "description": "EFFETI PREDIAL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 22.4,
+    "price": 137.43,
     "category": "Outros",
     "table": "019"
   },
@@ -17123,7 +17123,7 @@
     "code": "5572.999A9A.4",
     "description": "EFFETI PREDIAL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 47.07,
+    "price": 307.44,
     "category": "Outros",
     "table": "019"
   },
@@ -17251,7 +17251,7 @@
     "code": "5574.000A0A.0",
     "description": "PERMALIT SELADOR PREMIUM - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 11.43,
+    "price": 53.58,
     "category": "Tintas",
     "table": "019"
   },
@@ -17259,7 +17259,7 @@
     "code": "5574.000A0A.4",
     "description": "PERMALIT SELADOR PREMIUM - BL. 18,0 LTS",
     "unit": "BL",
-    "price": 48.04,
+    "price": 218.53,
     "category": "Tintas",
     "table": "019"
   },
@@ -17299,7 +17299,7 @@
     "code": "5574.003A0A.0",
     "description": "PERMALIT SELADOR PREMIUM - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 11.31,
+    "price": 51.15,
     "category": "Tintas",
     "table": "019"
   },
@@ -17307,7 +17307,7 @@
     "code": "5574.003A0A.4",
     "description": "PERMALIT SELADOR PREMIUM - BL. 18,0 LTS",
     "unit": "BL",
-    "price": 47.4,
+    "price": 208.59,
     "category": "Tintas",
     "table": "019"
   },
@@ -17347,7 +17347,7 @@
     "code": "5574.999A9A.0",
     "description": "PERMALIT SELADOR PREMIUM - G.P. 3,6 LTS",
     "unit": "GL",
-    "price": 13.15,
+    "price": 60.08,
     "category": "Tintas",
     "table": "019"
   },
@@ -17355,7 +17355,7 @@
     "code": "5574.999A9A.4",
     "description": "PERMALIT SELADOR PREMIUM - BL. 18,0 LTS",
     "unit": "BL",
-    "price": 56.62,
+    "price": 237.36,
     "category": "Tintas",
     "table": "019"
   },
@@ -17443,7 +17443,7 @@
     "code": "5576.000A0A.4",
     "description": "EFFETILINE - BL 28,0 KGS",
     "unit": "BL",
-    "price": 48.53,
+    "price": 451.33,
     "category": "Outros",
     "table": "019"
   },
@@ -17531,7 +17531,7 @@
     "code": "5576.003A0A.4",
     "description": "EFFETILINE - BL 28,0 KGS",
     "unit": "BL",
-    "price": 48.47,
+    "price": 451.33,
     "category": "Outros",
     "table": "019"
   },
@@ -17587,7 +17587,7 @@
     "code": "5576.999A9A.4",
     "description": "EFFETILINE - BL 28,0 KGS",
     "unit": "BL",
-    "price": 49.35,
+    "price": 514.25,
     "category": "Outros",
     "table": "019"
   },
@@ -17675,7 +17675,7 @@
     "code": "5578.000A0A.3",
     "description": "TEXTURA RISCADA 14 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.51,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -17683,7 +17683,7 @@
     "code": "5578.000A0A.4",
     "description": "TEXTURA RISCADA 14 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 64.09,
+    "price": 367.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -17723,7 +17723,7 @@
     "code": "5578.003A0A.3",
     "description": "TEXTURA RISCADA 14 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.83,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -17731,7 +17731,7 @@
     "code": "5578.003A0A.4",
     "description": "TEXTURA RISCADA 14 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 64.68,
+    "price": 367.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -17763,7 +17763,7 @@
     "code": "5578.999A9A.3",
     "description": "TEXTURA RISCADA 14 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 42.52,
+    "price": 193.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -17771,7 +17771,7 @@
     "code": "5578.999A9A.4",
     "description": "TEXTURA RISCADA 14 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 84.64,
+    "price": 412.61,
     "category": "Texturas",
     "table": "019"
   },
@@ -17907,7 +17907,7 @@
     "code": "5580.000A0A.3",
     "description": "TEXTURA RISCADA 16 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.84,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -17915,7 +17915,7 @@
     "code": "5580.000A0A.4",
     "description": "TEXTURA RISCADA 16 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 74.84,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -17947,7 +17947,7 @@
     "code": "5580.003A0A.3",
     "description": "TEXTURA RISCADA 16 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.94,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -17955,7 +17955,7 @@
     "code": "5580.003A0A.4",
     "description": "TEXTURA RISCADA 16 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 75.04,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -17987,7 +17987,7 @@
     "code": "5580.999A9A.3",
     "description": "TEXTURA RISCADA 16 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 39.98,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -17995,7 +17995,7 @@
     "code": "5580.999A9A.4",
     "description": "TEXTURA RISCADA 16 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 85.13,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -18035,7 +18035,7 @@
     "code": "5581.000A0A.3",
     "description": "TEXTURA RISCADA 14 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.78,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -18043,7 +18043,7 @@
     "code": "5581.000A0A.4",
     "description": "TEXTURA RISCADA 14 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 74.73,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -18083,7 +18083,7 @@
     "code": "5581.003A0A.3",
     "description": "TEXTURA RISCADA 14 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.88,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -18091,7 +18091,7 @@
     "code": "5581.003A0A.4",
     "description": "TEXTURA RISCADA 14 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 74.93,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -18115,7 +18115,7 @@
     "code": "5581.999A9A.3",
     "description": "TEXTURA RISCADA 14 ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 39.93,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -18123,7 +18123,7 @@
     "code": "5581.999A9A.4",
     "description": "TEXTURA RISCADA 14 ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 85.02,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -18163,7 +18163,7 @@
     "code": "5582.000A0A.4",
     "description": "PERMACRYL REVITALIZE ULTR - BL 25,0 KGS",
     "unit": "BL",
-    "price": 108.41,
+    "price": 450.08,
     "category": "Tintas",
     "table": "019"
   },
@@ -18187,7 +18187,7 @@
     "code": "5582.003A0A.4",
     "description": "PERMACRYL REVITALIZE ULTR - BL 25,0 KGS",
     "unit": "BL",
-    "price": 99.13,
+    "price": 525.64,
     "category": "Tintas",
     "table": "019"
   },
@@ -18203,7 +18203,7 @@
     "code": "5582.999A9A.0",
     "description": "PERMACRYL REVITALIZE ULTR - GL 5,0 KGS",
     "unit": "GL",
-    "price": 28.08,
+    "price": 166.75,
     "category": "Tintas",
     "table": "019"
   },
@@ -18211,7 +18211,7 @@
     "code": "5582.999A9A.4",
     "description": "PERMACRYL REVITALIZE ULTR - BL 25,0 KGS",
     "unit": "BL",
-    "price": 131.29,
+    "price": 577.02,
     "category": "Tintas",
     "table": "019"
   },
@@ -18243,7 +18243,7 @@
     "code": "5585.000A0A.4",
     "description": "EFFETI ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 58.77,
+    "price": 514.25,
     "category": "Outros",
     "table": "019"
   },
@@ -18291,7 +18291,7 @@
     "code": "5585.003A0A.4",
     "description": "EFFETI ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 59.16,
+    "price": 514.25,
     "category": "Outros",
     "table": "019"
   },
@@ -18347,7 +18347,7 @@
     "code": "5585.999A9A.4",
     "description": "EFFETI ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 75.99,
+    "price": 590.48,
     "category": "Outros",
     "table": "019"
   },
@@ -18379,7 +18379,7 @@
     "code": "5586.000A0A.3",
     "description": "GRANELLI GROSSO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.81,
+    "price": 156.35,
     "category": "Outros",
     "table": "019"
   },
@@ -18387,7 +18387,7 @@
     "code": "5586.000A0A.4",
     "description": "GRANELLI GROSSO ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 74.78,
+    "price": 325.74,
     "category": "Outros",
     "table": "019"
   },
@@ -18411,7 +18411,7 @@
     "code": "5586.003A0A.3",
     "description": "GRANELLI GROSSO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.55,
+    "price": 156.35,
     "category": "Outros",
     "table": "019"
   },
@@ -18419,7 +18419,7 @@
     "code": "5586.003A0A.4",
     "description": "GRANELLI GROSSO ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 76.27,
+    "price": 325.74,
     "category": "Outros",
     "table": "019"
   },
@@ -18443,7 +18443,7 @@
     "code": "5586.999A9A.3",
     "description": "GRANELLI GROSSO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 37.46,
+    "price": 169.39,
     "category": "Outros",
     "table": "019"
   },
@@ -18451,7 +18451,7 @@
     "code": "5586.999A9A.4",
     "description": "GRANELLI GROSSO ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 80.08,
+    "price": 358.31,
     "category": "Outros",
     "table": "019"
   },
@@ -18475,7 +18475,7 @@
     "code": "5587.000A0A.3",
     "description": "GRANELLI GROSSO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 33.78,
+    "price": 174.99,
     "category": "Outros",
     "table": "019"
   },
@@ -18483,7 +18483,7 @@
     "code": "5587.000A0A.4",
     "description": "GRANELLI GROSSO ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 72.73,
+    "price": 401.92,
     "category": "Outros",
     "table": "019"
   },
@@ -18523,7 +18523,7 @@
     "code": "5587.003A0A.3",
     "description": "GRANELLI GROSSO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.25,
+    "price": 174.99,
     "category": "Outros",
     "table": "019"
   },
@@ -18531,7 +18531,7 @@
     "code": "5587.003A0A.4",
     "description": "GRANELLI GROSSO ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 73.67,
+    "price": 401.92,
     "category": "Outros",
     "table": "019"
   },
@@ -18571,7 +18571,7 @@
     "code": "5587.999A9A.3",
     "description": "GRANELLI GROSSO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 47.05,
+    "price": 198.92,
     "category": "Outros",
     "table": "019"
   },
@@ -18579,7 +18579,7 @@
     "code": "5587.999A9A.4",
     "description": "GRANELLI GROSSO ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 99.26,
+    "price": 462.18,
     "category": "Outros",
     "table": "019"
   },
@@ -18619,7 +18619,7 @@
     "code": "5588.000A0A.3",
     "description": "CRISTALLINI PREMIUM ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 30.39,
+    "price": 174.99,
     "category": "Texturas",
     "table": "019"
   },
@@ -18627,7 +18627,7 @@
     "code": "5588.000A0A.4",
     "description": "CRISTALLINI PREMIUM ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 65.94,
+    "price": 401.92,
     "category": "Texturas",
     "table": "019"
   },
@@ -18667,7 +18667,7 @@
     "code": "5588.003A0A.3",
     "description": "CRISTALLINI PREMIUM ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 30.8,
+    "price": 174.99,
     "category": "Texturas",
     "table": "019"
   },
@@ -18675,7 +18675,7 @@
     "code": "5588.003A0A.4",
     "description": "CRISTALLINI PREMIUM ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 66.77,
+    "price": 401.92,
     "category": "Texturas",
     "table": "019"
   },
@@ -18707,7 +18707,7 @@
     "code": "5588.999A9A.3",
     "description": "CRISTALLINI PREMIUM ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 43.05,
+    "price": 198.92,
     "category": "Texturas",
     "table": "019"
   },
@@ -18715,7 +18715,7 @@
     "code": "5588.999A9A.4",
     "description": "CRISTALLINI PREMIUM ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 91.28,
+    "price": 462.18,
     "category": "Texturas",
     "table": "019"
   },
@@ -18755,7 +18755,7 @@
     "code": "5589.000A0A.3",
     "description": "CRISTALLINI FINO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.44,
+    "price": 171.8,
     "category": "Texturas",
     "table": "019"
   },
@@ -18763,7 +18763,7 @@
     "code": "5589.000A0A.4",
     "description": "CRISTALLINI FINO ORO - BL 30.0 KGS",
     "unit": "BL",
-    "price": 74.05,
+    "price": 401.92,
     "category": "Texturas",
     "table": "019"
   },
@@ -18795,7 +18795,7 @@
     "code": "5589.003A0A.3",
     "description": "CRISTALLINI FINO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.92,
+    "price": 171.8,
     "category": "Texturas",
     "table": "019"
   },
@@ -18803,7 +18803,7 @@
     "code": "5589.003A0A.4",
     "description": "CRISTALLINI FINO ORO - BL 30.0 KGS",
     "unit": "BL",
-    "price": 75.01,
+    "price": 401.92,
     "category": "Texturas",
     "table": "019"
   },
@@ -18827,7 +18827,7 @@
     "code": "5589.999A9A.3",
     "description": "CRISTALLINI FINO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 47.79,
+    "price": 207.63,
     "category": "Texturas",
     "table": "019"
   },
@@ -18835,7 +18835,7 @@
     "code": "5589.999A9A.4",
     "description": "CRISTALLINI FINO ORO - BL 30.0 KGS",
     "unit": "BL",
-    "price": 100.74,
+    "price": 498.28,
     "category": "Texturas",
     "table": "019"
   },
@@ -18875,7 +18875,7 @@
     "code": "5590.000A0A.4",
     "description": "EFFETI PREDIAL ORO - BL. 30.0 KGS",
     "unit": "BL",
-    "price": 70.04,
+    "price": 556.6,
     "category": "Outros",
     "table": "019"
   },
@@ -18923,7 +18923,7 @@
     "code": "5590.003A0A.4",
     "description": "EFFETI PREDIAL ORO - BL. 30.0 KGS",
     "unit": "BL",
-    "price": 70.51,
+    "price": 556.6,
     "category": "Outros",
     "table": "019"
   },
@@ -18971,7 +18971,7 @@
     "code": "5590.999A9A.4",
     "description": "EFFETI PREDIAL ORO - BL. 30.0 KGS",
     "unit": "BL",
-    "price": 88.64,
+    "price": 640.09,
     "category": "Outros",
     "table": "019"
   },
@@ -19011,7 +19011,7 @@
     "code": "5591.000A0A.3",
     "description": "GRANELLI RIGATO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.26,
+    "price": 174.99,
     "category": "Outros",
     "table": "019"
   },
@@ -19019,7 +19019,7 @@
     "code": "5591.000A0A.4",
     "description": "GRANELLI RIGATO ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 73.69,
+    "price": 401.92,
     "category": "Outros",
     "table": "019"
   },
@@ -19043,7 +19043,7 @@
     "code": "5591.003A0A.3",
     "description": "GRANELLI RIGATO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.74,
+    "price": 174.99,
     "category": "Outros",
     "table": "019"
   },
@@ -19051,7 +19051,7 @@
     "code": "5591.003A0A.4",
     "description": "GRANELLI RIGATO ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 74.64,
+    "price": 401.92,
     "category": "Outros",
     "table": "019"
   },
@@ -19067,7 +19067,7 @@
     "code": "5591.999A9A.3",
     "description": "GRANELLI RIGATO ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 47.53,
+    "price": 198.92,
     "category": "Outros",
     "table": "019"
   },
@@ -19075,7 +19075,7 @@
     "code": "5591.999A9A.4",
     "description": "GRANELLI RIGATO ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 100.23,
+    "price": 462.18,
     "category": "Outros",
     "table": "019"
   },
@@ -19091,7 +19091,7 @@
     "code": "5592.000A0A.3",
     "description": "CRISTALLINI FINO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.81,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -19099,7 +19099,7 @@
     "code": "5592.000A0A.4",
     "description": "CRISTALLINI FINO ULTRA - BL 30.0 KGS",
     "unit": "BL",
-    "price": 74.78,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -19131,7 +19131,7 @@
     "code": "5592.003A0A.3",
     "description": "CRISTALLINI FINO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.29,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -19139,7 +19139,7 @@
     "code": "5592.003A0A.4",
     "description": "CRISTALLINI FINO ULTRA - BL 30.0 KGS",
     "unit": "BL",
-    "price": 75.76,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -19171,7 +19171,7 @@
     "code": "5592.999A9A.3",
     "description": "CRISTALLINI FINO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 37.46,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -19179,7 +19179,7 @@
     "code": "5592.999A9A.4",
     "description": "CRISTALLINI FINO ULTRA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 80.08,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -19235,7 +19235,7 @@
     "code": "5593.000A0A.3",
     "description": "TEXTURA RISCADA 16 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.58,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -19243,7 +19243,7 @@
     "code": "5593.000A0A.4",
     "description": "TEXTURA RISCADA 16 ORO - BL. 30.0 KGS",
     "unit": "BL",
-    "price": 68.33,
+    "price": 394.02,
     "category": "Texturas",
     "table": "019"
   },
@@ -19291,7 +19291,7 @@
     "code": "5593.003A0A.3",
     "description": "TEXTURA RISCADA 16 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.9,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -19299,7 +19299,7 @@
     "code": "5593.003A0A.4",
     "description": "TEXTURA RISCADA 16 ORO - BL. 30.0 KGS",
     "unit": "BL",
-    "price": 68.96,
+    "price": 394.02,
     "category": "Texturas",
     "table": "019"
   },
@@ -19347,7 +19347,7 @@
     "code": "5593.999A9A.3",
     "description": "TEXTURA RISCADA 16 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 42.59,
+    "price": 193.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -19355,7 +19355,7 @@
     "code": "5593.999A9A.4",
     "description": "TEXTURA RISCADA 16 ORO - BL. 30.0 KGS",
     "unit": "BL",
-    "price": 90.35,
+    "price": 442.09,
     "category": "Texturas",
     "table": "019"
   },
@@ -19403,7 +19403,7 @@
     "code": "5597.000A0A.4",
     "description": "EFFETI PREDIAL ULTRA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 70.51,
+    "price": 514.25,
     "category": "Outros",
     "table": "019"
   },
@@ -19443,7 +19443,7 @@
     "code": "5597.003A0A.4",
     "description": "EFFETI PREDIAL ULTRA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 70.53,
+    "price": 514.25,
     "category": "Outros",
     "table": "019"
   },
@@ -19483,7 +19483,7 @@
     "code": "5597.999A9A.4",
     "description": "EFFETI PREDIAL ULTRA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 75.31,
+    "price": 590.48,
     "category": "Outros",
     "table": "019"
   },
@@ -19691,7 +19691,7 @@
     "code": "5599.000A0A.4",
     "description": "EFFETI PREDIAL FINO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 50.11,
+    "price": 484.0,
     "category": "Outros",
     "table": "019"
   },
@@ -19723,7 +19723,7 @@
     "code": "5599.003A0A.4",
     "description": "EFFETI PREDIAL FINO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 50.04,
+    "price": 484.0,
     "category": "Outros",
     "table": "019"
   },
@@ -19747,7 +19747,7 @@
     "code": "5599.999A9A.4",
     "description": "EFFETI PREDIAL FINO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 50.99,
+    "price": 556.6,
     "category": "Outros",
     "table": "019"
   },
@@ -19763,7 +19763,7 @@
     "code": "5600.000A0A.4",
     "description": "UNIMIX EXTERIOR - B.L. 20.0 KGS",
     "unit": "BL",
-    "price": 6.65,
+    "price": 284.67,
     "category": "Outros",
     "table": "019"
   },
@@ -19771,7 +19771,7 @@
     "code": "5600.003A0A.3",
     "description": "UNIMIX EXTERIOR - SC.13 KGS",
     "unit": "SC",
-    "price": 0.74,
+    "price": 174.01,
     "category": "Outros",
     "table": "019"
   },
@@ -19779,7 +19779,7 @@
     "code": "5600.003A0A.4",
     "description": "UNIMIX EXTERIOR - B.L. 20.0 KGS",
     "unit": "BL",
-    "price": 6.65,
+    "price": 284.67,
     "category": "Outros",
     "table": "019"
   },
@@ -19787,7 +19787,7 @@
     "code": "5600.999A9A.4",
     "description": "UNIMIX EXTERIOR - B.L. 20.0 KGS",
     "unit": "BL",
-    "price": 6.65,
+    "price": 318.18,
     "category": "Outros",
     "table": "019"
   },
@@ -19923,7 +19923,7 @@
     "code": "5608.003A0A.3",
     "description": "TEXTURA LISA INTERNA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 9.77,
+    "price": 48.97,
     "category": "Texturas",
     "table": "019"
   },
@@ -19931,7 +19931,7 @@
     "code": "5608.003A0A.4",
     "description": "TEXTURA LISA INTERNA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 24.7,
+    "price": 107.33,
     "category": "Texturas",
     "table": "019"
   },
@@ -19939,7 +19939,7 @@
     "code": "5614.000A0A.0",
     "description": "VERNIZ TONALIZANTE - GP 3,6 LTS",
     "unit": "GL",
-    "price": 9.81,
+    "price": 200.41,
     "category": "Complementos",
     "table": "019"
   },
@@ -19947,7 +19947,7 @@
     "code": "5614.000A0A.4",
     "description": "VERNIZ TONALIZANTE - BL 18,0 LTS",
     "unit": "BL",
-    "price": 39.92,
+    "price": 1.00205,
     "category": "Complementos",
     "table": "019"
   },
@@ -19971,7 +19971,7 @@
     "code": "5614.999A9A.0",
     "description": "VERNIZ TONALIZANTE - GP 3,6 LTS",
     "unit": "GL",
-    "price": 11.08,
+    "price": 218.02,
     "category": "Complementos",
     "table": "019"
   },
@@ -19979,7 +19979,7 @@
     "code": "5614.999A9A.4",
     "description": "VERNIZ TONALIZANTE - BL 18,0 LTS",
     "unit": "BL",
-    "price": 46.28,
+    "price": 1.09009,
     "category": "Complementos",
     "table": "019"
   },
@@ -19995,7 +19995,7 @@
     "code": "5615.000A0A.3",
     "description": "ECO TEXTURA LISA INT - SC 15,0 KGS",
     "unit": "SC",
-    "price": 10.86,
+    "price": 48.92,
     "category": "Texturas",
     "table": "019"
   },
@@ -20003,7 +20003,7 @@
     "code": "5615.000A0A.4",
     "description": "ECO TEXTURA LISA INT - BL 30,0 KGS",
     "unit": "BL",
-    "price": 26.89,
+    "price": 111.8,
     "category": "Texturas",
     "table": "019"
   },
@@ -20043,7 +20043,7 @@
     "code": "5615.003A0A.3",
     "description": "ECO TEXTURA LISA INT - SC 15,0 KGS",
     "unit": "SC",
-    "price": 11.17,
+    "price": 48.92,
     "category": "Texturas",
     "table": "019"
   },
@@ -20051,7 +20051,7 @@
     "code": "5615.003A0A.4",
     "description": "ECO TEXTURA LISA INT - BL 30,0 KGS",
     "unit": "BL",
-    "price": 27.5,
+    "price": 111.8,
     "category": "Texturas",
     "table": "019"
   },
@@ -20091,7 +20091,7 @@
     "code": "5616.000A0A.3",
     "description": "ECO TEXTURA ROLO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.61,
+    "price": 68.48,
     "category": "Texturas",
     "table": "019"
   },
@@ -20099,7 +20099,7 @@
     "code": "5616.000A0A.4",
     "description": "ECO TEXTURA ROLO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 42.39,
+    "price": 150.93,
     "category": "Texturas",
     "table": "019"
   },
@@ -20171,7 +20171,7 @@
     "code": "5616.003A0A.3",
     "description": "ECO TEXTURA ROLO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 18.69,
+    "price": 68.48,
     "category": "Texturas",
     "table": "019"
   },
@@ -20179,7 +20179,7 @@
     "code": "5616.003A0A.4",
     "description": "ECO TEXTURA ROLO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 42.54,
+    "price": 150.93,
     "category": "Texturas",
     "table": "019"
   },
@@ -20243,7 +20243,7 @@
     "code": "5616.999A9A.3",
     "description": "ECO TEXTURA ROLO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.32,
+    "price": 78.76,
     "category": "Texturas",
     "table": "019"
   },
@@ -20251,7 +20251,7 @@
     "code": "5616.999A9A.4",
     "description": "ECO TEXTURA ROLO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 43.8,
+    "price": 173.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -20315,7 +20315,7 @@
     "code": "5620.000A0A.4",
     "description": "TINTA STANDARD CONSTRUCAO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 71.08,
+    "price": 330.33,
     "category": "Tintas",
     "table": "019"
   },
@@ -20331,7 +20331,7 @@
     "code": "5620.002A0A.4",
     "description": "TINTA STANDARD CONSTRUCAO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 92.55,
+    "price": 330.33,
     "category": "Tintas",
     "table": "019"
   },
@@ -20339,7 +20339,7 @@
     "code": "5620.999A9A.4",
     "description": "TINTA STANDARD CONSTRUCAO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 75.43,
+    "price": 379.89,
     "category": "Tintas",
     "table": "019"
   },
@@ -20427,7 +20427,7 @@
     "code": "5622.002A0A.3",
     "description": "MASSA ACRILICA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 16.43,
+    "price": 55.9,
     "category": "Complementos",
     "table": "019"
   },
@@ -20451,7 +20451,7 @@
     "code": "5622.002A0A.8",
     "description": "MASSA ACRILICA - BL 25,0 KGS",
     "unit": "BL",
-    "price": 32.31,
+    "price": 125.79,
     "category": "Complementos",
     "table": "019"
   },
@@ -20619,7 +20619,7 @@
     "code": "5625.000A0A.3",
     "description": "ECO TEXTURA RISCADA/12 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 16.84,
+    "price": 68.48,
     "category": "Texturas",
     "table": "019"
   },
@@ -20627,7 +20627,7 @@
     "code": "5625.000A0A.4",
     "description": "ECO TEXTURA RISCADA/12 - BL 30,0 KGS",
     "unit": "BL",
-    "price": 38.85,
+    "price": 150.93,
     "category": "Texturas",
     "table": "019"
   },
@@ -20667,7 +20667,7 @@
     "code": "5625.003A0A.3",
     "description": "ECO TEXTURA RISCADA/12 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 16.28,
+    "price": 68.48,
     "category": "Texturas",
     "table": "019"
   },
@@ -20675,7 +20675,7 @@
     "code": "5625.003A0A.4",
     "description": "ECO TEXTURA RISCADA/12 - BL 30,0 KGS",
     "unit": "BL",
-    "price": 37.72,
+    "price": 150.93,
     "category": "Texturas",
     "table": "019"
   },
@@ -20715,7 +20715,7 @@
     "code": "5625.999A9A.3",
     "description": "ECO TEXTURA RISCADA/12 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.55,
+    "price": 78.76,
     "category": "Texturas",
     "table": "019"
   },
@@ -20723,7 +20723,7 @@
     "code": "5625.999A9A.4",
     "description": "ECO TEXTURA RISCADA/12 - BL 30,0 KGS",
     "unit": "BL",
-    "price": 40.26,
+    "price": 173.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -20763,7 +20763,7 @@
     "code": "5626.000A0A.3",
     "description": "ECO TEXTURA RISCADA/14 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 16.84,
+    "price": 68.48,
     "category": "Texturas",
     "table": "019"
   },
@@ -20771,7 +20771,7 @@
     "code": "5626.000A0A.4",
     "description": "ECO TEXTURA RISCADA/14 - BL 30,0 KGS",
     "unit": "BL",
-    "price": 38.85,
+    "price": 150.93,
     "category": "Texturas",
     "table": "019"
   },
@@ -20811,7 +20811,7 @@
     "code": "5626.003A0A.3",
     "description": "ECO TEXTURA RISCADA/14 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 16.28,
+    "price": 68.48,
     "category": "Texturas",
     "table": "019"
   },
@@ -20819,7 +20819,7 @@
     "code": "5626.003A0A.4",
     "description": "ECO TEXTURA RISCADA/14 - BL 30,0 KGS",
     "unit": "BL",
-    "price": 37.72,
+    "price": 150.93,
     "category": "Texturas",
     "table": "019"
   },
@@ -20851,7 +20851,7 @@
     "code": "5626.999A9A.3",
     "description": "ECO TEXTURA RISCADA/14 - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.55,
+    "price": 78.76,
     "category": "Texturas",
     "table": "019"
   },
@@ -20859,7 +20859,7 @@
     "code": "5626.999A9A.4",
     "description": "ECO TEXTURA RISCADA/14 - BL 30,0 KGS",
     "unit": "BL",
-    "price": 40.26,
+    "price": 173.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -20891,7 +20891,7 @@
     "code": "5627.000A0A.4",
     "description": "ECO SELADOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 28.0,
+    "price": 125.15,
     "category": "Complementos",
     "table": "019"
   },
@@ -20915,7 +20915,7 @@
     "code": "5627.003A0A.4",
     "description": "ECO SELADOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 23.04,
+    "price": 125.15,
     "category": "Complementos",
     "table": "019"
   },
@@ -21203,7 +21203,7 @@
     "code": "5643.000A0A.4",
     "description": "PROGETTATO FRAME - BL. 28,0 KGS",
     "unit": "BL",
-    "price": 56.95,
+    "price": 360.93,
     "category": "Outros",
     "table": "019"
   },
@@ -21251,7 +21251,7 @@
     "code": "5643.003A0A.4",
     "description": "PROGETTATO FRAME - BL. 28,0 KGS",
     "unit": "BL",
-    "price": 56.77,
+    "price": 360.93,
     "category": "Outros",
     "table": "019"
   },
@@ -21291,7 +21291,7 @@
     "code": "5643.999A9A.4",
     "description": "PROGETTATO FRAME - BL. 28,0 KGS",
     "unit": "BL",
-    "price": 71.45,
+    "price": 443.1,
     "category": "Outros",
     "table": "019"
   },
@@ -21443,7 +21443,7 @@
     "code": "5646.000A0A.3",
     "description": "VITATEX SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.18,
+    "price": 84.58,
     "category": "Outros",
     "table": "019"
   },
@@ -21451,7 +21451,7 @@
     "code": "5646.000A0A.4",
     "description": "VITATEX SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 37.34,
+    "price": 175.82,
     "category": "Outros",
     "table": "019"
   },
@@ -21491,7 +21491,7 @@
     "code": "5646.003A0A.3",
     "description": "VITATEX SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.29,
+    "price": 84.58,
     "category": "Outros",
     "table": "019"
   },
@@ -21499,7 +21499,7 @@
     "code": "5646.003A0A.4",
     "description": "VITATEX SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 37.54,
+    "price": 175.82,
     "category": "Outros",
     "table": "019"
   },
@@ -21539,7 +21539,7 @@
     "code": "5646.999A9A.3",
     "description": "VITATEX SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.63,
+    "price": 96.0,
     "category": "Outros",
     "table": "019"
   },
@@ -21547,7 +21547,7 @@
     "code": "5646.999A9A.4",
     "description": "VITATEX SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 38.17,
+    "price": 192.58,
     "category": "Outros",
     "table": "019"
   },
@@ -21571,7 +21571,7 @@
     "code": "5647.000A0A.3",
     "description": "TEXTURA DE ROLO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 21.15,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -21579,7 +21579,7 @@
     "code": "5647.000A0A.4",
     "description": "TEXTURA DE ROLO SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 44.74,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -21627,7 +21627,7 @@
     "code": "5647.003A0A.3",
     "description": "TEXTURA DE ROLO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 21.23,
+    "price": 99.46,
     "category": "Texturas",
     "table": "019"
   },
@@ -21635,7 +21635,7 @@
     "code": "5647.003A0A.4",
     "description": "TEXTURA DE ROLO SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 44.9,
+    "price": 226.07,
     "category": "Texturas",
     "table": "019"
   },
@@ -21667,7 +21667,7 @@
     "code": "5647.999A9A.3",
     "description": "TEXTURA DE ROLO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 21.86,
+    "price": 117.57,
     "category": "Texturas",
     "table": "019"
   },
@@ -21675,7 +21675,7 @@
     "code": "5647.999A9A.4",
     "description": "TEXTURA DE ROLO SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 46.06,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -21707,7 +21707,7 @@
     "code": "5648.000A0A.3",
     "description": "TEXTURA DE ROLO ORO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 26.12,
+    "price": 148.02,
     "category": "Texturas",
     "table": "019"
   },
@@ -21715,7 +21715,7 @@
     "code": "5648.000A0A.4",
     "description": "TEXTURA DE ROLO ORO SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 54.02,
+    "price": 284.67,
     "category": "Texturas",
     "table": "019"
   },
@@ -21739,7 +21739,7 @@
     "code": "5648.003A0A.3",
     "description": "TEXTURA DE ROLO ORO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 26.37,
+    "price": 148.02,
     "category": "Texturas",
     "table": "019"
   },
@@ -21747,7 +21747,7 @@
     "code": "5648.003A0A.4",
     "description": "TEXTURA DE ROLO ORO SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 54.48,
+    "price": 296.05,
     "category": "Texturas",
     "table": "019"
   },
@@ -21771,7 +21771,7 @@
     "code": "5648.999A9A.3",
     "description": "TEXTURA DE ROLO ORO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 29.55,
+    "price": 167.45,
     "category": "Texturas",
     "table": "019"
   },
@@ -21779,7 +21779,7 @@
     "code": "5648.999A9A.4",
     "description": "TEXTURA DE ROLO ORO SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 60.43,
+    "price": 334.91,
     "category": "Texturas",
     "table": "019"
   },
@@ -21803,7 +21803,7 @@
     "code": "5649.000A0A.3",
     "description": "TEXTURA DE ROLO ULTRA SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.79,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -21811,7 +21811,7 @@
     "code": "5649.000A0A.4",
     "description": "TEXTURA DE ROLO ULTRA SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 70.21,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -21843,7 +21843,7 @@
     "code": "5649.003A0A.3",
     "description": "TEXTURA DE ROLO ULTRA SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.59,
+    "price": 156.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -21851,7 +21851,7 @@
     "code": "5649.003A0A.4",
     "description": "TEXTURA DE ROLO ULTRA SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 71.71,
+    "price": 325.74,
     "category": "Texturas",
     "table": "019"
   },
@@ -21891,7 +21891,7 @@
     "code": "5649.999A9A.3",
     "description": "TEXTURA DE ROLO ULTRA SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 40.25,
+    "price": 169.39,
     "category": "Texturas",
     "table": "019"
   },
@@ -21899,7 +21899,7 @@
     "code": "5649.999A9A.4",
     "description": "TEXTURA DE ROLO ULTRA SUL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 80.4,
+    "price": 358.31,
     "category": "Texturas",
     "table": "019"
   },
@@ -21939,7 +21939,7 @@
     "code": "5650.000A0A.3",
     "description": "ECO TEXTURA ROLO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.18,
+    "price": 70.81,
     "category": "Texturas",
     "table": "019"
   },
@@ -21947,7 +21947,7 @@
     "code": "5650.000A0A.4",
     "description": "ECO TEXTURA ROLO SUL - BL 30,0 KGS",
     "unit": "BL",
-    "price": 39.53,
+    "price": 190.08,
     "category": "Texturas",
     "table": "019"
   },
@@ -21979,7 +21979,7 @@
     "code": "5650.003A0A.3",
     "description": "ECO TEXTURA ROLO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.29,
+    "price": 70.81,
     "category": "Texturas",
     "table": "019"
   },
@@ -21987,7 +21987,7 @@
     "code": "5650.003A0A.4",
     "description": "ECO TEXTURA ROLO SUL - BL 30,0 KGS",
     "unit": "BL",
-    "price": 39.75,
+    "price": 190.08,
     "category": "Texturas",
     "table": "019"
   },
@@ -22019,7 +22019,7 @@
     "code": "5650.999A9A.3",
     "description": "ECO TEXTURA ROLO SUL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.63,
+    "price": 76.38,
     "category": "Texturas",
     "table": "019"
   },
@@ -22027,7 +22027,7 @@
     "code": "5650.999A9A.4",
     "description": "ECO TEXTURA ROLO SUL - BL 30 KGS",
     "unit": "BL",
-    "price": 40.42,
+    "price": 212.44,
     "category": "Texturas",
     "table": "019"
   },
@@ -22051,7 +22051,7 @@
     "code": "5651.000A0A.3",
     "description": "GRANELLI FINO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.21,
+    "price": 156.35,
     "category": "Outros",
     "table": "019"
   },
@@ -22059,7 +22059,7 @@
     "code": "5651.000A0A.4",
     "description": "GRANELLI FINO ULTRA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 71.0,
+    "price": 325.74,
     "category": "Outros",
     "table": "019"
   },
@@ -22099,7 +22099,7 @@
     "code": "5651.003A0A.3",
     "description": "GRANELLI FINO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.28,
+    "price": 156.35,
     "category": "Outros",
     "table": "019"
   },
@@ -22107,7 +22107,7 @@
     "code": "5651.003A0A.4",
     "description": "GRANELLI FINO ULTRA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 71.12,
+    "price": 325.74,
     "category": "Outros",
     "table": "019"
   },
@@ -22147,7 +22147,7 @@
     "code": "5651.999A9A.3",
     "description": "GRANELLI FINO ULTRA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 40.36,
+    "price": 169.39,
     "category": "Outros",
     "table": "019"
   },
@@ -22155,7 +22155,7 @@
     "code": "5651.999A9A.4",
     "description": "GRANELLI FINO ULTRA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 80.61,
+    "price": 358.31,
     "category": "Outros",
     "table": "019"
   },
@@ -22195,7 +22195,7 @@
     "code": "5652.000A0A.3",
     "description": "TEXTURA RISCADA/20 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.67,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -22203,7 +22203,7 @@
     "code": "5652.000A0A.4",
     "description": "TEXTURA RISCADA/20 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 64.38,
+    "price": 328.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -22243,7 +22243,7 @@
     "code": "5652.003A0A.3",
     "description": "TEXTURA RISCADA/20 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 31.99,
+    "price": 164.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -22251,7 +22251,7 @@
     "code": "5652.003A0A.4",
     "description": "TEXTURA RISCADA/20 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 64.98,
+    "price": 328.35,
     "category": "Texturas",
     "table": "019"
   },
@@ -22291,7 +22291,7 @@
     "code": "5652.999A9A.3",
     "description": "TEXTURA RISCADA/20 ORO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 35.1,
+    "price": 193.4,
     "category": "Texturas",
     "table": "019"
   },
@@ -22299,7 +22299,7 @@
     "code": "5652.999A9A.4",
     "description": "TEXTURA RISCADA/20 ORO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 70.79,
+    "price": 412.61,
     "category": "Texturas",
     "table": "019"
   },
@@ -22323,7 +22323,7 @@
     "code": "5653.003A0A.3",
     "description": "TEXTURA PROJETADA INTERNO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 15.67,
+    "price": 105.79,
     "category": "Texturas",
     "table": "019"
   },
@@ -22331,7 +22331,7 @@
     "code": "5653.003A0A.4",
     "description": "TEXTURA PROJETADA INTERNO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 36.51,
+    "price": 253.22,
     "category": "Texturas",
     "table": "019"
   },
@@ -22339,7 +22339,7 @@
     "code": "5654.000A0A.3",
     "description": "PIT.PERMAFIX EXT. - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.98,
+    "price": 103.52,
     "category": "Outros",
     "table": "019"
   },
@@ -22347,7 +22347,7 @@
     "code": "5654.000A0A.4",
     "description": "PIT.PERMAFIX EXT. - BL 28,0 KGS",
     "unit": "BL",
-    "price": 38.83,
+    "price": 224.26,
     "category": "Outros",
     "table": "019"
   },
@@ -22355,7 +22355,7 @@
     "code": "5654.002A0A.3",
     "description": "PIT.PERMAFIX EXT. - SC 15,0 KGS",
     "unit": "SC",
-    "price": 17.89,
+    "price": 102.98,
     "category": "Outros",
     "table": "019"
   },
@@ -22363,7 +22363,7 @@
     "code": "5654.002A0A.4",
     "description": "PIT.PERMAFIX EXT. - BL 28.0 KGS",
     "unit": "BL",
-    "price": 38.65,
+    "price": 223.21,
     "category": "Outros",
     "table": "019"
   },
@@ -22371,7 +22371,7 @@
     "code": "5654.999A9A.3",
     "description": "PIT.PERMAFIX EXT. - SC 15,0 KGS",
     "unit": "SC",
-    "price": 19.31,
+    "price": 107.22,
     "category": "Outros",
     "table": "019"
   },
@@ -22379,7 +22379,7 @@
     "code": "5654.999A9A.4",
     "description": "PIT.PERMAFIX EXT. - BL 28.0 KGS",
     "unit": "BL",
-    "price": 41.31,
+    "price": 231.19,
     "category": "Outros",
     "table": "019"
   },
@@ -22419,7 +22419,7 @@
     "code": "5705.000A0A.0",
     "description": "SELADOR FLEXIVEL - GL 3,6 LTS",
     "unit": "GL",
-    "price": 24.75,
+    "price": 91.72,
     "category": "Complementos",
     "table": "019"
   },
@@ -22435,7 +22435,7 @@
     "code": "5705.000A0A.4",
     "description": "SELADOR FLEXIVEL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 113.49,
+    "price": 366.86,
     "category": "Complementos",
     "table": "019"
   },
@@ -22443,7 +22443,7 @@
     "code": "5705.002A0A.0",
     "description": "SELADOR FLEXIVEL - GL 3,6 LTS",
     "unit": "GL",
-    "price": 24.54,
+    "price": 91.72,
     "category": "Complementos",
     "table": "019"
   },
@@ -22459,7 +22459,7 @@
     "code": "5705.002A0A.4",
     "description": "SELADOR FLEXIVEL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 112.43,
+    "price": 366.86,
     "category": "Complementos",
     "table": "019"
   },
@@ -22467,7 +22467,7 @@
     "code": "5705.999A9A.0",
     "description": "SELADOR FLEXIVEL - GL 3,6 LTS",
     "unit": "GL",
-    "price": 27.57,
+    "price": 105.39,
     "category": "Complementos",
     "table": "019"
   },
@@ -22483,7 +22483,7 @@
     "code": "5705.999A9A.4",
     "description": "SELADOR FLEXIVEL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 127.58,
+    "price": 421.88,
     "category": "Complementos",
     "table": "019"
   },
@@ -22491,7 +22491,7 @@
     "code": "5708.002A0A.1",
     "description": "IBRATIN SOLVENTE - L.M. 5,0 LTS",
     "unit": "LM",
-    "price": 33.02,
+    "price": 98.47,
     "category": "Outros",
     "table": "019"
   },
@@ -22499,7 +22499,7 @@
     "code": "5708.002A0A.5",
     "description": "IBRATIN SOLVENTE - L.B. 18,0 LTS",
     "unit": "LL",
-    "price": 109.26,
+    "price": 393.86,
     "category": "Outros",
     "table": "019"
   },
@@ -22507,7 +22507,7 @@
     "code": "5710.000A0A.0",
     "description": "IBRATIN VEDANTE - G.P. 3,5 KGS",
     "unit": "GP",
-    "price": 19.66,
+    "price": 123.44,
     "category": "Outros",
     "table": "019"
   },
@@ -22523,7 +22523,7 @@
     "code": "5710.000A0A.4",
     "description": "IBRATIN VEDANTE - B.L. 20 KG",
     "unit": "BL",
-    "price": 99.68,
+    "price": 664.62,
     "category": "Outros",
     "table": "019"
   },
@@ -22531,7 +22531,7 @@
     "code": "5710.003A0A.0",
     "description": "IBRATIN VEDANTE - G.P. 3,5 KGS",
     "unit": "GP",
-    "price": 19.65,
+    "price": 123.44,
     "category": "Outros",
     "table": "019"
   },
@@ -22547,7 +22547,7 @@
     "code": "5710.003A0A.4",
     "description": "IBRATIN VEDANTE - B.L. 20 KG",
     "unit": "BL",
-    "price": 99.62,
+    "price": 664.62,
     "category": "Outros",
     "table": "019"
   },
@@ -22555,7 +22555,7 @@
     "code": "5710.999A9A.0",
     "description": "IBRATIN VEDANTE - G.P. 3,5 KGS",
     "unit": "GP",
-    "price": 20.1,
+    "price": 142.42,
     "category": "Outros",
     "table": "019"
   },
@@ -22571,7 +22571,7 @@
     "code": "5710.999A9A.4",
     "description": "IBRATIN VEDANTE - B.L. 20 KG",
     "unit": "BL",
-    "price": 102.21,
+    "price": 740.6,
     "category": "Outros",
     "table": "019"
   },
@@ -22579,7 +22579,7 @@
     "code": "5713.002A0A.0",
     "description": "IBRATIN IBRAFRISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 24.75,
+    "price": 125.79,
     "category": "Outros",
     "table": "019"
   },
@@ -22595,7 +22595,7 @@
     "code": "5713.002A0A.4",
     "description": "IBRATIN IBRAFRISO - BL. 18,0 LTS",
     "unit": "BL",
-    "price": 114.92,
+    "price": 579.07,
     "category": "Outros",
     "table": "019"
   },
@@ -22643,7 +22643,7 @@
     "code": "5739.000A0A.0",
     "description": "MASSA FLEXIVEL - GL 5,0 KGS",
     "unit": "GL",
-    "price": 14.27,
+    "price": 78.4,
     "category": "Complementos",
     "table": "019"
   },
@@ -22651,7 +22651,7 @@
     "code": "5739.000A0A.3",
     "description": "MASSA FLEXIVEL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 33.62,
+    "price": 150.51,
     "category": "Complementos",
     "table": "019"
   },
@@ -22659,7 +22659,7 @@
     "code": "5739.000A0A.4",
     "description": "MASSA FLEXIVEL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 68.02,
+    "price": 313.57,
     "category": "Complementos",
     "table": "019"
   },
@@ -22667,7 +22667,7 @@
     "code": "5739.002A0A.0",
     "description": "MASSA FLEXIVEL - GL 5,0 KGS",
     "unit": "GL",
-    "price": 14.24,
+    "price": 78.4,
     "category": "Complementos",
     "table": "019"
   },
@@ -22675,7 +22675,7 @@
     "code": "5739.002A0A.3",
     "description": "MASSA FLEXIVEL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 33.52,
+    "price": 150.51,
     "category": "Complementos",
     "table": "019"
   },
@@ -22683,7 +22683,7 @@
     "code": "5739.002A0A.4",
     "description": "MASSA FLEXIVEL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 67.84,
+    "price": 313.57,
     "category": "Complementos",
     "table": "019"
   },
@@ -22691,7 +22691,7 @@
     "code": "5739.999A9A.0",
     "description": "MASSA FLEXIVEL - GL 5,0 KGS",
     "unit": "GL",
-    "price": 14.72,
+    "price": 87.79,
     "category": "Complementos",
     "table": "019"
   },
@@ -22699,7 +22699,7 @@
     "code": "5739.999A9A.3",
     "description": "MASSA FLEXIVEL - SC 15,0 KGS",
     "unit": "SC",
-    "price": 34.94,
+    "price": 169.31,
     "category": "Complementos",
     "table": "019"
   },
@@ -22707,7 +22707,7 @@
     "code": "5739.999A9A.4",
     "description": "MASSA FLEXIVEL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 70.49,
+    "price": 351.19,
     "category": "Complementos",
     "table": "019"
   },
@@ -24043,7 +24043,7 @@
     "code": "7900.000008.3",
     "description": "PERMAFIX ARG CIMEN 15/25 - SC 40,0 KGS",
     "unit": "SC",
-    "price": 6.6,
+    "price": 71.92,
     "category": "Outros",
     "table": "019"
   },
@@ -24051,7 +24051,7 @@
     "code": "7900.000009.3",
     "description": "PERMAFIX ARG CIMEN 7/20 - SC 40,0 KGS",
     "unit": "SC",
-    "price": 18.32,
+    "price": 83.53,
     "category": "Outros",
     "table": "019"
   },
@@ -24059,7 +24059,7 @@
     "code": "7900.000010.3",
     "description": "PERMAFIX ARG CIMEN 3/7 - SC 40,0 KGS",
     "unit": "SC",
-    "price": 21.37,
+    "price": 96.22,
     "category": "Outros",
     "table": "019"
   },
@@ -24067,7 +24067,7 @@
     "code": "7900.000011.3",
     "description": "PERMAFIX ARG CIMEN 15/30 - SC 40,0 KGS",
     "unit": "SC",
-    "price": 18.61,
+    "price": 71.92,
     "category": "Outros",
     "table": "019"
   },
@@ -24091,7 +24091,7 @@
     "code": "7901.000031",
     "description": "IBRATELA 30 - ROLO 50 MTS",
     "unit": "RL",
-    "price": 102.83,
+    "price": 360.8,
     "category": "Outros",
     "table": "019"
   },
@@ -24099,7 +24099,7 @@
     "code": "7901.000101",
     "description": "IBRATELA 100 - ROLO 50 MTS",
     "unit": "RL",
-    "price": 313.43,
+    "price": 737.9,
     "category": "Outros",
     "table": "019"
   },
@@ -24107,7 +24107,7 @@
     "code": "7902.000001",
     "description": "IBRATRINC",
     "unit": "MT",
-    "price": 1.07,
+    "price": 6.31,
     "category": "Outros",
     "table": "019"
   },
@@ -24123,7 +24123,7 @@
     "code": "7905.000001",
     "description": "CAIXA MONTADA BAG IN BOX 1350L",
     "unit": "UN",
-    "price": 130.59,
+    "price": 391.31,
     "category": "Outros",
     "table": "019"
   },
@@ -24131,7 +24131,7 @@
     "code": "7905.000002",
     "description": "PALLETE PBR",
     "unit": "UN",
-    "price": 18.15,
+    "price": 55.9,
     "category": "Outros",
     "table": "019"
   },
@@ -26195,7 +26195,7 @@
     "code": "8101.000010.0",
     "description": "ESMALTE ACETINADO B.AGUA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 43.17,
+    "price": 143.33,
     "category": "Outros",
     "table": "019"
   },
@@ -26259,7 +26259,7 @@
     "code": "8102.000010.0",
     "description": "ESMALTE BRILHO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 48.31,
+    "price": 209.94,
     "category": "Outros",
     "table": "019"
   },
@@ -26283,7 +26283,7 @@
     "code": "8103.000001.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 40.52,
+    "price": 121.34,
     "category": "Outros",
     "table": "019"
   },
@@ -26291,7 +26291,7 @@
     "code": "8103.000001.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 11.2,
+    "price": 41.67,
     "category": "Outros",
     "table": "019"
   },
@@ -26299,7 +26299,7 @@
     "code": "8103.000008.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 31.68,
+    "price": 121.34,
     "category": "Outros",
     "table": "019"
   },
@@ -26307,7 +26307,7 @@
     "code": "8103.000008.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 8.99,
+    "price": 44.73,
     "category": "Outros",
     "table": "019"
   },
@@ -26315,7 +26315,7 @@
     "code": "8103.000010.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 40.52,
+    "price": 121.34,
     "category": "Outros",
     "table": "019"
   },
@@ -26323,7 +26323,7 @@
     "code": "8103.000010.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 11.2,
+    "price": 44.73,
     "category": "Outros",
     "table": "019"
   },
@@ -26331,7 +26331,7 @@
     "code": "8103.000024.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 40.52,
+    "price": 121.34,
     "category": "Outros",
     "table": "019"
   },
@@ -26339,7 +26339,7 @@
     "code": "8103.000024.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 11.2,
+    "price": 44.73,
     "category": "Outros",
     "table": "019"
   },
@@ -26347,7 +26347,7 @@
     "code": "8103.000025.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 40.52,
+    "price": 121.34,
     "category": "Outros",
     "table": "019"
   },
@@ -26355,7 +26355,7 @@
     "code": "8103.000025.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 11.2,
+    "price": 44.73,
     "category": "Outros",
     "table": "019"
   },
@@ -26363,7 +26363,7 @@
     "code": "8103.000032.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 40.52,
+    "price": 121.34,
     "category": "Outros",
     "table": "019"
   },
@@ -26371,7 +26371,7 @@
     "code": "8103.000032.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 11.2,
+    "price": 37.47,
     "category": "Outros",
     "table": "019"
   },
@@ -26379,7 +26379,7 @@
     "code": "8103.000090.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 40.52,
+    "price": 146.73,
     "category": "Outros",
     "table": "019"
   },
@@ -26387,7 +26387,7 @@
     "code": "8103.000090.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 11.2,
+    "price": 44.73,
     "category": "Outros",
     "table": "019"
   },
@@ -26427,7 +26427,7 @@
     "code": "8202.000000.0",
     "description": "SELADOR ACRILICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 6.38,
+    "price": 70.59,
     "category": "Complementos",
     "table": "019"
   },
@@ -26435,7 +26435,7 @@
     "code": "8202.000000.4",
     "description": "SELADOR ACRILICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 22.77,
+    "price": 157.86,
     "category": "Complementos",
     "table": "019"
   },
@@ -27843,7 +27843,7 @@
     "code": "8410.000000.K",
     "description": "KIT IBRATEC 7000",
     "unit": "CX",
-    "price": 30.05,
+    "price": 189.3,
     "category": "Outros",
     "table": "019"
   },
@@ -27891,7 +27891,7 @@
     "code": "8505.000000.4",
     "description": "MANTA LIQUIDA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 119.57,
+    "price": 515.69,
     "category": "Outros",
     "table": "019"
   },
@@ -27907,7 +27907,7 @@
     "code": "8506.000000.4",
     "description": "SOLUCAO RESINA ACRILICA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 70.39,
+    "price": 264.14,
     "category": "Outros",
     "table": "019"
   },
@@ -28659,7 +28659,7 @@
     "code": "8615.000010.6",
     "description": "NACOR TEXTURA LISA - BR 25,0 KGS",
     "unit": "BR",
-    "price": 18.5,
+    "price": 86.71,
     "category": "Texturas",
     "table": "019"
   },
@@ -28715,7 +28715,7 @@
     "code": "8635.000017.3",
     "description": "TEXTURA LISA PRO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 10.11,
+    "price": 27.5,
     "category": "Texturas",
     "table": "019"
   },
@@ -30003,7 +30003,7 @@
     "code": "8709.000087.2",
     "description": "PRIMER ELEGANCE - GP 2,5 LTS",
     "unit": "GP",
-    "price": 8.97,
+    "price": 45.57,
     "category": "Outros",
     "table": "019"
   },
@@ -30107,7 +30107,7 @@
     "code": "8711.000082.2",
     "description": "VERNIZ ESTRELADO - GP 2,5 LTS",
     "unit": "GP",
-    "price": 7.48,
+    "price": 62.69,
     "category": "Complementos",
     "table": "019"
   },
@@ -30115,7 +30115,7 @@
     "code": "8712.000010.1",
     "description": "GLITTER ELEGANCE - PT 600 ML",
     "unit": "PT",
-    "price": 6.25,
+    "price": 72.0,
     "category": "Outros",
     "table": "019"
   },
@@ -30251,7 +30251,7 @@
     "code": "8721.000050.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 40.72,
+    "price": 422.36,
     "category": "Outros",
     "table": "019"
   },
@@ -30259,7 +30259,7 @@
     "code": "8721.000054.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 40.61,
+    "price": 422.36,
     "category": "Outros",
     "table": "019"
   },
@@ -30267,7 +30267,7 @@
     "code": "8721.000068.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 40.72,
+    "price": 422.36,
     "category": "Outros",
     "table": "019"
   },
@@ -30275,7 +30275,7 @@
     "code": "8721.000100.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 40.73,
+    "price": 422.36,
     "category": "Outros",
     "table": "019"
   },
@@ -32451,7 +32451,7 @@
     "code": "5200.002A0A.0",
     "description": "TINTA ECONOMICA P/GESSO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 47.5,
+    "price": 51.71,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32459,7 +32459,7 @@
     "code": "5200.002A0A.4",
     "description": "TINTA ECONOMICA P/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 190.0,
+    "price": 206.83,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32467,7 +32467,7 @@
     "code": "5203.002A0A.4",
     "description": "TINTA ECONOMICA CONTRUCAO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 149.99,
+    "price": 167.71,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32475,7 +32475,7 @@
     "code": "5219.002A0A.3",
     "description": "MASSA CORRIDA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 28.34,
+    "price": 32.02,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32483,7 +32483,7 @@
     "code": "5227.002A0A.4",
     "description": "SELADOR ACRILICO/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 130.99,
+    "price": 170.49,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32491,7 +32491,7 @@
     "code": "5238.002A0A.3",
     "description": "REVLIS - SC 15,0 KGS",
     "unit": "SC",
-    "price": 26.99,
+    "price": 24.87,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32515,7 +32515,7 @@
     "code": "5395.000087.2",
     "description": "PRIMER - GP 2,5 LTS",
     "unit": "GP",
-    "price": 60.0,
+    "price": 45.57,
     "category": "Outros",
     "table": "G10"
   },
@@ -32555,7 +32555,7 @@
     "code": "5404.003A0A.0",
     "description": "PERMACRYL MICRO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 44.73,
+    "price": 93.38,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32563,7 +32563,7 @@
     "code": "5404.003A0A.4",
     "description": "PERMACRYL MICRO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 315.0,
+    "price": 337.5,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32571,7 +32571,7 @@
     "code": "5407.002A0A.4",
     "description": "TINTA ACR SEMI BRILHO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 365.99,
+    "price": 562.65,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32579,7 +32579,7 @@
     "code": "5413.002A0A.0",
     "description": "SANITIZA+ - GL 3,6 LTS",
     "unit": "GL",
-    "price": 114.18,
+    "price": 117.39,
     "category": "Outros",
     "table": "G10"
   },
@@ -32587,7 +32587,7 @@
     "code": "5413.002A0A.4",
     "description": "SANITIZA+ - BL 18,0 LTS",
     "unit": "BL",
-    "price": 505.64,
+    "price": 528.28,
     "category": "Outros",
     "table": "G10"
   },
@@ -32595,7 +32595,7 @@
     "code": "5418.002A0A.0",
     "description": "FUNDO PREPAR BASE AGUA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 45.0,
+    "price": 85.44,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32603,7 +32603,7 @@
     "code": "5418.002A0A.4",
     "description": "FUNDO PREPAR BASE AGUA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 180.0,
+    "price": 379.81,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32643,7 +32643,7 @@
     "code": "5432.002A0A.0",
     "description": "TINTA ACRILICA PREMIUM - GL 3,6 LTS",
     "unit": "GL",
-    "price": 78.75,
+    "price": 106.72,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32651,7 +32651,7 @@
     "code": "5432.002A0A.4",
     "description": "TINTA ACRILICA PREMIUM - BL 18,0 LTS",
     "unit": "BL",
-    "price": 334.4,
+    "price": 426.89,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32659,7 +32659,7 @@
     "code": "5435.002A0A.4",
     "description": "TINTA PREMIUM DECORA PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 432.99,
+    "price": 498.92,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32675,7 +32675,7 @@
     "code": "5456.002A0A.4",
     "description": "TINTA LIMPEZA TOTAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 439.9,
+    "price": 640.82,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32683,7 +32683,7 @@
     "code": "5462.000A0A.4",
     "description": "PERMACRYL ELASTOMERICO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 349.0,
+    "price": 492.31,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32691,7 +32691,7 @@
     "code": "5466.002A0A.0",
     "description": "BLANCO FLEX - GL 3,6 LTS",
     "unit": "GL",
-    "price": 34.99,
+    "price": 48.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -32699,7 +32699,7 @@
     "code": "5466.002A0A.4",
     "description": "BLANCO FLEX - BL 18,0 LTS",
     "unit": "BL",
-    "price": 138.0,
+    "price": 195.65,
     "category": "Outros",
     "table": "G10"
   },
@@ -32715,7 +32715,7 @@
     "code": "5525.003A0A.4",
     "description": "TEXTURA PROJETADA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 200.0,
+    "price": 253.22,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32747,7 +32747,7 @@
     "code": "5540.003A0A.4",
     "description": "CRISTALLINI PREMIUM - BL 28,0 KGS",
     "unit": "BL",
-    "price": 195.0,
+    "price": 229.2,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32755,7 +32755,7 @@
     "code": "5542.003A0A.4",
     "description": "CRISTALLINI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 255.0,
+    "price": 269.67,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32803,7 +32803,7 @@
     "code": "5654.002A0A.4",
     "description": "PIT.PERMAFIX EXT. - BL 28.0 KGS",
     "unit": "BL",
-    "price": 158.12,
+    "price": 223.21,
     "category": "Outros",
     "table": "G10"
   },
@@ -32827,7 +32827,7 @@
     "code": "5705.002A0A.4",
     "description": "SELADOR FLEXIVEL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 280.0,
+    "price": 366.86,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32835,7 +32835,7 @@
     "code": "5710.003A0A.0",
     "description": "IBRATIN VEDANTE - G.P. 3,5 KGS",
     "unit": "GP",
-    "price": 102.5,
+    "price": 123.44,
     "category": "Outros",
     "table": "G10"
   },
@@ -32843,7 +32843,7 @@
     "code": "5710.003A0A.4",
     "description": "IBRATIN VEDANTE - B.L. 20 KG",
     "unit": "BL",
-    "price": 410.0,
+    "price": 664.62,
     "category": "Outros",
     "table": "G10"
   },
@@ -32851,7 +32851,7 @@
     "code": "5713.002A0A.0",
     "description": "IBRATIN IBRAFRISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 80.3,
+    "price": 125.79,
     "category": "Outros",
     "table": "G10"
   },
@@ -32859,7 +32859,7 @@
     "code": "5713.002A0A.4",
     "description": "IBRATIN IBRAFRISO - BL. 18,0 LTS",
     "unit": "BL",
-    "price": 366.3,
+    "price": 579.07,
     "category": "Outros",
     "table": "G10"
   },
@@ -32867,7 +32867,7 @@
     "code": "5739.002A0A.4",
     "description": "MASSA FLEXIVEL - BL 28,0 KGS",
     "unit": "BL",
-    "price": 240.0,
+    "price": 313.57,
     "category": "Complementos",
     "table": "G10"
   },
@@ -34723,7 +34723,7 @@
     "code": "8101.000010.0",
     "description": "ESMALTE ACETINADO B.AGUA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 89.9,
+    "price": 143.33,
     "category": "Outros",
     "table": "G10"
   },
@@ -34787,7 +34787,7 @@
     "code": "8102.000010.0",
     "description": "ESMALTE BRILHO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 95.0,
+    "price": 209.94,
     "category": "Outros",
     "table": "G10"
   },
@@ -34795,7 +34795,7 @@
     "code": "8103.000001.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 109.9,
+    "price": 121.34,
     "category": "Outros",
     "table": "G10"
   },
@@ -34803,7 +34803,7 @@
     "code": "8103.000001.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 30.0,
+    "price": 41.67,
     "category": "Outros",
     "table": "G10"
   },
@@ -34811,7 +34811,7 @@
     "code": "8103.000008.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 98.99,
+    "price": 121.34,
     "category": "Outros",
     "table": "G10"
   },
@@ -34819,7 +34819,7 @@
     "code": "8103.000008.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 27.5,
+    "price": 44.73,
     "category": "Outros",
     "table": "G10"
   },
@@ -34827,7 +34827,7 @@
     "code": "8103.000010.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 104.5,
+    "price": 121.34,
     "category": "Outros",
     "table": "G10"
   },
@@ -34835,7 +34835,7 @@
     "code": "8103.000010.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 28.6,
+    "price": 44.73,
     "category": "Outros",
     "table": "G10"
   },
@@ -34843,7 +34843,7 @@
     "code": "8103.000024.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 98.99,
+    "price": 121.34,
     "category": "Outros",
     "table": "G10"
   },
@@ -34851,7 +34851,7 @@
     "code": "8103.000024.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 28.6,
+    "price": 44.73,
     "category": "Outros",
     "table": "G10"
   },
@@ -34859,7 +34859,7 @@
     "code": "8103.000025.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 98.99,
+    "price": 121.34,
     "category": "Outros",
     "table": "G10"
   },
@@ -34867,7 +34867,7 @@
     "code": "8103.000025.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 27.5,
+    "price": 44.73,
     "category": "Outros",
     "table": "G10"
   },
@@ -34875,7 +34875,7 @@
     "code": "8103.000032.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 104.5,
+    "price": 121.34,
     "category": "Outros",
     "table": "G10"
   },
@@ -34883,7 +34883,7 @@
     "code": "8103.000032.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 29.7,
+    "price": 37.47,
     "category": "Outros",
     "table": "G10"
   },
@@ -34891,7 +34891,7 @@
     "code": "8103.000090.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 98.99,
+    "price": 146.73,
     "category": "Outros",
     "table": "G10"
   },
@@ -34899,7 +34899,7 @@
     "code": "8103.000090.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 29.7,
+    "price": 44.73,
     "category": "Outros",
     "table": "G10"
   },
@@ -34907,7 +34907,7 @@
     "code": "8202.000000.0",
     "description": "SELADOR ACRILICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 24.2,
+    "price": 70.59,
     "category": "Complementos",
     "table": "G10"
   },
@@ -34915,7 +34915,7 @@
     "code": "8202.000000.4",
     "description": "SELADOR ACRILICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 107.99,
+    "price": 157.86,
     "category": "Complementos",
     "table": "G10"
   },
@@ -35659,7 +35659,7 @@
     "code": "8410.000000.K",
     "description": "KIT IBRATEC 7000",
     "unit": "CX",
-    "price": 149.0,
+    "price": 189.3,
     "category": "Outros",
     "table": "G10"
   },
@@ -35699,7 +35699,7 @@
     "code": "8505.000000.4",
     "description": "MANTA LIQUIDA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 285.0,
+    "price": 515.69,
     "category": "Outros",
     "table": "G10"
   },
@@ -35715,7 +35715,7 @@
     "code": "8506.000000.4",
     "description": "SOLUCAO RESINA ACRILICA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 199.9,
+    "price": 264.14,
     "category": "Outros",
     "table": "G10"
   },
@@ -35819,7 +35819,7 @@
     "code": "8615.000010.6",
     "description": "NACOR TEXTURA LISA - BR 25,0 KGS",
     "unit": "BR",
-    "price": 67.0,
+    "price": 86.71,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35867,7 +35867,7 @@
     "code": "8635.000017.3",
     "description": "TEXTURA LISA PRO - SC 15,0 KGS",
     "unit": "SC",
-    "price": 32.0,
+    "price": 27.5,
     "category": "Texturas",
     "table": "G10"
   },
@@ -36339,7 +36339,7 @@
     "code": "8721.000050.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 235.0,
+    "price": 422.36,
     "category": "Outros",
     "table": "G10"
   },
@@ -36347,7 +36347,7 @@
     "code": "8721.000054.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 235.0,
+    "price": 422.36,
     "category": "Outros",
     "table": "G10"
   },
@@ -36355,7 +36355,7 @@
     "code": "8721.000068.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 235.0,
+    "price": 422.36,
     "category": "Outros",
     "table": "G10"
   },
@@ -36363,7 +36363,7 @@
     "code": "8721.000100.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 235.0,
+    "price": 422.36,
     "category": "Outros",
     "table": "G10"
   },
