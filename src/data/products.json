@@ -5963,7 +5963,7 @@
     "code": "9501.0139",
     "description": "ESTANTES DE PORTA PALETES CONVENCIONAL",
     "unit": "UN",
-    "price": 175.91,
+    "price": 226.15,
     "category": "Outros",
     "table": "R11"
   },
@@ -5971,7 +5971,7 @@
     "code": "D2021.003.1.4",
     "description": "LIQUIDO F.F. - BL 18,0 LTS",
     "unit": "BL",
-    "price": 410.28,
+    "price": 527.47,
     "category": "Outros",
     "table": "R11"
   },
@@ -5979,7 +5979,7 @@
     "code": "D2022.037.1.4",
     "description": "RIFLESSI ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 540.99,
+    "price": 695.51,
     "category": "Outros",
     "table": "R11"
   },
@@ -5987,7 +5987,7 @@
     "code": "D2022.050.1.4",
     "description": "FUNDO EFFETTILINE - BL 18,0 LTS",
     "unit": "BL",
-    "price": 240.02,
+    "price": 308.57,
     "category": "Complementos",
     "table": "R11"
   },
@@ -5995,7 +5995,7 @@
     "code": "D2023.015.1.0",
     "description": "VERNIZ PROPETOR UV - GA 3,6 LTS",
     "unit": "GL",
-    "price": 229.59,
+    "price": 295.16,
     "category": "Esmaltes",
     "table": "R11"
   },
@@ -6003,7 +6003,7 @@
     "code": "D2023.016.1.0",
     "description": "IBRACAL MONO - GA 5,0 KGS",
     "unit": "GL",
-    "price": 130.45,
+    "price": 167.71,
     "category": "Outros",
     "table": "R11"
   },
@@ -6011,7 +6011,7 @@
     "code": "D2023.016.1.4",
     "description": "IBRACAL MONO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 521.79,
+    "price": 670.82,
     "category": "Outros",
     "table": "R11"
   },
@@ -6019,7 +6019,7 @@
     "code": "D2023.059.1.4",
     "description": "IBRAGOLA - BL 25,0 KGS",
     "unit": "BL",
-    "price": 419.41,
+    "price": 539.2,
     "category": "Outros",
     "table": "R11"
   },
@@ -6027,7 +6027,7 @@
     "code": "D2023.065.1.4",
     "description": "TINTA PREMIUM PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 355.28,
+    "price": 456.76,
     "category": "Tintas",
     "table": "R11"
   },
@@ -6035,7 +6035,7 @@
     "code": "D2024.019.1.0",
     "description": "OURO FINO - GA 3,6 LTS",
     "unit": "GA",
-    "price": 628.32,
+    "price": 807.79,
     "category": "Outros",
     "table": "R11"
   },
@@ -6043,7 +6043,7 @@
     "code": "D2024.019.1.4",
     "description": "OURO FINO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 3141.6,
+    "price": 3671.75,
     "category": "Outros",
     "table": "R11"
   },
@@ -6051,7 +6051,7 @@
     "code": "D2025.016.1.4",
     "description": "TEXTURA EXTERNA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 246.12,
+    "price": 316.42,
     "category": "Texturas",
     "table": "R11"
   },
@@ -31819,7 +31819,7 @@
     "code": "D2021.003.1.4",
     "description": "LIQUIDO F.F. - BL 18,0 LTS",
     "unit": "BL",
-    "price": 122.29,
+    "price": 527.47,
     "category": "Outros",
     "table": "019"
   },
@@ -32003,7 +32003,7 @@
     "code": "D2022.037.1.4",
     "description": "RIFLESSI ORO - BL 30,0 KGS",
     "unit": "BL",
-    "price": 65.72,
+    "price": 695.51,
     "category": "Outros",
     "table": "019"
   },
@@ -32075,7 +32075,7 @@
     "code": "D2022.050.1.4",
     "description": "FUNDO EFFETTILINE - BL 18,0 LTS",
     "unit": "BL",
-    "price": 49.0,
+    "price": 308.57,
     "category": "Complementos",
     "table": "019"
   },
@@ -32115,7 +32115,7 @@
     "code": "D2023.015.1.0",
     "description": "VERNIZ PROPETOR UV - GA 3,6 LTS",
     "unit": "GL",
-    "price": 39.41,
+    "price": 295.16,
     "category": "Complementos",
     "table": "019"
   },
@@ -32123,7 +32123,7 @@
     "code": "D2023.016.1.0",
     "description": "IBRACAL MONO - GA 5,0 KGS",
     "unit": "GL",
-    "price": 16.77,
+    "price": 167.71,
     "category": "Outros",
     "table": "019"
   },
@@ -32147,7 +32147,7 @@
     "code": "D2023.016.1.4",
     "description": "IBRACAL MONO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 78.52,
+    "price": 670.82,
     "category": "Outros",
     "table": "019"
   },
@@ -32235,7 +32235,7 @@
     "code": "D2023.059.1.4",
     "description": "IBRAGOLA - BL 25,0 KGS",
     "unit": "BL",
-    "price": 107.68,
+    "price": 539.2,
     "category": "Outros",
     "table": "019"
   },
@@ -32259,7 +32259,7 @@
     "code": "D2023.065.1.4",
     "description": "TINTA PREMIUM PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 100.4,
+    "price": 456.76,
     "category": "Tintas",
     "table": "019"
   },
@@ -32275,7 +32275,7 @@
     "code": "D2024.019.1.0",
     "description": "OURO FINO - GA 3,6 LTS",
     "unit": "GA",
-    "price": 122.5,
+    "price": 807.79,
     "category": "Outros",
     "table": "019"
   },
@@ -32283,7 +32283,7 @@
     "code": "D2024.019.1.4",
     "description": "OURO FINO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 604.55,
+    "price": 3671.75,
     "category": "Outros",
     "table": "019"
   },
@@ -32379,7 +32379,7 @@
     "code": "D2025.016.1.4",
     "description": "TEXTURA EXTERNA - BL 30,0 KGS",
     "unit": "BL",
-    "price": 85.76,
+    "price": 316.42,
     "category": "Texturas",
     "table": "019"
   },
