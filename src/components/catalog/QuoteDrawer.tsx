@@ -39,19 +39,24 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     doc.setTextColor(220, 38, 38); // Red
     doc.text("IBRATIN", 105, 20, { align: "center" });
     
+    doc.setFontSize(12);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Lojas Galeguinho", 105, 28, { align: "center" });
+
     doc.setFontSize(16);
     doc.setTextColor(0, 0, 0);
-    doc.text("Orçamento de Produtos", 105, 30, { align: "center" });
+    doc.text("Orçamento de Produtos", 105, 38, { align: "center" });
 
     // Client Info
     doc.setFontSize(10);
-    doc.text(`Data de Emissão: ${dateStr}`, 15, 45);
-    doc.text(`Cliente: ${clientName || "N/A"}`, 15, 52);
-    doc.text(`Endereço: ${clientAddress || "N/A"}`, 15, 59);
+    doc.text(`Data de Emissão: ${dateStr}`, 15, 50);
+    doc.text(`Cliente: ${clientName || "N/A"}`, 15, 57);
+    doc.text(`Telefone: ${clientPhone || "N/A"}`, 15, 64);
+    doc.text(`Endereço: ${clientAddress || "N/A"}`, 15, 71);
 
     // Table
     autoTable(doc, {
-      startY: 70,
+      startY: 80,
       head: [["Código", "Descrição", "Unid", "Qtd", "Preço Unit", "Subtotal"]],
       body: items.map(item => [
         item.code,
