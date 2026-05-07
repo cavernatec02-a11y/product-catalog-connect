@@ -16,6 +16,7 @@ interface QuoteDrawerProps {
   items: QuoteItem[];
   onRemove: (itemKey: string) => void;
   onUpdateQuantity: (itemKey: string, qty: number) => void;
+  onUpdatePrice: (itemKey: string, price: number) => void;
 }
 
 function formatPrice(value: number) {
@@ -24,11 +25,11 @@ function formatPrice(value: number) {
 
 const getItemKey = (item: Pick<QuoteItem, "code" | "table">) => `${item.table ?? "R11"}|${item.code}`;
 
-export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity }: QuoteDrawerProps) {
+export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity, onUpdatePrice }: QuoteDrawerProps) {
   const [clientName, setClientName] = useState("");
   const [clientPhone, setClientPhone] = useState("");
   const [clientAddress, setClientAddress] = useState("");
-  const total = items.reduce((sum, i) => sum + i.price * i.quantity, 0);
+  const total = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
 
   const handleDownloadPDF = () => {
     const doc = new jsPDF();
