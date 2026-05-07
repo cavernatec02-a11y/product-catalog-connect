@@ -4,30 +4,38 @@ import sys
 
 def update_prices_from_text(text, json_path, table_name):
     # Regex to match: code, description, unit, price
-    # Example: 5456.999A9A.4	TINTA LIMPEZA TOTAL - BL 18,0 LTS	BL	 R$ 736,92
-    pattern = re.compile(r'([\w\.]+)\t(.*?)\t(GL|BL|SC|GA|PT|LL|LM|GP|CX|BR|UN|LT|KG)\t\s*R\$\s*([\d\.,]+)')
+    # Example: 9505.0102	EXPOSITOR CLASSIC CRISTAL 863.0 ACRIMET	UN	 R$ 182,26
+    # Units seen: UN, GL, BL, SC, FR, GP, QT, BR, LM, PT, LL, GA, CX, LT, KG
+    units_pattern = r'GL|BL|SC|GA|PT|LL|LM|GP|CX|BR|UN|LT|KG|FR|QT'
+    
+    # Try tab-separated first
+    pattern_tab = re.compile(r'([\w\.]+)\t(.*?)\t(' + units_pattern + r')\t\s*R\$\s*([\d\.,]+)')
+    # Try space-separated (more than 1 space or specific sequence)
+    pattern_space = re.compile(r'([\w\.]+)\s+(.*?)\s+(' + units_pattern + r')\s+R\$\s+([\d\.,]+)')
     
     updates = []
-    for match in pattern.finditer(text):
-        code = match.group(1).strip()
-        description = match.group(2).strip()
-        unit = match.group(3).strip()
-        price_str = match.group(4).replace('.', '').replace(',', '.')
-        try:
-            price = float(price_str)
-            updates.append({
-                'code': code,
-                'description': description,
-                'unit': unit,
-                'price': price
-            })
-        except ValueError:
-            continue
-
+    
+    # Check if text has tabs
+    if '\t' in text:
+        for match in pattern_tab.finditer(text):
+            code = match.group(1).strip()
+            description = match.group(2).strip()
+            unit = match.group(3).strip()
+            price_str = match.group(4).replace('.', '').replace(',', '.')
+            try:
+                price = float(price_str)
+                updates.append({
+                    'code': code,
+                    'description': description,
+                    'unit': unit,
+                    'price': price
+                })
+            except ValueError:
+                continue
+    
+    # If no updates or to catch mixed, try space pattern
     if not updates:
-        # Try a more flexible regex if the first one fails (e.g. spaces instead of tabs)
-        pattern = re.compile(r'([\w\.]+)\s+(.*?)\s+(GL|BL|SC|GA|PT|LL|LM|GP|CX|BR|UN|LT|KG)\s+R\$\s+([\d\.,]+)')
-        for match in pattern.finditer(text):
+        for match in pattern_space.finditer(text):
             code = match.group(1).strip()
             description = match.group(2).strip()
             unit = match.group(3).strip()
@@ -51,10 +59,9 @@ def update_prices_from_text(text, json_path, table_name):
         products = json.load(f)
 
     # Create a mapping of (code, table) -> product
-    # Since we want to update/add items for a specific table
     table_products = {p['code']: p for p in products if p.get('table') == table_name}
     
-    # We also might want to infer categories for new products based on description or other items with same code
+    # Mapping for category inference
     all_codes_categories = {p['code']: p['category'] for p in products if 'category' in p}
 
     updated_count = 0
@@ -70,7 +77,6 @@ def update_prices_from_text(text, json_path, table_name):
         else:
             # Add new product for this table
             category = all_codes_categories.get(code, "Outros")
-            # Try to infer category from description if not found
             if category == "Outros":
                 desc_lower = update['description'].lower()
                 if "tinta" in desc_lower: category = "Tintas"
@@ -78,6 +84,8 @@ def update_prices_from_text(text, json_path, table_name):
                 elif "c.lusso" in desc_lower: category = "Casa Lusso"
                 elif "verniz" in desc_lower: category = "Vernizes"
                 elif "textura" in desc_lower: category = "Texturas"
+                elif "pig" in desc_lower: category = "Outros" # Could be Pigmentos
+                elif "selador" in desc_lower: category = "Complementos"
             
             new_product = {
                 "code": code,
