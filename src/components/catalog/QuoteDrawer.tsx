@@ -145,6 +145,16 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
                   />
                 </div>
                 <div className="space-y-1.5">
+                  <Label htmlFor="clientPhone" className="text-xs">Telefone do Cliente</Label>
+                  <Input 
+                    id="clientPhone" 
+                    placeholder="Ex: (00) 00000-0000" 
+                    value={clientPhone} 
+                    onChange={(e) => setClientPhone(e.target.value)}
+                    className="h-9"
+                  />
+                </div>
+                <div className="space-y-1.5">
                   <Label htmlFor="clientAddress" className="text-xs">Endereço da Obra</Label>
                   <Input 
                     id="clientAddress" 
