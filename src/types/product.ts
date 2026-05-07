@@ -9,4 +9,5 @@ export interface Product {
 
 export interface QuoteItem extends Product {
   quantity: number;
+  customPrice?: number;
 }
