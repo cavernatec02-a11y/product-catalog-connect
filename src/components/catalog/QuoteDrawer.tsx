@@ -26,6 +26,7 @@ const getItemKey = (item: Pick<QuoteItem, "code" | "table">) => `${item.table ??
 
 export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity }: QuoteDrawerProps) {
   const [clientName, setClientName] = useState("");
+  const [clientPhone, setClientPhone] = useState("");
   const [clientAddress, setClientAddress] = useState("");
   const total = items.reduce((sum, i) => sum + i.price * i.quantity, 0);
 
