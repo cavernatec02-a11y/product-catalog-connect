@@ -1,7 +1,14 @@
+import { useState } from "react";
 import type { QuoteItem } from "@/types/product";
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetFooter } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Minus, Plus, Trash2 } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Minus, Plus, Trash2, Download, Share2 } from "lucide-react";
+import jsPDF from "jspdf";
+import autoTable from "jspdf-autotable";
+import { format } from "date-fns";
+import { ptBR } from "date-fns/locale";
 
 interface QuoteDrawerProps {
   open: boolean;
@@ -18,7 +25,65 @@ function formatPrice(value: number) {
 const getItemKey = (item: Pick<QuoteItem, "code" | "table">) => `${item.table ?? "R11"}|${item.code}`;
 
 export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity }: QuoteDrawerProps) {
+  const [clientName, setClientName] = useState("");
+  const [clientAddress, setClientAddress] = useState("");
   const total = items.reduce((sum, i) => sum + i.price * i.quantity, 0);
+
+  const handleDownloadPDF = () => {
+    const doc = new jsPDF();
+    const dateStr = format(new Date(), "dd/MM/yyyy HH:mm", { locale: ptBR });
+
+    // Logo/Header
+    doc.setFontSize(20);
+    doc.setTextColor(220, 38, 38); // Red
+    doc.text("IBRATIN", 105, 20, { align: "center" });
+    
+    doc.setFontSize(16);
+    doc.setTextColor(0, 0, 0);
+    doc.text("Orçamento de Produtos", 105, 30, { align: "center" });
+
+    // Client Info
+    doc.setFontSize(10);
+    doc.text(`Data de Emissão: ${dateStr}`, 15, 45);
+    doc.text(`Cliente: ${clientName || "N/A"}`, 15, 52);
+    doc.text(`Endereço: ${clientAddress || "N/A"}`, 15, 59);
+
+    // Table
+    autoTable(doc, {
+      startY: 70,
+      head: [["Código", "Descrição", "Unid", "Qtd", "Preço Unit", "Subtotal"]],
+      body: items.map(item => [
+        item.code,
+        item.description,
+        item.unit,
+        item.quantity,
+        formatPrice(item.price),
+        formatPrice(item.price * item.quantity)
+      ]),
+      foot: [[{ content: "Total", colSpan: 5, styles: { halign: "right" } }, formatPrice(total)]],
+      theme: "striped",
+      headStyles: { fillColor: [220, 38, 38] },
+    });
+
+    doc.save(`orcamento_${clientName.replace(/\s+/g, "_") || "ibratin"}.pdf`);
+  };
+
+  const handleShareWhatsApp = () => {
+    const dateStr = format(new Date(), "dd/MM/yyyy", { locale: ptBR });
+    let message = `*Olá, segue meu orçamento Ibratin (${dateStr})*\n\n`;
+    message += `*Cliente:* ${clientName || "N/A"}\n`;
+    message += `*Endereço:* ${clientAddress || "N/A"}\n\n`;
+    message += `*Itens:*\n`;
+    
+    items.forEach(item => {
+      message += `- ${item.quantity}x ${item.description} (${item.code}): ${formatPrice(item.price * item.quantity)}\n`;
+    });
+    
+    message += `\n*Total: ${formatPrice(total)}*`;
+    
+    const encoded = encodeURIComponent(message);
+    window.open(`https://wa.me/?text=${encoded}`, "_blank");
+  };
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
@@ -55,9 +120,43 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
                 </div>
               </div>
             ))}
-            <div className="border-t pt-4 flex justify-between items-center">
-              <span className="text-sm font-medium text-muted-foreground">Total</span>
-              <span className="text-xl font-bold text-foreground">{formatPrice(total)}</span>
+            <div className="border-t pt-4 space-y-4">
+              <div className="flex justify-between items-center">
+                <span className="text-sm font-medium text-muted-foreground">Total</span>
+                <span className="text-xl font-bold text-foreground">{formatPrice(total)}</span>
+              </div>
+              
+              <div className="space-y-3">
+                <div className="space-y-1.5">
+                  <Label htmlFor="clientName" className="text-xs">Nome do Cliente</Label>
+                  <Input 
+                    id="clientName" 
+                    placeholder="Ex: João Silva" 
+                    value={clientName} 
+                    onChange={(e) => setClientName(e.target.value)}
+                    className="h-9"
+                  />
+                </div>
+                <div className="space-y-1.5">
+                  <Label htmlFor="clientAddress" className="text-xs">Endereço da Obra</Label>
+                  <Input 
+                    id="clientAddress" 
+                    placeholder="Ex: Rua A, 123" 
+                    value={clientAddress} 
+                    onChange={(e) => setClientAddress(e.target.value)}
+                    className="h-9"
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2 pt-2">
+                <Button variant="outline" className="w-full gap-2" onClick={handleDownloadPDF}>
+                  <Download className="w-4 h-4" /> PDF
+                </Button>
+                <Button className="w-full gap-2 bg-green-600 hover:bg-green-700 text-white" onClick={handleShareWhatsApp}>
+                  <Share2 className="w-4 h-4" /> WhatsApp
+                </Button>
+              </div>
             </div>
           </div>
         )}
