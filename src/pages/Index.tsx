@@ -63,7 +63,7 @@ const Index = () => {
   });
   const [showFavorites, setShowFavorites] = useState(false);
   const [quoteOpen, setQuoteOpen] = useState(false);
-  const { items: quoteItems, removeItem: removeQuoteItem, updateQuantity: updateQuoteQuantity } = useQuote();
+  const { items: quoteItems, removeItem: removeQuoteItem, updateQuantity: updateQuoteQuantity, updatePrice: updateQuotePrice } = useQuote();
 
   const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
 
@@ -254,6 +254,7 @@ const Index = () => {
         items={quoteItems}
         onRemove={removeQuoteItem}
         onUpdateQuantity={updateQuoteQuantity}
+        onUpdatePrice={updateQuotePrice}
       />
 
     </div>
