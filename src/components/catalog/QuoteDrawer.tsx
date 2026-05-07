@@ -76,8 +76,9 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
 
   const handleShareWhatsApp = () => {
     const dateStr = format(new Date(), "dd/MM/yyyy", { locale: ptBR });
-    let message = `*Olá, segue meu orçamento Ibratin (${dateStr})*\n\n`;
+    let message = `*Olá, segue meu orçamento Ibratin - Lojas Galeguinho (${dateStr})*\n\n`;
     message += `*Cliente:* ${clientName || "N/A"}\n`;
+    message += `*Telefone:* ${clientPhone || "N/A"}\n`;
     message += `*Endereço:* ${clientAddress || "N/A"}\n\n`;
     message += `*Itens:*\n`;
     
