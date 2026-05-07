@@ -29,6 +29,7 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   const [clientName, setClientName] = useState("");
   const [clientPhone, setClientPhone] = useState("");
   const [clientAddress, setClientAddress] = useState("");
+  const [sellerName, setSellerName] = useState("");
   const total = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
 
   const handleDownloadPDF = () => {
@@ -51,13 +52,14 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     // Client Info
     doc.setFontSize(10);
     doc.text(`Data de Emissão: ${dateStr}`, 15, 50);
-    doc.text(`Cliente: ${clientName || "N/A"}`, 15, 57);
-    doc.text(`Telefone: ${clientPhone || "N/A"}`, 15, 64);
-    doc.text(`Endereço: ${clientAddress || "N/A"}`, 15, 71);
+    doc.text(`Vendedor: ${sellerName || "N/A"}`, 15, 57);
+    doc.text(`Cliente: ${clientName || "N/A"}`, 15, 64);
+    doc.text(`Telefone: ${clientPhone || "N/A"}`, 15, 71);
+    doc.text(`Endereço: ${clientAddress || "N/A"}`, 15, 78);
 
     // Table
     autoTable(doc, {
-      startY: 80,
+      startY: 85,
       head: [["Código", "Descrição", "Unid", "Qtd", "Preço Unit", "Subtotal"]],
       body: items.map(item => {
         const price = item.customPrice ?? item.price;
@@ -81,6 +83,7 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   const handleShareWhatsApp = () => {
     const dateStr = format(new Date(), "dd/MM/yyyy", { locale: ptBR });
     let message = `*Olá, segue meu orçamento Ibratin - Lojas Galeguinho (${dateStr})*\n\n`;
+    message += `*Vendedor:* ${sellerName || "N/A"}\n`;
     message += `*Cliente:* ${clientName || "N/A"}\n`;
     message += `*Telefone:* ${clientPhone || "N/A"}\n`;
     message += `*Endereço:* ${clientAddress || "N/A"}\n\n`;
@@ -154,6 +157,16 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
               </div>
               
               <div className="space-y-3">
+                <div className="space-y-1.5">
+                  <Label htmlFor="sellerName" className="text-xs">Nome do Vendedor</Label>
+                  <Input 
+                    id="sellerName" 
+                    placeholder="Ex: Carlos Oliveira" 
+                    value={sellerName} 
+                    onChange={(e) => setSellerName(e.target.value)}
+                    className="h-9"
+                  />
+                </div>
                 <div className="space-y-1.5">
                   <Label htmlFor="clientName" className="text-xs">Nome do Cliente</Label>
                   <Input 
