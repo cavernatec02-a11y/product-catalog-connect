@@ -32443,7 +32443,7 @@
     "code": "1088",
     "description": "BALDE RED 18,0 LTS ENGENHARIA",
     "unit": "UN",
-    "price": 12.0,
+    "price": 20.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32451,7 +32451,7 @@
     "code": "5200.002A0A.0",
     "description": "TINTA ECONOMICA P/GESSO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 51.71,
+    "price": 47.5,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32459,7 +32459,7 @@
     "code": "5200.002A0A.4",
     "description": "TINTA ECONOMICA P/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 206.83,
+    "price": 190.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32467,7 +32467,7 @@
     "code": "5203.002A0A.4",
     "description": "TINTA ECONOMICA CONTRUCAO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 167.71,
+    "price": 163.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32475,7 +32475,7 @@
     "code": "5219.002A0A.3",
     "description": "MASSA CORRIDA - SC 15,0 KGS",
     "unit": "SC",
-    "price": 32.02,
+    "price": 36.0,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32483,7 +32483,7 @@
     "code": "5227.002A0A.4",
     "description": "SELADOR ACRILICO/GESSO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 170.49,
+    "price": 150.0,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32491,7 +32491,7 @@
     "code": "5238.002A0A.3",
     "description": "REVLIS - SC 15,0 KGS",
     "unit": "SC",
-    "price": 24.87,
+    "price": 26.99,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32523,7 +32523,7 @@
     "code": "5404.00000C.0",
     "description": "BASE P.CRYL MICRO C - GL 4.6 KGS",
     "unit": "GL",
-    "price": 77.0,
+    "price": 86.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32531,7 +32531,7 @@
     "code": "5404.00000C.4",
     "description": "BASE P.CRYL MICRO C - BL 23,0 KGS",
     "unit": "BL",
-    "price": 315.0,
+    "price": 345.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32539,7 +32539,7 @@
     "code": "5404.0000AB.0",
     "description": "BASE P.CRYL MICRO A/B - GL 4.6 KGS",
     "unit": "GL",
-    "price": 80.0,
+    "price": 86.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32547,7 +32547,7 @@
     "code": "5404.0000AB.4",
     "description": "BASE P.CRYL MICRO A/B - BL 23,0 KGS",
     "unit": "BL",
-    "price": 315.0,
+    "price": 345.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32555,7 +32555,7 @@
     "code": "5404.003A0A.0",
     "description": "PERMACRYL MICRO - GL 5,0 KGS",
     "unit": "GL",
-    "price": 93.38,
+    "price": 80.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32563,7 +32563,7 @@
     "code": "5404.003A0A.4",
     "description": "PERMACRYL MICRO - BL 25,0 KGS",
     "unit": "BL",
-    "price": 337.5,
+    "price": 345.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32571,7 +32571,7 @@
     "code": "5407.002A0A.4",
     "description": "TINTA ACR SEMI BRILHO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 562.65,
+    "price": 365.99,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32595,7 +32595,7 @@
     "code": "5418.002A0A.0",
     "description": "FUNDO PREPAR BASE AGUA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 85.44,
+    "price": 70.0,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32603,7 +32603,7 @@
     "code": "5418.002A0A.4",
     "description": "FUNDO PREPAR BASE AGUA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 379.81,
+    "price": 300.0,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32643,7 +32643,7 @@
     "code": "5432.002A0A.0",
     "description": "TINTA ACRILICA PREMIUM - GL 3,6 LTS",
     "unit": "GL",
-    "price": 106.72,
+    "price": 86.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32651,7 +32651,7 @@
     "code": "5432.002A0A.4",
     "description": "TINTA ACRILICA PREMIUM - BL 18,0 LTS",
     "unit": "BL",
-    "price": 426.89,
+    "price": 379.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32659,7 +32659,7 @@
     "code": "5435.002A0A.4",
     "description": "TINTA PREMIUM DECORA PLUS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 498.92,
+    "price": 432.99,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32675,7 +32675,7 @@
     "code": "5456.002A0A.4",
     "description": "TINTA LIMPEZA TOTAL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 640.82,
+    "price": 439.9,
     "category": "Tintas",
     "table": "G10"
   },
@@ -32691,7 +32691,7 @@
     "code": "5466.002A0A.0",
     "description": "BLANCO FLEX - GL 3,6 LTS",
     "unit": "GL",
-    "price": 48.9,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32699,7 +32699,7 @@
     "code": "5466.002A0A.4",
     "description": "BLANCO FLEX - BL 18,0 LTS",
     "unit": "BL",
-    "price": 195.65,
+    "price": 138.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32715,7 +32715,7 @@
     "code": "5525.003A0A.4",
     "description": "TEXTURA PROJETADA - BL 28,0 KGS",
     "unit": "BL",
-    "price": 253.22,
+    "price": 200.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32723,7 +32723,7 @@
     "code": "5527.00000A.4",
     "description": "BASE SELADOR TEXTURA A - BL 16,2 LTS",
     "unit": "BL",
-    "price": 136.0,
+    "price": 150.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32747,7 +32747,7 @@
     "code": "5540.003A0A.4",
     "description": "CRISTALLINI PREMIUM - BL 28,0 KGS",
     "unit": "BL",
-    "price": 229.2,
+    "price": 195.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32755,7 +32755,7 @@
     "code": "5542.003A0A.4",
     "description": "CRISTALLINI FINO - BL 28,0 KGS",
     "unit": "BL",
-    "price": 269.67,
+    "price": 255.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -32819,7 +32819,7 @@
     "code": "5705.0000AB.4",
     "description": "BASE SELADOR FLEXIVEL - BL 16,2 LTS",
     "unit": "BL",
-    "price": 280.0,
+    "price": 300.0,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32827,7 +32827,7 @@
     "code": "5705.002A0A.4",
     "description": "SELADOR FLEXIVEL - BL 18,0 LTS",
     "unit": "BL",
-    "price": 366.86,
+    "price": 300.0,
     "category": "Complementos",
     "table": "G10"
   },
@@ -32835,7 +32835,7 @@
     "code": "5710.003A0A.0",
     "description": "IBRATIN VEDANTE - G.P. 3,5 KGS",
     "unit": "GP",
-    "price": 123.44,
+    "price": 102.5,
     "category": "Outros",
     "table": "G10"
   },
@@ -32843,7 +32843,7 @@
     "code": "5710.003A0A.4",
     "description": "IBRATIN VEDANTE - B.L. 20 KG",
     "unit": "BL",
-    "price": 664.62,
+    "price": 410.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32851,7 +32851,7 @@
     "code": "5713.002A0A.0",
     "description": "IBRATIN IBRAFRISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 125.79,
+    "price": 103.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32859,7 +32859,7 @@
     "code": "5713.002A0A.4",
     "description": "IBRATIN IBRAFRISO - BL. 18,0 LTS",
     "unit": "BL",
-    "price": 579.07,
+    "price": 400.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32891,7 +32891,7 @@
     "code": "7852.F",
     "description": "PIG AMARELO LIMAO ORG. - FR 67 GRAMAS",
     "unit": "FR",
-    "price": 9.6,
+    "price": 10.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32899,7 +32899,7 @@
     "code": "7854.F",
     "description": "PIG VERMELHO ORGANICO - FR 65 GRAMAS",
     "unit": "FR",
-    "price": 9.6,
+    "price": 10.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32907,7 +32907,7 @@
     "code": "7855.F",
     "description": "PIG PRETO - FR 70 GRAMAS",
     "unit": "FR",
-    "price": 8.4,
+    "price": 10.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -32915,7 +32915,7 @@
     "code": "7893.F",
     "description": "PIG VERMELHO OXIDO - FR 100 GRAMAS",
     "unit": "FR",
-    "price": 8.4,
+    "price": 10.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34795,7 +34795,7 @@
     "code": "8103.000001.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 121.34,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34803,7 +34803,7 @@
     "code": "8103.000001.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 41.67,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34811,7 +34811,7 @@
     "code": "8103.000008.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 121.34,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34819,7 +34819,7 @@
     "code": "8103.000008.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 44.73,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34827,7 +34827,7 @@
     "code": "8103.000010.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 121.34,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34835,7 +34835,7 @@
     "code": "8103.000010.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 44.73,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34843,7 +34843,7 @@
     "code": "8103.000024.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 121.34,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34851,7 +34851,7 @@
     "code": "8103.000024.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 44.73,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34859,7 +34859,7 @@
     "code": "8103.000025.0",
     "description": "ESMALTE BRILHO SINTETICO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 121.34,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34867,7 +34867,7 @@
     "code": "8103.000025.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 44.73,
+    "price": 27.5,
     "category": "Outros",
     "table": "G10"
   },
@@ -34875,7 +34875,7 @@
     "code": "8103.000032.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 121.34,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34883,7 +34883,7 @@
     "code": "8103.000032.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 37.47,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34891,7 +34891,7 @@
     "code": "8103.000090.0",
     "description": "ESMALTE BRILHO SINTETICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 146.73,
+    "price": 109.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -34899,7 +34899,7 @@
     "code": "8103.000090.1",
     "description": "ESMALTE BRILHO SINTETICO - QT 900 ML",
     "unit": "QT",
-    "price": 44.73,
+    "price": 30.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35195,7 +35195,7 @@
     "code": "8305.000025.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35203,7 +35203,7 @@
     "code": "8305.000025.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 201.3,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -36477,6 +36477,22 @@
     "unit": "UN",
     "price": 182.26,
     "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "1317",
+    "description": "TAMPA BALDE 16 LTS  S/BATOQUE",
+    "unit": "UN",
+    "price": 10.0,
+    "category": "Outros",
+    "table": "G10"
+  },
+  {
+    "code": "5641.000138.6",
+    "description": "TEXTURA BIOTEX - BR 25,0 KGS",
+    "unit": "BR",
+    "price": 30.0,
+    "category": "Texturas",
     "table": "G10"
   }
 ]
