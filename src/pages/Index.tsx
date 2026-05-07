@@ -211,6 +211,8 @@ const Index = () => {
           showFavorites={showFavorites}
           onToggleFavorites={() => setShowFavorites(!showFavorites)}
           favoritesCount={favoritesCountForTable}
+          quoteItemsCount={quoteItems.length}
+          onOpenQuote={() => setQuoteOpen(true)}
         />
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
@@ -254,19 +256,6 @@ const Index = () => {
         onUpdateQuantity={updateQuoteQuantity}
       />
 
-      {quoteItems.length > 0 && (
-        <Button
-          className="fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg bg-ibratin-red hover:bg-ibratin-red/90 text-white z-50 p-0"
-          onClick={() => setQuoteOpen(true)}
-        >
-          <div className="relative">
-            <ShoppingCart className="w-6 h-6" />
-            <span className="absolute -top-3 -right-3 bg-white text-ibratin-red text-[10px] font-bold h-5 w-5 rounded-full flex items-center justify-center border-2 border-ibratin-red">
-              {quoteItems.length}
-            </span>
-          </div>
-        </Button>
-      )}
     </div>
   );
 };
