@@ -35219,7 +35219,7 @@
     "code": "8305.000027.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35227,7 +35227,7 @@
     "code": "8305.000027.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 201.3,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35243,7 +35243,7 @@
     "code": "8305.000034.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35251,7 +35251,7 @@
     "code": "8305.000034.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 192.5,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35267,7 +35267,7 @@
     "code": "8305.000109.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35275,7 +35275,7 @@
     "code": "8305.000109.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 207.9,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35315,7 +35315,7 @@
     "code": "8307.000005.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35323,7 +35323,7 @@
     "code": "8307.000005.4",
     "description": "NACOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 99.99,
+    "price": 112.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35331,7 +35331,7 @@
     "code": "8307.000010.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35347,7 +35347,7 @@
     "code": "8307.000018.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35355,7 +35355,7 @@
     "code": "8307.000018.4",
     "description": "NACOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 99.99,
+    "price": 112.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35363,7 +35363,7 @@
     "code": "8307.000020.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35371,7 +35371,7 @@
     "code": "8307.000020.4",
     "description": "NACOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 99.99,
+    "price": 112.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35379,7 +35379,7 @@
     "code": "8307.000022.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35387,7 +35387,7 @@
     "code": "8307.000022.4",
     "description": "NACOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 89.99,
+    "price": 112.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35395,7 +35395,7 @@
     "code": "8307.000023.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35403,7 +35403,7 @@
     "code": "8307.000023.4",
     "description": "NACOR - BL 18,0 LTS",
     "unit": "BL",
-    "price": 99.99,
+    "price": 112.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35411,7 +35411,7 @@
     "code": "8307.000028.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35427,7 +35427,7 @@
     "code": "8307.000110.0",
     "description": "NACOR - GP 3,6 LTS",
     "unit": "GL",
-    "price": 27.49,
+    "price": 32.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35491,7 +35491,7 @@
     "code": "8310.00000C.0",
     "description": "TINTA EMBORRACHADA C - GP 3,2 LTS",
     "unit": "GL",
-    "price": 105.0,
+    "price": 112.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35499,7 +35499,7 @@
     "code": "8310.00000C.4",
     "description": "TINTA EMBORRACHADA C - BL 16,2 LTS",
     "unit": "BL",
-    "price": 435.0,
+    "price": 450.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35507,7 +35507,7 @@
     "code": "8310.0000AB.0",
     "description": "TINTA EMBORRACHADA A/B - GP 3,2 LTS",
     "unit": "GP",
-    "price": 100.0,
+    "price": 112.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35515,7 +35515,7 @@
     "code": "8310.0000AB.4",
     "description": "TINTA EMBORRACHADA A/B - BL 16,2 LTS",
     "unit": "BL",
-    "price": 398.9,
+    "price": 450.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35539,7 +35539,7 @@
     "code": "8316.000102.0",
     "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 60.0,
+    "price": 70.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35555,7 +35555,7 @@
     "code": "8316.000122.0",
     "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 60.0,
+    "price": 70.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35571,7 +35571,7 @@
     "code": "8316.000128.0",
     "description": "TINTA EMBORRACHADA PRO - GL 3,6 LTS",
     "unit": "GL",
-    "price": 60.0,
+    "price": 70.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35587,7 +35587,7 @@
     "code": "8317.000010.0",
     "description": "LA CREME RENDE MAIS - GL 3,6 LTS",
     "unit": "GL",
-    "price": 63.25,
+    "price": 68.75,
     "category": "Outros",
     "table": "G10"
   },
@@ -35595,7 +35595,7 @@
     "code": "8317.000010.4",
     "description": "LA CREME RENDE MAIS - BL 18,0 LTS",
     "unit": "BL",
-    "price": 255.0,
+    "price": 275.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35619,7 +35619,7 @@
     "code": "8402.000000.1",
     "description": "MASSA CORRIDA - PT 1,0 KG",
     "unit": "PT",
-    "price": 10.89,
+    "price": 11.99,
     "category": "Complementos",
     "table": "G10"
   },
@@ -35627,7 +35627,7 @@
     "code": "8402.000000.2",
     "description": "MASSA CORRIDA - GP 5,0 KGS",
     "unit": "GL",
-    "price": 24.2,
+    "price": 25.6,
     "category": "Complementos",
     "table": "G10"
   },
@@ -35635,7 +35635,7 @@
     "code": "8402.000000.8",
     "description": "MASSA CORRIDA - BL 25,0 KGS",
     "unit": "BL",
-    "price": 68.0,
+    "price": 69.9,
     "category": "Complementos",
     "table": "G10"
   },
@@ -35659,7 +35659,7 @@
     "code": "8410.000000.K",
     "description": "KIT IBRATEC 7000",
     "unit": "CX",
-    "price": 189.3,
+    "price": 149.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35675,7 +35675,7 @@
     "code": "8501.000000.1",
     "description": "ANTI MOFO - PT 600 ML",
     "unit": "LT",
-    "price": 11.0,
+    "price": 20.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35699,7 +35699,7 @@
     "code": "8505.000000.4",
     "description": "MANTA LIQUIDA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 515.69,
+    "price": 285.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -35715,7 +35715,7 @@
     "code": "8506.000000.4",
     "description": "SOLUCAO RESINA ACRILICA - BL 18,0 LTS",
     "unit": "BL",
-    "price": 264.14,
+    "price": 199.9,
     "category": "Outros",
     "table": "G10"
   },
@@ -35819,7 +35819,7 @@
     "code": "8615.000010.6",
     "description": "NACOR TEXTURA LISA - BR 25,0 KGS",
     "unit": "BR",
-    "price": 86.71,
+    "price": 67.0,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35843,7 +35843,7 @@
     "code": "8635.000005.8",
     "description": "TEXTURA LISA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35859,7 +35859,7 @@
     "code": "8635.000010.8",
     "description": "TEXTURA LISA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35875,7 +35875,7 @@
     "code": "8635.000017.8",
     "description": "TEXTURA LISA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35891,7 +35891,7 @@
     "code": "8635.000018.8",
     "description": "TEXTURA LISA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35899,7 +35899,7 @@
     "code": "8636.000010.8",
     "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35915,7 +35915,7 @@
     "code": "8636.000011.8",
     "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35931,7 +35931,7 @@
     "code": "8636.000020.8",
     "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
@@ -35947,7 +35947,7 @@
     "code": "8636.000124.8",
     "description": "TEXTURA RISCADA PRO - BL 22,0 KGS",
     "unit": "BL",
-    "price": 75.91,
+    "price": 79.9,
     "category": "Texturas",
     "table": "G10"
   },
