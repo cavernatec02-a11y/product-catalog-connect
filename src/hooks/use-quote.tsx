@@ -7,6 +7,7 @@ interface QuoteContextType {
   addItem: (product: Product, quantity: number) => void;
   removeItem: (itemKey: string) => void;
   updateQuantity: (itemKey: string, quantity: number) => void;
+  updatePrice: (itemKey: string, price: number) => void;
   clearQuote: () => void;
 }
 
@@ -71,12 +72,18 @@ export function QuoteProvider({ children }: { children: ReactNode }) {
     );
   }, [removeItem]);
 
+  const updatePrice = useCallback((itemKey: string, price: number) => {
+    setItems((prev) =>
+      prev.map((i) => (getItemKey(i) === itemKey ? { ...i, customPrice: price } : i))
+    );
+  }, []);
+
   const clearQuote = useCallback(() => {
     setItems([]);
   }, []);
 
   return (
-    <QuoteContext.Provider value={{ items, addItem, removeItem, updateQuantity, clearQuote }}>
+    <QuoteContext.Provider value={{ items, addItem, removeItem, updateQuantity, updatePrice, clearQuote }}>
       {children}
     </QuoteContext.Provider>
   );
