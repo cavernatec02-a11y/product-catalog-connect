@@ -211,6 +211,8 @@ const Index = () => {
           showFavorites={showFavorites}
           onToggleFavorites={() => setShowFavorites(!showFavorites)}
           favoritesCount={favoritesCountForTable}
+          quoteItemsCount={quoteItems.length}
+          onOpenQuote={() => setQuoteOpen(true)}
         />
         <div className="flex items-center justify-between mb-4">
           <p className="text-muted-foreground text-sm flex items-center gap-2">
