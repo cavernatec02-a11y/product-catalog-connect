@@ -34011,7 +34011,7 @@
     "code": "8009.0001",
     "description": "1756 ESPATULA DE ACO CARBONO 6 CM",
     "unit": "UN",
-    "price": 10.35,
+    "price": 9.83,
     "category": "Outros",
     "table": "G10"
   },
@@ -34107,7 +34107,7 @@
     "code": "8010.0013",
     "description": "380 ESTOPA MULTI 400G",
     "unit": "UN",
-    "price": 21.18,
+    "price": 22.04,
     "category": "Outros",
     "table": "G10"
   },
@@ -34139,7 +34139,7 @@
     "code": "8010.0018",
     "description": "2830 CACAMBA PARA PINTURA PRETA -11L",
     "unit": "UN",
-    "price": 32.02,
+    "price": 32.03,
     "category": "Outros",
     "table": "G10"
   },
@@ -34163,7 +34163,7 @@
     "code": "8010.0021",
     "description": "2250 FITA CREPE P/ PINTURA 48X50 (ATLAS)",
     "unit": "UN",
-    "price": 19.8,
+    "price": 17.82,
     "category": "Outros",
     "table": "G10"
   },
@@ -34171,7 +34171,7 @@
     "code": "8010.0022",
     "description": "2225 FITA CREPE P/ PINTURA 24X50 (ATLAS)",
     "unit": "UN",
-    "price": 10.81,
+    "price": 9.75,
     "category": "Outros",
     "table": "G10"
   },
@@ -34483,7 +34483,7 @@
     "code": "8029.0001",
     "description": "101133 COLORSTEEL EPOXI BRANCO R 9003",
     "unit": "UN",
-    "price": 190.0,
+    "price": 273.33,
     "category": "Outros",
     "table": "G10"
   },
@@ -34491,7 +34491,7 @@
     "code": "8029.0002",
     "description": "711033 COLORSTEEL EPOXI CINZA M N5",
     "unit": "UN",
-    "price": 190.0,
+    "price": 273.33,
     "category": "Outros",
     "table": "G10"
   },
@@ -34499,7 +34499,7 @@
     "code": "8029.0003",
     "description": "710633 COLORSTEEL EPOXI CINZA M N6,5",
     "unit": "UN",
-    "price": 190.0,
+    "price": 273.33,
     "category": "Outros",
     "table": "G10"
   },
@@ -34507,7 +34507,7 @@
     "code": "8029.0004",
     "description": "206533 COLORSTEEL EPOXI AREIA 2,5 Y 8,5/",
     "unit": "UN",
-    "price": 190.0,
+    "price": 283.69,
     "category": "Outros",
     "table": "G10"
   },
@@ -34515,7 +34515,7 @@
     "code": "8029.0005",
     "description": "204133 COLORSTEEL EPOXI AMARELO 5Y",
     "unit": "UN",
-    "price": 190.0,
+    "price": 273.33,
     "category": "Outros",
     "table": "G10"
   },
@@ -34523,7 +34523,7 @@
     "code": "8029.0006",
     "description": "905133 COLORSTEEL EPOXI PRETO N1",
     "unit": "UN",
-    "price": 190.0,
+    "price": 273.33,
     "category": "Outros",
     "table": "G10"
   },
@@ -34531,7 +34531,7 @@
     "code": "8029.0007",
     "description": "710733 COLORSTEEL EPOXI CINZA N8",
     "unit": "UN",
-    "price": 190.0,
+    "price": 283.69,
     "category": "Outros",
     "table": "G10"
   },
@@ -34539,7 +34539,7 @@
     "code": "8029.0008",
     "description": "304033 COLORSTEEL EPOXI VERM BOMBEIRO",
     "unit": "UN",
-    "price": 190.0,
+    "price": 283.69,
     "category": "Outros",
     "table": "G10"
   },
@@ -34547,7 +34547,7 @@
     "code": "8029.0009",
     "description": "501633 COLORSTEEL EPOXI VERDE BR MUNSELL",
     "unit": "UN",
-    "price": 190.0,
+    "price": 273.34,
     "category": "Outros",
     "table": "G10"
   },
@@ -36493,6 +36493,14 @@
     "unit": "BR",
     "price": 30.0,
     "category": "Texturas",
+    "table": "G10"
+  },
+  {
+    "code": "8029.0010",
+    "description": "SV TINTA EPOXI VERDE SEG 10 GY 6/6",
+    "unit": "UN",
+    "price": 305.53,
+    "category": "Tintas",
     "table": "G10"
   }
 ]
