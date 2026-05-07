@@ -1,4 +1,4 @@
-import { Search, Heart } from "lucide-react";
+import { Search, Heart, ShoppingCart } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
@@ -15,6 +15,8 @@ interface CatalogFiltersProps {
   showFavorites: boolean;
   onToggleFavorites: () => void;
   favoritesCount: number;
+  quoteItemsCount: number;
+  onOpenQuote: () => void;
 }
 
 export function CatalogFilters({
