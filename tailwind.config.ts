@@ -17,6 +17,7 @@ export default {
       },
       colors: {
         border: "hsl(var(--border))",
+        "ibratin-red": "#DC2626",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
