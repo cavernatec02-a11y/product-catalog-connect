@@ -5,8 +5,8 @@ import sys
 def update_prices_from_text(text, json_path, table_name):
     # Regex to match: code, description, unit, price
     # Example: 9505.0102	EXPOSITOR CLASSIC CRISTAL 863.0 ACRIMET	UN	 R$ 182,26
-    # Units seen: UN, GL, BL, SC, FR, GP, QT, BR, LM, PT, LL, GA, CX, LT, KG
-    units_pattern = r'GL|BL|SC|GA|PT|LL|LM|GP|CX|BR|UN|LT|KG|FR|QT'
+    # Units seen: UN, GL, BL, SC, FR, GP, QT, BR, LM, PT, LL, GA, CX, LT, KG, MT
+    units_pattern = r'GL|BL|SC|GA|PT|LL|LM|GP|CX|BR|UN|LT|KG|FR|QT|MT'
     
     # Try tab-separated first
     pattern_tab = re.compile(r'([\w\.]+)\t(.*?)\t(' + units_pattern + r')\t\s*R\$\s*([\d\.,]+)')
