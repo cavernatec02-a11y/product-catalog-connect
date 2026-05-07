@@ -26,6 +26,7 @@ const getItemKey = (item: Pick<QuoteItem, "code" | "table">) => `${item.table ??
 
 export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity }: QuoteDrawerProps) {
   const [clientName, setClientName] = useState("");
+  const [clientPhone, setClientPhone] = useState("");
   const [clientAddress, setClientAddress] = useState("");
   const total = items.reduce((sum, i) => sum + i.price * i.quantity, 0);
 
@@ -38,19 +39,24 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     doc.setTextColor(220, 38, 38); // Red
     doc.text("IBRATIN", 105, 20, { align: "center" });
     
+    doc.setFontSize(12);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Lojas Galeguinho", 105, 28, { align: "center" });
+
     doc.setFontSize(16);
     doc.setTextColor(0, 0, 0);
-    doc.text("Orçamento de Produtos", 105, 30, { align: "center" });
+    doc.text("Orçamento de Produtos", 105, 38, { align: "center" });
 
     // Client Info
     doc.setFontSize(10);
-    doc.text(`Data de Emissão: ${dateStr}`, 15, 45);
-    doc.text(`Cliente: ${clientName || "N/A"}`, 15, 52);
-    doc.text(`Endereço: ${clientAddress || "N/A"}`, 15, 59);
+    doc.text(`Data de Emissão: ${dateStr}`, 15, 50);
+    doc.text(`Cliente: ${clientName || "N/A"}`, 15, 57);
+    doc.text(`Telefone: ${clientPhone || "N/A"}`, 15, 64);
+    doc.text(`Endereço: ${clientAddress || "N/A"}`, 15, 71);
 
     // Table
     autoTable(doc, {
-      startY: 70,
+      startY: 80,
       head: [["Código", "Descrição", "Unid", "Qtd", "Preço Unit", "Subtotal"]],
       body: items.map(item => [
         item.code,
@@ -70,8 +76,9 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
 
   const handleShareWhatsApp = () => {
     const dateStr = format(new Date(), "dd/MM/yyyy", { locale: ptBR });
-    let message = `*Olá, segue meu orçamento Ibratin (${dateStr})*\n\n`;
+    let message = `*Olá, segue meu orçamento Ibratin - Lojas Galeguinho (${dateStr})*\n\n`;
     message += `*Cliente:* ${clientName || "N/A"}\n`;
+    message += `*Telefone:* ${clientPhone || "N/A"}\n`;
     message += `*Endereço:* ${clientAddress || "N/A"}\n\n`;
     message += `*Itens:*\n`;
     
@@ -134,6 +141,16 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
                     placeholder="Ex: João Silva" 
                     value={clientName} 
                     onChange={(e) => setClientName(e.target.value)}
+                    className="h-9"
+                  />
+                </div>
+                <div className="space-y-1.5">
+                  <Label htmlFor="clientPhone" className="text-xs">Telefone do Cliente</Label>
+                  <Input 
+                    id="clientPhone" 
+                    placeholder="Ex: (00) 00000-0000" 
+                    value={clientPhone} 
+                    onChange={(e) => setClientPhone(e.target.value)}
                     className="h-9"
                   />
                 </div>
