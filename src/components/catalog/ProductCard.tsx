@@ -1,6 +1,17 @@
+import { useState } from "react";
 import type { Product } from "@/types/product";
-import { Eye, Pencil, Heart, HeartOff, Trash2 } from "lucide-react";
+import { Eye, Pencil, Heart, HeartOff, Trash2, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useQuote } from "@/hooks/use-quote";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogFooter,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 
 interface ProductCardProps {
   product: Product;
@@ -26,6 +37,15 @@ function formatPrice(value: number) {
 
 export function ProductCard({ product, isFavorite, showFavoritesView, onToggleFavorite, onDetails, onEdit, onDelete }: ProductCardProps) {
   const badgeClass = unitColorMap[product.unit] || "bg-catalog-badge-default";
+  const { addItem } = useQuote();
+  const [isAddOpen, setIsAddOpen] = useState(false);
+  const [quantity, setQuantity] = useState(1);
+
+  const handleAdd = () => {
+    addItem(product, quantity);
+    setIsAddOpen(false);
+    setQuantity(1);
+  };
 
   return (
     <div className="bg-card border rounded-xl p-4 flex flex-col justify-between hover:border-primary/40 transition-colors animate-fade-in">
@@ -58,8 +78,8 @@ export function ProductCard({ product, isFavorite, showFavoritesView, onToggleFa
         </span>
       </div>
       <div className="flex gap-2 mt-4">
-        <Button variant="ghost" size="sm" className="flex-1 text-xs" onClick={onDetails}>
-          <Eye className="w-3.5 h-3.5 mr-1" /> Detalhes
+        <Button variant="ghost" size="sm" className="flex-1 text-[10px] px-1" onClick={onDetails}>
+          <Eye className="w-3 h-3 mr-1" /> Detalhes
         </Button>
         <Button variant="ghost" size="sm" className="text-xs px-2" onClick={onEdit}>
           <Pencil className="w-3.5 h-3.5" />
@@ -72,7 +92,43 @@ export function ProductCard({ product, isFavorite, showFavoritesView, onToggleFa
         <Button variant="ghost" size="sm" className="text-xs px-2 text-destructive hover:text-destructive" onClick={onDelete}>
           <Trash2 className="w-3.5 h-3.5" />
         </Button>
+        <Button 
+          variant="default" 
+          size="sm" 
+          className="flex-1 bg-ibratin-red hover:bg-ibratin-red/90 text-white text-[10px] px-1"
+          onClick={() => setIsAddOpen(true)}
+        >
+          <ShoppingCart className="w-3 h-3 mr-1" /> Add
+        </Button>
       </div>
+
+      <Dialog open={isAddOpen} onOpenChange={setIsAddOpen}>
+        <DialogContent className="sm:max-w-[320px]">
+          <DialogHeader>
+            <DialogTitle className="text-sm">Adicionar ao Orçamento</DialogTitle>
+          </DialogHeader>
+          <div className="py-4">
+            <div className="space-y-2">
+              <p className="text-xs font-medium text-foreground">{product.description}</p>
+              <div className="flex items-center gap-4">
+                <Label htmlFor="quantity" className="text-xs">Qtd:</Label>
+                <Input
+                  id="quantity"
+                  type="number"
+                  min="1"
+                  value={quantity}
+                  onChange={(e) => setQuantity(Number(e.target.value))}
+                  className="h-8"
+                />
+              </div>
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" size="sm" onClick={() => setIsAddOpen(false)}>Cancelar</Button>
+            <Button size="sm" onClick={handleAdd}>Confirmar</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

@@ -8,8 +8,10 @@ import { ProductDetailDialog } from "@/components/catalog/ProductDetailDialog";
 import { ProductEditDialog } from "@/components/catalog/ProductEditDialog";
 import { ProductAddDialog } from "@/components/catalog/ProductAddDialog";
 import { Button } from "@/components/ui/button";
-import { Plus, Search as SearchIcon } from "lucide-react";
+import { Plus, Search as SearchIcon, ShoppingCart } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
+import { useQuote } from "@/hooks/use-quote";
+import { QuoteDrawer } from "@/components/catalog/QuoteDrawer";
 
 const baseProducts = productsData as Product[];
 
@@ -60,6 +62,8 @@ const Index = () => {
     try { return new Set(JSON.parse(localStorage.getItem("ibratin-favorites") || "[]")); } catch { return new Set(); }
   });
   const [showFavorites, setShowFavorites] = useState(false);
+  const [quoteOpen, setQuoteOpen] = useState(false);
+  const { items: quoteItems, removeItem: removeQuoteItem, updateQuantity: updateQuoteQuantity } = useQuote();
 
   const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
 
@@ -241,6 +245,28 @@ const Index = () => {
         activeTable={activeTable}
         categories={tableCategories}
       />
+      
+      <QuoteDrawer
+        open={quoteOpen}
+        onOpenChange={setQuoteOpen}
+        items={quoteItems}
+        onRemove={removeQuoteItem}
+        onUpdateQuantity={updateQuoteQuantity}
+      />
+
+      {quoteItems.length > 0 && (
+        <Button
+          className="fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg bg-ibratin-red hover:bg-ibratin-red/90 text-white z-50 p-0"
+          onClick={() => setQuoteOpen(true)}
+        >
+          <div className="relative">
+            <ShoppingCart className="w-6 h-6" />
+            <span className="absolute -top-3 -right-3 bg-white text-ibratin-red text-[10px] font-bold h-5 w-5 rounded-full flex items-center justify-center border-2 border-ibratin-red">
+              {quoteItems.length}
+            </span>
+          </div>
+        </Button>
+      )}
     </div>
   );
 };
