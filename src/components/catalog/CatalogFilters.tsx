@@ -21,7 +21,7 @@ interface CatalogFiltersProps {
 
 export function CatalogFilters({
   search, onSearchChange, category, onCategoryChange, categories, unit, onUnitChange, units,
-  showFavorites, onToggleFavorites, favoritesCount
+  showFavorites, onToggleFavorites, favoritesCount, quoteItemsCount, onOpenQuote
 }: CatalogFiltersProps) {
   return (
     <div className="bg-card rounded-xl border p-4 mb-6 space-y-3">
@@ -55,19 +55,35 @@ export function CatalogFilters({
             ))}
           </SelectContent>
         </Select>
-        <Button
-          size="sm"
-          variant={showFavorites ? "default" : "outline"}
-          onClick={onToggleFavorites}
-        >
-          <Heart className={`w-4 h-4 mr-1 ${showFavorites ? "fill-current" : ""}`} />
-          Favoritos
-          {favoritesCount > 0 && (
-            <span className="ml-1 text-xs bg-destructive text-destructive-foreground rounded-full px-1.5">
-              {favoritesCount}
-            </span>
-          )}
-        </Button>
+        <div className="flex gap-2">
+          <Button
+            size="sm"
+            variant={showFavorites ? "default" : "outline"}
+            onClick={onToggleFavorites}
+          >
+            <Heart className={`w-4 h-4 mr-1 ${showFavorites ? "fill-current" : ""}`} />
+            Favoritos
+            {favoritesCount > 0 && (
+              <span className="ml-1 text-xs bg-destructive text-destructive-foreground rounded-full px-1.5">
+                {favoritesCount}
+              </span>
+            )}
+          </Button>
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={onOpenQuote}
+            className="border-ibratin-red text-ibratin-red hover:bg-ibratin-red hover:text-white"
+          >
+            <ShoppingCart className="w-4 h-4 mr-1" />
+            Orçamento
+            {quoteItemsCount > 0 && (
+              <span className="ml-1 text-xs bg-ibratin-red text-white rounded-full px-1.5 border border-white">
+                {quoteItemsCount}
+              </span>
+            )}
+          </Button>
+        </div>
       </div>
     </div>
   );
