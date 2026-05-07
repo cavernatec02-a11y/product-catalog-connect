@@ -78,8 +78,8 @@ export function ProductCard({ product, isFavorite, showFavoritesView, onToggleFa
         </span>
       </div>
       <div className="flex gap-2 mt-4">
-        <Button variant="ghost" size="sm" className="flex-1 text-xs" onClick={onDetails}>
-          <Eye className="w-3.5 h-3.5 mr-1" /> Detalhes
+        <Button variant="ghost" size="sm" className="flex-1 text-[10px] px-1" onClick={onDetails}>
+          <Eye className="w-3 h-3 mr-1" /> Detalhes
         </Button>
         <Button variant="ghost" size="sm" className="text-xs px-2" onClick={onEdit}>
           <Pencil className="w-3.5 h-3.5" />
@@ -95,10 +95,10 @@ export function ProductCard({ product, isFavorite, showFavoritesView, onToggleFa
         <Button 
           variant="default" 
           size="sm" 
-          className="bg-ibratin-red hover:bg-ibratin-red/90 text-white text-xs px-2"
+          className="flex-1 bg-ibratin-red hover:bg-ibratin-red/90 text-white text-[10px] px-1"
           onClick={() => setIsAddOpen(true)}
         >
-          <ShoppingCart className="w-3.5 h-3.5 mr-1" /> Add
+          <ShoppingCart className="w-3 h-3 mr-1" /> Add
         </Button>
       </div>
 
