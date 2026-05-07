@@ -59,14 +59,17 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     autoTable(doc, {
       startY: 80,
       head: [["Código", "Descrição", "Unid", "Qtd", "Preço Unit", "Subtotal"]],
-      body: items.map(item => [
-        item.code,
-        item.description,
-        item.unit,
-        item.quantity,
-        formatPrice(item.price),
-        formatPrice(item.price * item.quantity)
-      ]),
+      body: items.map(item => {
+        const price = item.customPrice ?? item.price;
+        return [
+          item.code,
+          item.description,
+          item.unit,
+          item.quantity,
+          formatPrice(price),
+          formatPrice(price * item.quantity)
+        ];
+      }),
       foot: [[{ content: "Total", colSpan: 5, styles: { halign: "right" } }, formatPrice(total)]],
       theme: "striped",
       headStyles: { fillColor: [220, 38, 38] },
@@ -84,7 +87,8 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     message += `*Itens:*\n`;
     
     items.forEach(item => {
-      message += `- ${item.quantity}x ${item.description} (${item.code}): ${formatPrice(item.price * item.quantity)}\n`;
+      const price = item.customPrice ?? item.price;
+      message += `- ${item.quantity}x ${item.description} (${item.code}): ${formatPrice(price * item.quantity)}\n`;
     });
     
     message += `\n*Total: ${formatPrice(total)}*`;
@@ -114,7 +118,7 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
                     <Trash2 className="w-3.5 h-3.5 text-destructive" />
                   </Button>
                 </div>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between gap-4">
                   <div className="flex items-center gap-1">
                     <Button variant="outline" size="icon" className="h-7 w-7" onClick={() => onUpdateQuantity(getItemKey(item), item.quantity - 1)}>
                       <Minus className="w-3 h-3" />
@@ -124,7 +128,22 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
                       <Plus className="w-3 h-3" />
                     </Button>
                   </div>
-                  <p className="text-sm font-bold text-foreground">{formatPrice(item.price * item.quantity)}</p>
+                  
+                  <div className="flex items-center gap-2 flex-1 justify-end">
+                    <div className="relative max-w-[100px]">
+                      <span className="absolute left-2 top-1/2 -translate-y-1/2 text-[10px] text-muted-foreground">R$</span>
+                      <Input
+                        type="number"
+                        step="0.01"
+                        className="h-7 pl-6 pr-1 text-xs text-right"
+                        value={item.customPrice ?? item.price}
+                        onChange={(e) => onUpdatePrice(getItemKey(item), parseFloat(e.target.value) || 0)}
+                      />
+                    </div>
+                    <p className="text-sm font-bold text-foreground shrink-0 min-w-[70px] text-right">
+                      {formatPrice((item.customPrice ?? item.price) * item.quantity)}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
