@@ -33235,7 +33235,7 @@
     "code": "8002.0068",
     "description": "1250 ROLO DE LA SUPER 23CM S/SUPORTE",
     "unit": "UN",
-    "price": 42.62,
+    "price": 42.61,
     "category": "Outros",
     "table": "G10"
   },
@@ -34555,7 +34555,7 @@
     "code": "8029.0013",
     "description": "SV TINTA EPOXI VERMELHO SEG M5 R 4/14",
     "unit": "UN",
-    "price": 299.0,
+    "price": 273.34,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34563,7 +34563,7 @@
     "code": "8029.0014",
     "description": "SV TINTA EPOXI CINZA ESC N 3,5",
     "unit": "UN",
-    "price": 299.0,
+    "price": 273.33,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34571,7 +34571,7 @@
     "code": "8029.0015",
     "description": "SV TINTA EPOXI AZUL SEG 2,5 PB 4/10",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34579,7 +34579,7 @@
     "code": "8029.0016",
     "description": "SV TINTA EPOXI BRANCO N 9,5",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34587,7 +34587,7 @@
     "code": "8029.0017",
     "description": "SV TINTA EPOXI CINZA M N5",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34595,7 +34595,7 @@
     "code": "8029.0018",
     "description": "SV TINTA EPOXI CINZA M N6,5",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34603,7 +34603,7 @@
     "code": "8029.0019",
     "description": "SV TINTA EPOXI AMARELO SEG 5Y 8/12",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34611,7 +34611,7 @@
     "code": "8029.0020",
     "description": "SV TINTA EPOXI PRETO N1",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34619,7 +34619,7 @@
     "code": "8029.0021",
     "description": "SV TINTA EPOXI VERDE BR MUNSELL 2,5G 5/10",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34627,7 +34627,7 @@
     "code": "8029.0022",
     "description": "SV TINTA EPOXI VERM SEG 5 R 4/14",
     "unit": "UN",
-    "price": 299.0,
+    "price": 200.43,
     "category": "Tintas",
     "table": "G10"
   },
@@ -34715,7 +34715,7 @@
     "code": "8101.000008.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 87.99,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34723,7 +34723,7 @@
     "code": "8101.000010.0",
     "description": "ESMALTE ACETINADO B.AGUA - GL 3,6 LTS",
     "unit": "GL",
-    "price": 143.33,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34731,7 +34731,7 @@
     "code": "8101.000010.1",
     "description": "ESMALTE ACETINADO B.AGUA - QT 900 ML",
     "unit": "QT",
-    "price": 27.5,
+    "price": 30.99,
     "category": "Outros",
     "table": "G10"
   },
@@ -34739,7 +34739,7 @@
     "code": "8101.000020.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 87.99,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34747,7 +34747,7 @@
     "code": "8101.000024.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 87.99,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34755,7 +34755,7 @@
     "code": "8101.000025.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 87.99,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34763,7 +34763,7 @@
     "code": "8101.000026.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 87.99,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34771,7 +34771,7 @@
     "code": "8101.000032.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 87.99,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34779,7 +34779,7 @@
     "code": "8101.000090.0",
     "description": "ESMALTE ACETINADO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 87.99,
+    "price": 99.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -34787,7 +34787,7 @@
     "code": "8102.000010.0",
     "description": "ESMALTE BRILHO B.AGUA - GA 3,6 LTS",
     "unit": "GL",
-    "price": 209.94,
+    "price": 112.99,
     "category": "Outros",
     "table": "G10"
   },
@@ -34907,7 +34907,7 @@
     "code": "8202.000000.0",
     "description": "SELADOR ACRILICO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 70.59,
+    "price": 26.99,
     "category": "Complementos",
     "table": "G10"
   },
@@ -34915,7 +34915,7 @@
     "code": "8202.000000.4",
     "description": "SELADOR ACRILICO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 157.86,
+    "price": 107.99,
     "category": "Complementos",
     "table": "G10"
   },
@@ -34987,7 +34987,7 @@
     "code": "8303.000010.4",
     "description": "TINTA ACRILICA STANDARD - BL 18 LTS",
     "unit": "BL",
-    "price": 224.99,
+    "price": 246.99,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35051,7 +35051,7 @@
     "code": "8305.000004.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35059,7 +35059,7 @@
     "code": "8305.000004.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 201.3,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35075,7 +35075,7 @@
     "code": "8305.000006.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35083,7 +35083,7 @@
     "code": "8305.000006.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 201.3,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35099,7 +35099,7 @@
     "code": "8305.000010.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 53.89,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35147,7 +35147,7 @@
     "code": "8305.000015.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35155,7 +35155,7 @@
     "code": "8305.000015.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 201.3,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35171,7 +35171,7 @@
     "code": "8305.000016.0",
     "description": "TINTA PARA PISO - GA 3,6 LTS",
     "unit": "GL",
-    "price": 49.5,
+    "price": 52.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -35179,7 +35179,7 @@
     "code": "8305.000016.4",
     "description": "TINTA PARA PISO - BL 18,0 LTS",
     "unit": "BL",
-    "price": 201.3,
+    "price": 209.0,
     "category": "Tintas",
     "table": "G10"
   },
@@ -36251,7 +36251,7 @@
     "code": "8708.000010.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36259,7 +36259,7 @@
     "code": "8708.000025.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36267,7 +36267,7 @@
     "code": "8708.000048.2",
     "description": "MARMORIZADO - GP 4,8 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36275,7 +36275,7 @@
     "code": "8708.000054.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36283,7 +36283,7 @@
     "code": "8708.000073.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36291,7 +36291,7 @@
     "code": "8708.000100.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36299,7 +36299,7 @@
     "code": "8708.000101.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36307,7 +36307,7 @@
     "code": "8708.000102.0",
     "description": "MARMORIZADO - GP 4,2 KGS",
     "unit": "GP",
-    "price": 160.0,
+    "price": 170.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36339,7 +36339,7 @@
     "code": "8721.000050.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 422.36,
+    "price": 235.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36347,7 +36347,7 @@
     "code": "8721.000054.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 422.36,
+    "price": 235.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36355,7 +36355,7 @@
     "code": "8721.000068.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 422.36,
+    "price": 235.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36363,7 +36363,7 @@
     "code": "8721.000100.K",
     "description": "KIT CIMENTO QUEIMADO PISO",
     "unit": "CX",
-    "price": 422.36,
+    "price": 235.0,
     "category": "Outros",
     "table": "G10"
   },
@@ -36443,7 +36443,7 @@
     "code": "8801.000100.0",
     "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
     "unit": "GA",
-    "price": 69.3,
+    "price": 69.99,
     "category": "Outros",
     "table": "G10"
   },
@@ -36451,7 +36451,7 @@
     "code": "8801.000102.0",
     "description": "NACOR CIMENTO QUEIMADO - GP 4,0 KGS",
     "unit": "GA",
-    "price": 69.3,
+    "price": 69.99,
     "category": "Outros",
     "table": "G10"
   },
