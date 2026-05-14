@@ -135,8 +135,23 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent className="w-full sm:max-w-md bg-card border-l overflow-y-auto scrollbar-thin">
-        <SheetHeader>
-          <SheetTitle className="text-foreground">Orçamento ({items.length} itens)</SheetTitle>
+        <SheetHeader className="flex flex-row items-center justify-between space-y-0 pr-6">
+          <SheetTitle className="text-foreground">Orçamento ({items.length})</SheetTitle>
+          {items.length > 0 && (
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="h-8 text-destructive hover:text-destructive hover:bg-destructive/10 gap-1.5" 
+              onClick={() => {
+                if (confirm("Tem certeza que deseja limpar todo o orçamento?")) {
+                  onClear();
+                }
+              }}
+            >
+              <Trash2 className="w-3.5 h-3.5" />
+              Limpar Tudo
+            </Button>
+          )}
         </SheetHeader>
         {items.length === 0 ? (
           <p className="text-muted-foreground text-sm mt-8 text-center">Nenhum item selecionado</p>
