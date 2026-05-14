@@ -32,9 +32,11 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   const [sellerName, setSellerName] = useState("");
   const [shippingRate, setShippingRate] = useState(0.45);
   const [totalWeight, setTotalWeight] = useState(0);
+  const [manualShipping, setManualShipping] = useState<number | null>(null);
+  const [isManualShipping, setIsManualShipping] = useState(false);
   
   const itemsTotal = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
-  const shippingTotal = shippingRate * totalWeight;
+  const shippingTotal = isManualShipping ? (manualShipping ?? 0) : (shippingRate * totalWeight);
   const total = itemsTotal + shippingTotal;
 
   const handleDownloadPDF = () => {
