@@ -40,7 +40,7 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   const shippingTotal = isManualShipping ? (manualShipping ?? 0) : (shippingRate * totalWeight);
   const total = itemsTotal + shippingTotal;
 
-  const handleDownloadPDF = () => {
+  const generatePDF = () => {
     const doc = new jsPDF();
     const dateStr = format(new Date(), "dd/MM/yyyy HH:mm", { locale: ptBR });
 
@@ -102,6 +102,11 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
       doc.text(`TOTAL GERAL: ${formatPrice(total)}`, 140, finalY + 10);
     }
 
+    return doc;
+  };
+
+  const handleDownloadPDF = () => {
+    const doc = generatePDF();
     doc.save(`orcamento_${clientName.replace(/\s+/g, "_") || "ibratin"}.pdf`);
   };
 
