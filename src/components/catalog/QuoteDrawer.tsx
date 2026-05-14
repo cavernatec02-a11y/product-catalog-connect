@@ -17,6 +17,7 @@ interface QuoteDrawerProps {
   onRemove: (itemKey: string) => void;
   onUpdateQuantity: (itemKey: string, qty: number) => void;
   onUpdatePrice: (itemKey: string, price: number) => void;
+  onClear: () => void;
 }
 
 function formatPrice(value: number) {
