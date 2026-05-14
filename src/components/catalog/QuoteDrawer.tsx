@@ -110,30 +110,53 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     doc.save(`orcamento_${clientName.replace(/\s+/g, "_") || "ibratin"}.pdf`);
   };
 
-  const handleShareWhatsApp = () => {
+  const handleShareWhatsApp = async () => {
     const dateStr = format(new Date(), "dd/MM/yyyy", { locale: ptBR });
-    let message = `*Olá, segue meu orçamento Ibratin - Lojas Galeguinho (${dateStr})*\n\n`;
-    message += `*Vendedor:* ${sellerName || "N/A"}\n`;
-    message += `*Cliente:* ${clientName || "N/A"}\n`;
-    message += `*Telefone:* ${clientPhone || "N/A"}\n`;
-    message += `*Endereço:* ${clientAddress || "N/A"}\n\n`;
-    message += `*Itens:*\n`;
+    let textMessage = `*Olá, segue meu orçamento Ibratin - Lojas Galeguinho (${dateStr})*\n\n`;
+    textMessage += `*Vendedor:* ${sellerName || "N/A"}\n`;
+    textMessage += `*Cliente:* ${clientName || "N/A"}\n`;
+    textMessage += `*Telefone:* ${clientPhone || "N/A"}\n`;
+    textMessage += `*Endereço:* ${clientAddress || "N/A"}\n\n`;
+    textMessage += `*Itens:*\n`;
     
     items.forEach(item => {
       const price = item.customPrice ?? item.price;
-      message += `- ${item.quantity}x ${item.description} (${item.code}): ${formatPrice(price * item.quantity)}\n`;
+      textMessage += `- ${item.quantity}x ${item.description} (${item.code}): ${formatPrice(price * item.quantity)}\n`;
     });
     
-    message += `\n*Subtotal Itens: ${formatPrice(itemsTotal)}*`;
+    textMessage += `\n*Subtotal Itens: ${formatPrice(itemsTotal)}*`;
     if (shippingTotal > 0) {
       const shippingLabel = isManualShipping 
         ? `Frete: ${formatPrice(shippingTotal)}`
         : `Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`;
-      message += `\n*${shippingLabel}*`;
+      textMessage += `\n*${shippingLabel}*`;
     }
-    message += `\n*TOTAL GERAL: ${formatPrice(total)}*`;
+    textMessage += `\n*TOTAL GERAL: ${formatPrice(total)}*`;
+
+    const doc = generatePDF();
+    const pdfBlob = doc.output('blob');
+    const fileName = `orcamento_${clientName.replace(/\s+/g, "_") || "ibratin"}.pdf`;
+    const pdfFile = new File([pdfBlob], fileName, { type: 'application/pdf' });
+
+    if (navigator.canShare && navigator.canShare({ files: [pdfFile] })) {
+      try {
+        await navigator.share({
+          files: [pdfFile],
+          title: 'Orçamento Ibratin',
+          text: textMessage,
+        });
+        return;
+      } catch (err) {
+        if ((err as Error).name !== 'AbortError') {
+          console.error("Error sharing:", err);
+        } else {
+          return;
+        }
+      }
+    }
     
-    const encoded = encodeURIComponent(message);
+    // Fallback to text message
+    const encoded = encodeURIComponent(textMessage);
     window.open(`https://wa.me/?text=${encoded}`, "_blank");
   };
 
