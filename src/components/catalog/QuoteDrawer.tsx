@@ -32,9 +32,11 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   const [sellerName, setSellerName] = useState("");
   const [shippingRate, setShippingRate] = useState(0.45);
   const [totalWeight, setTotalWeight] = useState(0);
+  const [manualShipping, setManualShipping] = useState<number | null>(null);
+  const [isManualShipping, setIsManualShipping] = useState(false);
   
   const itemsTotal = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
-  const shippingTotal = shippingRate * totalWeight;
+  const shippingTotal = isManualShipping ? (manualShipping ?? 0) : (shippingRate * totalWeight);
   const total = itemsTotal + shippingTotal;
 
   const handleDownloadPDF = () => {
@@ -86,7 +88,10 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     doc.setFontSize(10);
     doc.text(`Subtotal Itens: ${formatPrice(itemsTotal)}`, 140, finalY);
     if (shippingTotal > 0) {
-      doc.text(`Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`, 140, finalY + 7);
+      const shippingLabel = isManualShipping 
+        ? `Frete (Manual): ${formatPrice(shippingTotal)}`
+        : `Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`;
+      doc.text(shippingLabel, 140, finalY + 7);
       doc.setFontSize(12);
       doc.setFont("helvetica", "bold");
       doc.text(`TOTAL GERAL: ${formatPrice(total)}`, 140, finalY + 16);
@@ -115,7 +120,10 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     
     message += `\n*Subtotal Itens: ${formatPrice(itemsTotal)}*`;
     if (shippingTotal > 0) {
-      message += `\n*Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}*`;
+      const shippingLabel = isManualShipping 
+        ? `Frete (Manual): ${formatPrice(shippingTotal)}`
+        : `Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`;
+      message += `\n*${shippingLabel}*`;
     }
     message += `\n*TOTAL GERAL: ${formatPrice(total)}*`;
     
@@ -175,32 +183,68 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
             ))}
             <div className="border-t pt-4 space-y-4">
               <div className="bg-muted/50 rounded-lg p-3 space-y-3">
-                <p className="text-xs font-semibold uppercase text-muted-foreground">Cálculo de Frete</p>
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="space-y-1.5">
-                    <Label htmlFor="totalWeight" className="text-[10px]">Peso Total (kg)</Label>
-                    <Input 
-                      id="totalWeight" 
-                      type="number"
-                      placeholder="Ex: 100" 
-                      value={totalWeight || ""} 
-                      onChange={(e) => setTotalWeight(parseFloat(e.target.value) || 0)}
-                      className="h-8 text-sm"
-                    />
-                  </div>
-                  <div className="space-y-1.5">
-                    <Label htmlFor="shippingRate" className="text-[10px]">Valor por kg (R$)</Label>
-                    <Input 
-                      id="shippingRate" 
-                      type="number"
-                      step="0.01"
-                      placeholder="0,45" 
-                      value={shippingRate} 
-                      onChange={(e) => setShippingRate(parseFloat(e.target.value) || 0)}
-                      className="h-8 text-sm"
-                    />
+                <div className="flex justify-between items-center">
+                  <p className="text-xs font-semibold uppercase text-muted-foreground">Cálculo de Frete</p>
+                  <div className="flex bg-background rounded-md p-0.5 border border-muted-foreground/20">
+                    <button 
+                      className={`text-[10px] px-2 py-0.5 rounded ${!isManualShipping ? 'bg-primary text-primary-foreground' : 'text-muted-foreground'}`}
+                      onClick={() => setIsManualShipping(false)}
+                    >
+                      Por Kg
+                    </button>
+                    <button 
+                      className={`text-[10px] px-2 py-0.5 rounded ${isManualShipping ? 'bg-primary text-primary-foreground' : 'text-muted-foreground'}`}
+                      onClick={() => setIsManualShipping(true)}
+                    >
+                      Manual
+                    </button>
                   </div>
                 </div>
+
+                {!isManualShipping ? (
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="space-y-1.5">
+                      <Label htmlFor="totalWeight" className="text-[10px]">Peso Total (kg)</Label>
+                      <Input 
+                        id="totalWeight" 
+                        type="number"
+                        placeholder="Ex: 100" 
+                        value={totalWeight || ""} 
+                        onChange={(e) => setTotalWeight(parseFloat(e.target.value) || 0)}
+                        className="h-8 text-sm"
+                      />
+                    </div>
+                    <div className="space-y-1.5">
+                      <Label htmlFor="shippingRate" className="text-[10px]">Valor por kg (R$)</Label>
+                      <Input 
+                        id="shippingRate" 
+                        type="number"
+                        step="0.01"
+                        placeholder="0,45" 
+                        value={shippingRate} 
+                        onChange={(e) => setShippingRate(parseFloat(e.target.value) || 0)}
+                        className="h-8 text-sm"
+                      />
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-1.5">
+                    <Label htmlFor="manualShipping" className="text-[10px]">Valor Fixo do Frete (R$)</Label>
+                    <div className="relative">
+                      <span className="absolute left-2 top-1/2 -translate-y-1/2 text-[10px] text-muted-foreground">R$</span>
+                      <Input 
+                        id="manualShipping" 
+                        type="number"
+                        step="0.01"
+                        placeholder="0,00" 
+                        value={manualShipping ?? ""} 
+                        onChange={(e) => setManualShipping(parseFloat(e.target.value) || 0)}
+                        className="h-8 pl-6 text-sm"
+                      />
+                    </div>
+                  </div>
+                )}
+
                 {shippingTotal > 0 && (
                   <div className="flex justify-between items-center text-sm border-t border-muted-foreground/10 pt-2">
                     <span className="text-muted-foreground">Total Frete:</span>
