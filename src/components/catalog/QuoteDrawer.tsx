@@ -30,7 +30,12 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   const [clientPhone, setClientPhone] = useState("");
   const [clientAddress, setClientAddress] = useState("");
   const [sellerName, setSellerName] = useState("");
-  const total = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
+  const [shippingRate, setShippingRate] = useState(0.45);
+  const [totalWeight, setTotalWeight] = useState(0);
+  
+  const itemsTotal = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
+  const shippingTotal = shippingRate * totalWeight;
+  const total = itemsTotal + shippingTotal;
 
   const handleDownloadPDF = () => {
     const doc = new jsPDF();
@@ -72,10 +77,24 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
           formatPrice(price * item.quantity)
         ];
       }),
-      foot: [[{ content: "Total", colSpan: 5, styles: { halign: "right" } }, formatPrice(total)]],
       theme: "striped",
       headStyles: { fillColor: [220, 38, 38] },
     });
+
+    const finalY = (doc as any).lastAutoTable.finalY + 10;
+    
+    doc.setFontSize(10);
+    doc.text(`Subtotal Itens: ${formatPrice(itemsTotal)}`, 140, finalY);
+    if (shippingTotal > 0) {
+      doc.text(`Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`, 140, finalY + 7);
+      doc.setFontSize(12);
+      doc.setFont("helvetica", "bold");
+      doc.text(`TOTAL GERAL: ${formatPrice(total)}`, 140, finalY + 16);
+    } else {
+      doc.setFontSize(12);
+      doc.setFont("helvetica", "bold");
+      doc.text(`TOTAL GERAL: ${formatPrice(total)}`, 140, finalY + 10);
+    }
 
     doc.save(`orcamento_${clientName.replace(/\s+/g, "_") || "ibratin"}.pdf`);
   };
@@ -94,7 +113,11 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
       message += `- ${item.quantity}x ${item.description} (${item.code}): ${formatPrice(price * item.quantity)}\n`;
     });
     
-    message += `\n*Total: ${formatPrice(total)}*`;
+    message += `\n*Subtotal Itens: ${formatPrice(itemsTotal)}*`;
+    if (shippingTotal > 0) {
+      message += `\n*Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}*`;
+    }
+    message += `\n*TOTAL GERAL: ${formatPrice(total)}*`;
     
     const encoded = encodeURIComponent(message);
     window.open(`https://wa.me/?text=${encoded}`, "_blank");
@@ -151,8 +174,46 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
               </div>
             ))}
             <div className="border-t pt-4 space-y-4">
+              <div className="bg-muted/50 rounded-lg p-3 space-y-3">
+                <p className="text-xs font-semibold uppercase text-muted-foreground">Cálculo de Frete</p>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="space-y-1.5">
+                    <Label htmlFor="totalWeight" className="text-[10px]">Peso Total (kg)</Label>
+                    <Input 
+                      id="totalWeight" 
+                      type="number"
+                      placeholder="Ex: 100" 
+                      value={totalWeight || ""} 
+                      onChange={(e) => setTotalWeight(parseFloat(e.target.value) || 0)}
+                      className="h-8 text-sm"
+                    />
+                  </div>
+                  <div className="space-y-1.5">
+                    <Label htmlFor="shippingRate" className="text-[10px]">Valor por kg (R$)</Label>
+                    <Input 
+                      id="shippingRate" 
+                      type="number"
+                      step="0.01"
+                      placeholder="0,45" 
+                      value={shippingRate} 
+                      onChange={(e) => setShippingRate(parseFloat(e.target.value) || 0)}
+                      className="h-8 text-sm"
+                    />
+                  </div>
+                </div>
+                {shippingTotal > 0 && (
+                  <div className="flex justify-between items-center text-sm border-t border-muted-foreground/10 pt-2">
+                    <span className="text-muted-foreground">Total Frete:</span>
+                    <span className="font-semibold text-foreground">{formatPrice(shippingTotal)}</span>
+                  </div>
+                )}
+              </div>
+
               <div className="flex justify-between items-center">
-                <span className="text-sm font-medium text-muted-foreground">Total</span>
+                <div className="flex flex-col">
+                  <span className="text-xs text-muted-foreground">Total Itens: {formatPrice(itemsTotal)}</span>
+                  <span className="text-sm font-medium text-foreground">Total Geral</span>
+                </div>
                 <span className="text-xl font-bold text-foreground">{formatPrice(total)}</span>
               </div>
               
