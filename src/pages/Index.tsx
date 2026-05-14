@@ -63,7 +63,7 @@ const Index = () => {
   });
   const [showFavorites, setShowFavorites] = useState(false);
   const [quoteOpen, setQuoteOpen] = useState(false);
-  const { items: quoteItems, removeItem: removeQuoteItem, updateQuantity: updateQuoteQuantity, updatePrice: updateQuotePrice } = useQuote();
+  const { items: quoteItems, removeItem: removeQuoteItem, updateQuantity: updateQuoteQuantity, updatePrice: updateQuotePrice, clearQuote } = useQuote();
 
   const productKey = (p: Product) => `${p.table ?? "R11"}|${p.code}|${p.description}`;
 
