@@ -89,7 +89,7 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     doc.text(`Subtotal Itens: ${formatPrice(itemsTotal)}`, 140, finalY);
     if (shippingTotal > 0) {
       const shippingLabel = isManualShipping 
-        ? `Frete (Manual): ${formatPrice(shippingTotal)}`
+        ? `Frete: ${formatPrice(shippingTotal)}`
         : `Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`;
       doc.text(shippingLabel, 140, finalY + 7);
       doc.setFontSize(12);
