@@ -120,7 +120,10 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
     
     message += `\n*Subtotal Itens: ${formatPrice(itemsTotal)}*`;
     if (shippingTotal > 0) {
-      message += `\n*Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}*`;
+      const shippingLabel = isManualShipping 
+        ? `Frete (Manual): ${formatPrice(shippingTotal)}`
+        : `Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`;
+      message += `\n*${shippingLabel}*`;
     }
     message += `\n*TOTAL GERAL: ${formatPrice(total)}*`;
     
