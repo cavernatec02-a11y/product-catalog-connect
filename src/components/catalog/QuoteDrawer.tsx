@@ -26,7 +26,7 @@ function formatPrice(value: number) {
 
 const getItemKey = (item: Pick<QuoteItem, "code" | "table">) => `${item.table ?? "R11"}|${item.code}`;
 
-export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity, onUpdatePrice }: QuoteDrawerProps) {
+export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuantity, onUpdatePrice, onClear }: QuoteDrawerProps) {
   const [clientName, setClientName] = useState("");
   const [clientPhone, setClientPhone] = useState("");
   const [clientAddress, setClientAddress] = useState("");
