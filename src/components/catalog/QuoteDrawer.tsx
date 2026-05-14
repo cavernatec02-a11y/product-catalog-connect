@@ -77,10 +77,24 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
           formatPrice(price * item.quantity)
         ];
       }),
-      foot: [[{ content: "Total", colSpan: 5, styles: { halign: "right" } }, formatPrice(total)]],
       theme: "striped",
       headStyles: { fillColor: [220, 38, 38] },
     });
+
+    const finalY = (doc as any).lastAutoTable.finalY + 10;
+    
+    doc.setFontSize(10);
+    doc.text(`Subtotal Itens: ${formatPrice(itemsTotal)}`, 140, finalY);
+    if (shippingTotal > 0) {
+      doc.text(`Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}`, 140, finalY + 7);
+      doc.setFontSize(12);
+      doc.setFont("helvetica", "bold");
+      doc.text(`TOTAL GERAL: ${formatPrice(total)}`, 140, finalY + 16);
+    } else {
+      doc.setFontSize(12);
+      doc.setFont("helvetica", "bold");
+      doc.text(`TOTAL GERAL: ${formatPrice(total)}`, 140, finalY + 10);
+    }
 
     doc.save(`orcamento_${clientName.replace(/\s+/g, "_") || "ibratin"}.pdf`);
   };
