@@ -30,7 +30,12 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
   const [clientPhone, setClientPhone] = useState("");
   const [clientAddress, setClientAddress] = useState("");
   const [sellerName, setSellerName] = useState("");
-  const total = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
+  const [shippingRate, setShippingRate] = useState(0.45);
+  const [totalWeight, setTotalWeight] = useState(0);
+  
+  const itemsTotal = items.reduce((sum, i) => sum + (i.customPrice ?? i.price) * i.quantity, 0);
+  const shippingTotal = shippingRate * totalWeight;
+  const total = itemsTotal + shippingTotal;
 
   const handleDownloadPDF = () => {
     const doc = new jsPDF();
