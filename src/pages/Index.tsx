@@ -255,6 +255,7 @@ const Index = () => {
         onRemove={removeQuoteItem}
         onUpdateQuantity={updateQuoteQuantity}
         onUpdatePrice={updateQuotePrice}
+        onClear={clearQuote}
       />
 
     </div>
