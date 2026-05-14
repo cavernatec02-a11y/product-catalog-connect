@@ -183,32 +183,68 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
             ))}
             <div className="border-t pt-4 space-y-4">
               <div className="bg-muted/50 rounded-lg p-3 space-y-3">
-                <p className="text-xs font-semibold uppercase text-muted-foreground">Cálculo de Frete</p>
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="space-y-1.5">
-                    <Label htmlFor="totalWeight" className="text-[10px]">Peso Total (kg)</Label>
-                    <Input 
-                      id="totalWeight" 
-                      type="number"
-                      placeholder="Ex: 100" 
-                      value={totalWeight || ""} 
-                      onChange={(e) => setTotalWeight(parseFloat(e.target.value) || 0)}
-                      className="h-8 text-sm"
-                    />
-                  </div>
-                  <div className="space-y-1.5">
-                    <Label htmlFor="shippingRate" className="text-[10px]">Valor por kg (R$)</Label>
-                    <Input 
-                      id="shippingRate" 
-                      type="number"
-                      step="0.01"
-                      placeholder="0,45" 
-                      value={shippingRate} 
-                      onChange={(e) => setShippingRate(parseFloat(e.target.value) || 0)}
-                      className="h-8 text-sm"
-                    />
+                <div className="flex justify-between items-center">
+                  <p className="text-xs font-semibold uppercase text-muted-foreground">Cálculo de Frete</p>
+                  <div className="flex bg-background rounded-md p-0.5 border border-muted-foreground/20">
+                    <button 
+                      className={`text-[10px] px-2 py-0.5 rounded ${!isManualShipping ? 'bg-primary text-primary-foreground' : 'text-muted-foreground'}`}
+                      onClick={() => setIsManualShipping(false)}
+                    >
+                      Por Kg
+                    </button>
+                    <button 
+                      className={`text-[10px] px-2 py-0.5 rounded ${isManualShipping ? 'bg-primary text-primary-foreground' : 'text-muted-foreground'}`}
+                      onClick={() => setIsManualShipping(true)}
+                    >
+                      Manual
+                    </button>
                   </div>
                 </div>
+
+                {!isManualShipping ? (
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="space-y-1.5">
+                      <Label htmlFor="totalWeight" className="text-[10px]">Peso Total (kg)</Label>
+                      <Input 
+                        id="totalWeight" 
+                        type="number"
+                        placeholder="Ex: 100" 
+                        value={totalWeight || ""} 
+                        onChange={(e) => setTotalWeight(parseFloat(e.target.value) || 0)}
+                        className="h-8 text-sm"
+                      />
+                    </div>
+                    <div className="space-y-1.5">
+                      <Label htmlFor="shippingRate" className="text-[10px]">Valor por kg (R$)</Label>
+                      <Input 
+                        id="shippingRate" 
+                        type="number"
+                        step="0.01"
+                        placeholder="0,45" 
+                        value={shippingRate} 
+                        onChange={(e) => setShippingRate(parseFloat(e.target.value) || 0)}
+                        className="h-8 text-sm"
+                      />
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-1.5">
+                    <Label htmlFor="manualShipping" className="text-[10px]">Valor Fixo do Frete (R$)</Label>
+                    <div className="relative">
+                      <span className="absolute left-2 top-1/2 -translate-y-1/2 text-[10px] text-muted-foreground">R$</span>
+                      <Input 
+                        id="manualShipping" 
+                        type="number"
+                        step="0.01"
+                        placeholder="0,00" 
+                        value={manualShipping ?? ""} 
+                        onChange={(e) => setManualShipping(parseFloat(e.target.value) || 0)}
+                        className="h-8 pl-6 text-sm"
+                      />
+                    </div>
+                  </div>
+                )}
+
                 {shippingTotal > 0 && (
                   <div className="flex justify-between items-center text-sm border-t border-muted-foreground/10 pt-2">
                     <span className="text-muted-foreground">Total Frete:</span>
