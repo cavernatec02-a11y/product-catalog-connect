@@ -113,7 +113,11 @@ export function QuoteDrawer({ open, onOpenChange, items, onRemove, onUpdateQuant
       message += `- ${item.quantity}x ${item.description} (${item.code}): ${formatPrice(price * item.quantity)}\n`;
     });
     
-    message += `\n*Total: ${formatPrice(total)}*`;
+    message += `\n*Subtotal Itens: ${formatPrice(itemsTotal)}*`;
+    if (shippingTotal > 0) {
+      message += `\n*Frete (${totalWeight}kg x ${formatPrice(shippingRate)}/kg): ${formatPrice(shippingTotal)}*`;
+    }
+    message += `\n*TOTAL GERAL: ${formatPrice(total)}*`;
     
     const encoded = encodeURIComponent(message);
     window.open(`https://wa.me/?text=${encoded}`, "_blank");
